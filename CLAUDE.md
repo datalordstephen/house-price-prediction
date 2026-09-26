@@ -36,7 +36,8 @@ pip install -r requirements-dev.txt
 python -m pytest            # -k <name> to run a single test
 ```
 
-There is no linter or build step in this repo yet.
+There is no linter or build step in this repo yet. `.github/workflows/tests.yml` runs
+`python -m pytest` on every push to `main` and every pull request.
 
 ## Architecture
 
