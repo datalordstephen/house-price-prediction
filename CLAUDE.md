@@ -23,6 +23,12 @@ Launch the dashboard/predictor:
 streamlit run app.py
 ```
 
+Regenerate the README's comparison charts after retraining (reads `models/metrics.csv`, writes to `assets/`):
+
+```bash
+python -m scripts.generate_report_assets
+```
+
 There is no test suite, linter, or build step in this repo yet.
 
 ## Architecture
