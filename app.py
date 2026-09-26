@@ -11,6 +11,7 @@ import pandas as pd
 import streamlit as st
 
 from src.data import CATEGORICAL_COLS, NUMERIC_COLS, load_data
+from src.models import slugify
 from src.train import MODELS_DIR, train_all
 
 st.set_page_config(page_title="Nigerian House Price Predictor", layout="wide")
@@ -31,8 +32,7 @@ def get_metrics_and_models():
     metrics_df = pd.read_csv(metrics_path)
     models = {}
     for name in metrics_df["Model"]:
-        slug = name.lower().replace(" ", "_").replace("(", "").replace(")", "")
-        models[name] = joblib.load(MODELS_DIR / f"{slug}.joblib")
+        models[name] = joblib.load(MODELS_DIR / f"{slugify(name)}.joblib")
     return metrics_df, models
 
 

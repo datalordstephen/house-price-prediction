@@ -29,13 +29,20 @@ Regenerate the README's comparison charts after retraining (reads `models/metric
 python -m scripts.generate_report_assets
 ```
 
-There is no test suite, linter, or build step in this repo yet.
+Run the test suite (install dev deps first — `pytest` isn't in the runtime `requirements.txt`):
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest            # -k <name> to run a single test
+```
+
+There is no linter or build step in this repo yet.
 
 ## Architecture
 
 This is a small end-to-end ML project: train several regressors on Nigerian housing
 listings, compare them, and serve the comparison + a live predictor through Streamlit.
-The pipeline has three layers that must stay in sync:
+The pipeline has four layers that must stay in sync:
 
 - **`src/data.py`** — single source of truth for the schema: `CATEGORICAL_COLS`,
   `NUMERIC_COLS`, and `TARGET` (`Price_NGN`). `build_preprocessor()` returns the
@@ -43,16 +50,30 @@ The pipeline has three layers that must stay in sync:
   every model pipeline uses. If a column is added/renamed in the CSV, update this
   file first — `train.py` and `app.py` both import their column lists from here.
 
-- **`src/train.py`** — defines the model zoo in `MODEL_FACTORIES` (Linear, Ridge,
-  Decision Tree, Random Forest, Gradient Boosting, and an MLP as the "neural net"
-  entry). Each model is wrapped in its own `Pipeline(preprocess, model)` so every
-  model sees identical features — never fit a bare estimator on raw `X` outside a
-  pipeline, or the comparison stops being apples-to-apples. `train_all()` fits every
-  pipeline, scores it (RMSE/MAE/R² on a held-out split, plus 5-fold CV R²), and
-  writes both the fitted pipeline (`models/<slug>.joblib`) and the comparison table
-  (`models/metrics.csv` / `.json`). The model name → filename slug is
-  `name.lower().replace(" ", "_")` with parens stripped — `app.py` derives the same
-  slug to load each pipeline, so don't rename a model without checking both files.
+- **`src/models/`** — one module per algorithm (`linear_regression.py`,
+  `ridge_regression.py`, `decision_tree.py`, `random_forest.py`,
+  `gradient_boosting.py`, `neural_net.py`), each exposing just `NAME: str` and
+  `build() -> estimator`. Hyperparameters live in the individual module (e.g. Random
+  Forest's `n_estimators=200, max_depth=12`); `src/config.py` holds the one constant
+  shared across all of them (`RANDOM_STATE`). `src/models/__init__.py` collects them
+  into `MODEL_REGISTRY` (an insertion-ordered `{name: build_fn}` dict — this order
+  drives table/chart ordering elsewhere) and owns `slugify()`, the single name→filename
+  mapping used to name `.joblib` artifacts. To add a new algorithm: create a module
+  with that same `NAME`/`build()` contract and add it to `_MODEL_MODULES` — nothing
+  else needs to change.
+
+- **`src/metrics.py`** — plain `rmse`/`mae`/`r2` functions, kept dependency-free
+  (numpy only) so they're trivial to unit test in isolation from sklearn pipelines.
+
+- **`src/train.py`** — the orchestrator: for each `(name, build_model)` in
+  `MODEL_REGISTRY`, wraps it in its own `Pipeline(preprocess, model)` so every model
+  sees identical features — never fit a bare estimator on raw `X` outside a pipeline,
+  or the comparison stops being apples-to-apples. `train_all(df=None, models_dir=MODELS_DIR)`
+  fits every pipeline, scores it (RMSE/MAE/R² on a held-out split, plus 5-fold CV R²),
+  and writes both the fitted pipeline (`models/<slug>.joblib`, slug from
+  `src.models.slugify`) and the comparison table (`models/metrics.csv` / `.json`). The
+  optional `df`/`models_dir` args exist so tests can inject a tiny synthetic dataset
+  and a `tmp_path` without touching the real CSV or `models/`.
 
 - **`app.py`** — Streamlit UI with two tabs: a comparison view (bar charts + table
   from `models/metrics.csv`) and a predictor (builds a one-row `DataFrame` from form
@@ -61,6 +82,15 @@ The pipeline has three layers that must stay in sync:
   `streamlit run app.py` (no separate training step required, though running
   `python -m src.train` explicitly is faster to iterate on model changes since the
   Streamlit cache won't retrain on every rerun).
+
+### Tests
+
+`tests/conftest.py` provides a `tiny_df` fixture (40 synthetic rows matching the
+real schema) so the suite never trains on the full 1862-row CSV or writes into the
+real `models/` dir — `test_train.py` passes `tiny_df` + pytest's `tmp_path` into
+`train_all()` for that reason. `test_models.py` checks the registry shape/contract
+rather than any model's actual accuracy (accuracy is expected to be poor — see the
+Data note below).
 
 ### Data note
 
