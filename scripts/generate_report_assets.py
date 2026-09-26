@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 from src.data import NUMERIC_COLS, load_data
-from src.train import MODELS_DIR
+from src.train import ARTIFACTS_DIR
 
 ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
 
@@ -74,7 +74,7 @@ def plot_feature_correlation() -> None:
 
 if __name__ == "__main__":
     ASSETS_DIR.mkdir(exist_ok=True)
-    metrics_df = pd.read_csv(MODELS_DIR / "metrics.csv")
+    metrics_df = pd.read_csv(ARTIFACTS_DIR / "metrics.csv")
     plot_model_comparison(metrics_df)
     plot_feature_correlation()
     print(f"Saved charts to {ASSETS_DIR}")

@@ -3,7 +3,7 @@ from src.train import train_all
 
 
 def test_train_all_produces_metrics_and_artifacts_for_every_model(tiny_df, tmp_path):
-    metrics_df = train_all(df=tiny_df, models_dir=tmp_path)
+    metrics_df = train_all(df=tiny_df, artifacts_dir=tmp_path)
 
     assert len(metrics_df) == len(MODEL_REGISTRY)
     assert set(metrics_df["Model"]) == set(MODEL_REGISTRY)

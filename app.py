@@ -12,7 +12,7 @@ import streamlit as st
 
 from src.data import CATEGORICAL_COLS, NUMERIC_COLS, load_data
 from src.models import slugify
-from src.train import MODELS_DIR, train_all
+from src.train import ARTIFACTS_DIR, train_all
 
 st.set_page_config(page_title="Nigerian House Price Predictor", layout="wide")
 
@@ -24,7 +24,7 @@ def get_dataset() -> pd.DataFrame:
 
 @st.cache_resource
 def get_metrics_and_models():
-    metrics_path = MODELS_DIR / "metrics.csv"
+    metrics_path = ARTIFACTS_DIR / "metrics.csv"
     if not metrics_path.exists():
         with st.spinner("No trained models found — training all models now (one-time)..."):
             train_all()
@@ -32,7 +32,7 @@ def get_metrics_and_models():
     metrics_df = pd.read_csv(metrics_path)
     models = {}
     for name in metrics_df["Model"]:
-        models[name] = joblib.load(MODELS_DIR / f"{slugify(name)}.joblib")
+        models[name] = joblib.load(ARTIFACTS_DIR / f"{slugify(name)}.joblib")
     return metrics_df, models
 
 

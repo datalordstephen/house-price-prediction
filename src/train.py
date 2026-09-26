@@ -16,11 +16,11 @@ from src.data import build_preprocessor, get_features_and_target, load_data
 from src.metrics import mae, r2, rmse
 from src.models import MODEL_REGISTRY, slugify
 
-MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
+ARTIFACTS_DIR = Path(__file__).resolve().parent.parent / "artifacts"
 
 
-def train_all(df: pd.DataFrame | None = None, models_dir: Path = MODELS_DIR) -> pd.DataFrame:
-    models_dir.mkdir(parents=True, exist_ok=True)
+def train_all(df: pd.DataFrame | None = None, artifacts_dir: Path = ARTIFACTS_DIR) -> pd.DataFrame:
+    artifacts_dir.mkdir(parents=True, exist_ok=True)
 
     if df is None:
         df = load_data()
@@ -58,12 +58,12 @@ def train_all(df: pd.DataFrame | None = None, models_dir: Path = MODELS_DIR) -> 
             }
         )
 
-        joblib.dump(pipeline, models_dir / f"{slugify(name)}.joblib")
+        joblib.dump(pipeline, artifacts_dir / f"{slugify(name)}.joblib")
         print(f"Trained {name}: RMSE={results[-1]['RMSE']:.0f}  R2={results[-1]['R2']:.3f}")
 
     metrics_df = pd.DataFrame(results).sort_values("R2", ascending=False).reset_index(drop=True)
-    metrics_df.to_csv(models_dir / "metrics.csv", index=False)
-    with open(models_dir / "metrics.json", "w") as f:
+    metrics_df.to_csv(artifacts_dir / "metrics.csv", index=False)
+    with open(artifacts_dir / "metrics.json", "w") as f:
         json.dump(metrics_df.to_dict(orient="records"), f, indent=2)
 
     return metrics_df

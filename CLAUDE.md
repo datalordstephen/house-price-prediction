@@ -11,7 +11,7 @@ source .venv/bin/activate
 pip install -r requirements.txt      # install/update deps
 ```
 
-Train and compare all models (writes artifacts to `models/`):
+Train and compare all models (writes artifacts to `artifacts/`):
 
 ```bash
 python -m src.train
@@ -23,7 +23,7 @@ Launch the dashboard/predictor:
 streamlit run app.py
 ```
 
-Regenerate the README's comparison charts after retraining (reads `models/metrics.csv`, writes to `assets/`):
+Regenerate the README's comparison charts after retraining (reads `artifacts/metrics.csv`, writes to `assets/`):
 
 ```bash
 python -m scripts.generate_report_assets
@@ -68,17 +68,18 @@ The pipeline has four layers that must stay in sync:
 - **`src/train.py`** — the orchestrator: for each `(name, build_model)` in
   `MODEL_REGISTRY`, wraps it in its own `Pipeline(preprocess, model)` so every model
   sees identical features — never fit a bare estimator on raw `X` outside a pipeline,
-  or the comparison stops being apples-to-apples. `train_all(df=None, models_dir=MODELS_DIR)`
+  or the comparison stops being apples-to-apples. `train_all(df=None, artifacts_dir=ARTIFACTS_DIR)`
   fits every pipeline, scores it (RMSE/MAE/R² on a held-out split, plus 5-fold CV R²),
-  and writes both the fitted pipeline (`models/<slug>.joblib`, slug from
-  `src.models.slugify`) and the comparison table (`models/metrics.csv` / `.json`). The
-  optional `df`/`models_dir` args exist so tests can inject a tiny synthetic dataset
-  and a `tmp_path` without touching the real CSV or `models/`.
+  and writes both the fitted pipeline (`artifacts/<slug>.joblib`, slug from
+  `src.models.slugify`) and the comparison table (`artifacts/metrics.csv` / `.json`). The
+  optional `df`/`artifacts_dir` args exist so tests can inject a tiny synthetic dataset
+  and a `tmp_path` without touching the real CSV or `artifacts/`. (`artifacts/` — not
+  `models/` — precisely to avoid colliding with the `src/models/` package name.)
 
 - **`app.py`** — Streamlit UI with two tabs: a comparison view (bar charts + table
-  from `models/metrics.csv`) and a predictor (builds a one-row `DataFrame` from form
+  from `artifacts/metrics.csv`) and a predictor (builds a one-row `DataFrame` from form
   inputs and calls `pipeline.predict`). `get_metrics_and_models()` auto-trains via
-  `train_all()` if `models/` doesn't exist yet, so a fresh checkout works with just
+  `train_all()` if `artifacts/` doesn't exist yet, so a fresh checkout works with just
   `streamlit run app.py` (no separate training step required, though running
   `python -m src.train` explicitly is faster to iterate on model changes since the
   Streamlit cache won't retrain on every rerun).
@@ -87,7 +88,7 @@ The pipeline has four layers that must stay in sync:
 
 `tests/conftest.py` provides a `tiny_df` fixture (40 synthetic rows matching the
 real schema) so the suite never trains on the full 1862-row CSV or writes into the
-real `models/` dir — `test_train.py` passes `tiny_df` + pytest's `tmp_path` into
+real `artifacts/` dir — `test_train.py` passes `tiny_df` + pytest's `tmp_path` into
 `train_all()` for that reason. `test_models.py` checks the registry shape/contract
 rather than any model's actual accuracy (accuracy is expected to be poor — see the
 Data note below).

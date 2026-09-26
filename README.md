@@ -15,13 +15,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-Train and compare all models (writes fitted pipelines + metrics to `models/`):
+Train and compare all models (writes fitted pipelines + metrics to `artifacts/`):
 
 ```bash
 python -m src.train
 ```
 
-Launch the dashboard (auto-trains on first run if `models/` doesn't exist yet):
+Launch the dashboard (auto-trains on first run if `artifacts/` doesn't exist yet):
 
 ```bash
 streamlit run app.py
@@ -62,7 +62,7 @@ signal to fit, the flexible models (Decision Tree, Random Forest, Gradient
 Boosting, MLP) latch onto noise in the training split and generalize worse, while
 the simplest models degrade most gracefully. This points to the dataset itself —
 prices don't appear to be derived from size, location, or property type — rather
-than a modeling bug. Charts are regenerated from `models/metrics.csv` via:
+than a modeling bug. Charts are regenerated from `artifacts/metrics.csv` via:
 
 ```bash
 python -m scripts.generate_report_assets
