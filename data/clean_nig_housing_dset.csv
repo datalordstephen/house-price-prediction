@@ -1,0 +1,1863 @@
+City,Latitude,Longitude,Property_Type,Ownership,Condition,Available_Utilities,Bedrooms,Bathrooms,Size_sqm,Price_NGN
+Abuja,9.09773,7.36341,Mini Flat,Sale,Fairly Used,Parking,6.0,3.0,264.0,239353117.0
+Abuja,9.08559,7.41636,Detached House,Sale,Fairly Used,Internet,4.0,1.0,377.0,217812394.0
+Lagos,6.53791,3.33373,Apartment,Sale,Old,Security,4.0,4.0,375.0,280261754.0
+Kano,11.98703,8.63556,Detached House,Rent,New,Security,2.0,1.0,496.0,59658082.0
+Abuja,9.06816,7.40672,Studio,Sale,Fairly Used,Electricity,2.0,3.0,44.0,6385088.0
+Kano,11.99595,8.63232,Duplx,Sale,New,Parking,4.0,2.0,120.0,199694780.0
+Jos,9.86982,8.84259,Detached House,Sale,New,Security,5.0,2.0,150.0,480373877.0
+Ibadan,7.41257,3.9716,Detached House,Sale,Old,Internet,1.0,2.0,586.0,414979039.0
+Benin city,6.36766,5.61245,Appartment,Rent,New,Water,2.0,2.0,152.0,129980894.0
+Lagos,6.55178,3.36548,Duplex,Rent,Fairly Used,Electricity,6.0,4.0,197.0,474123994.0
+Kano,11.97064,8.55093,Appartment,Sale,New,Parking,3.0,4.0,152.0,70168486.0
+Port harcourt,4.86271,7.09423,Duplx,Sale,Fairly Used,Security,3.0,2.0,565.0,12822814.0
+Ibadan,7.33808,3.9669,Detached House,Rent,Fairly Used,Security,2.0,1.0,70.0,16720937.0
+Ibadan,7.3721,3.96176,Appartment,Rent,Fairly Used,Parking,3.0,1.0,118.0,304624825.0
+Benin city,6.29428,5.61079,Studio,Sale,New,Security,1.0,2.0,41.0,14851424.0
+Ibadan,7.39942,3.91985,Studio,Sale,Fairly Used,Internet,2.0,3.0,484.0,43654364.0
+Maiduguri,11.80878,13.16024,Detached House,Rent,New,Electricity,2.0,4.0,60.0,13950831.0
+Enugu,6.56926,7.48385,Appartment,Rent,Old,Internet,5.0,4.0,344.0,345353495.0
+Jos,9.9151,8.81004,Appartment,Rent,Fairly Used,Water,3.0,2.0,333.0,3284790.0
+Enugu,6.54018,7.55854,Appartment,Sale,Old,Water,5.0,1.0,528.0,15199203.0
+Port harcourt,4.82226,7.0389,Apartment,Sale,New,Internet,2.0,1.0,255.0,414229613.0
+Jos,9.93977,8.86582,Studio,Rent,New,Internet,6.0,4.0,420.0,23609907.0
+Port harcourt,4.78806,7.03702,Studio,Rent,Old,Electricity,2.0,2.0,211.0,44822943.0
+Enugu,6.53898,7.48719,Bungalow,Rent,Fairly Used,Parking,4.0,1.0,188.0,23654924.0
+Jos,9.94434,8.88312,Detached House,Rent,Old,Security,6.0,2.0,274.0,37674971.0
+Benin city,6.35982,5.62804,Studio,Rent,Fairly Used,Security,5.0,2.0,147.0,11184536.0
+Jos,9.91945,8.88485,Detached House,Sale,Old,Security,1.0,3.0,587.0,138342461.0
+Benin city,6.35038,5.65004,Duplex,Sale,Old,Electricity,4.0,4.0,181.0,449142452.0
+Kano,11.95492,8.54842,Appartment,Rent,Fairly Used,Internet,2.0,4.0,266.0,62974870.0
+Kaduna,10.48536,7.46207,Apartment,Rent,Fairly Used,Security,5.0,2.0,201.0,29854469.0
+Kano,11.99495,8.55812,Apartment,Rent,New,Internet,4.0,2.0,266.0,199772072.0
+Enugu,6.53578,7.50215,Duplex,Rent,Old,Water,3.0,2.0,328.0,56089633.0
+Ibadan,7.40642,3.95433,Studio,Rent,Old,Internet,3.0,4.0,484.0,7994376.0
+Benin city,6.33814,5.56911,Duplex,Rent,Fairly Used,Electricity,3.0,3.0,593.0,42093087.0
+Abuja,9.10818,7.36933,Detached House,Rent,New,Internet,3.0,1.0,323.0,39829124.0
+Jos,9.92246,8.82708,Apartment,Sale,Fairly Used,Electricity,2.0,4.0,495.0,70304749.0
+Abuja,9.0732,7.38264,Mini Flat,Rent,New,Electricity,1.0,1.0,467.0,167313667.0
+Lagos,6.51598,3.40117,Detached House,Rent,Old,Internet,6.0,1.0,139.0,22137708.0
+Maiduguri,11.81431,13.13518,Bungalow,Rent,Fairly Used,Security,6.0,4.0,567.0,31022580.0
+Abuja,9.12392,7.43331,Studio,Rent,Old,Parking,1.0,4.0,84.0,95053571.0
+Kaduna,10.54461,7.48184,Apartment,Sale,Old,Security,4.0,2.0,143.0,24438280.0
+Enugu,6.52747,7.5237,Studio,Rent,New,Parking,4.0,3.0,401.0,16793752.0
+Abuja,9.11108,7.38869,Mini Flat,Sale,Fairly Used,Security,2.0,4.0,148.0,262676680.0
+Kaduna,10.50682,7.45746,Bungalow,Rent,Fairly Used,Internet,4.0,3.0,293.0,68772797.0
+Ibadan,7.42272,3.90124,Duplex,Rent,Fairly Used,Water,5.0,1.0,230.0,202346706.0
+Lagos,6.55262,3.34164,Detached House,Sale,Fairly Used,Water,5.0,3.0,207.0,89697746.0
+Ibadan,7.37026,3.94125,Duplx,Rent,New,Security,2.0,3.0,178.0,23884601.0
+Port harcourt,4.7957,7.05006,Studio,Sale,Old,Water,1.0,3.0,42.0,210668805.0
+Enugu,6.4994,7.5101,Apartment,Sale,New,Water,4.0,4.0,350.0,254896342.0
+Enugu,6.52397,7.55191,Bungalow,Sale,New,Electricity,5.0,1.0,344.0,74225798.0
+Jos,9.91014,8.84075,Detached House,Rent,Fairly Used,Electricity,5.0,3.0,246.0,465269270.0
+Kaduna,10.55809,7.413,Duplex,Sale,Old,Internet,3.0,4.0,338.0,79347388.0
+Benin city,6.28591,5.63161,Detached House,Rent,Old,Security,6.0,4.0,205.0,60367675.0
+Jos,9.94185,8.89646,Apartment,Sale,Old,Parking,4.0,2.0,189.0,67026707.0
+Kano,11.99453,8.55036,Duplex,Sale,Fairly Used,Electricity,6.0,2.0,558.0,47745934.0
+Maiduguri,11.8276,13.18574,Bungalow,Rent,Old,Internet,2.0,2.0,533.0,37044449.0
+Enugu,6.49548,7.48154,Detached House,Sale,Fairly Used,Water,4.0,3.0,524.0,473851332.0
+Lagos,6.491,3.34064,Mini Flat,Sale,New,Internet,6.0,4.0,99.0,27858630.0
+Port harcourt,4.79677,7.00011,Mini Flat,Sale,Old,Water,2.0,1.0,145.0,187391831.0
+Port harcourt,4.83141,7.0115,Appartment,Rent,Fairly Used,Water,4.0,3.0,384.0,6303677.0
+Maiduguri,11.79344,13.16363,Detached House,Sale,Fairly Used,Water,1.0,4.0,304.0,80874382.0
+Enugu,6.546,7.52922,Bungalow,Sale,Old,Water,4.0,3.0,249.0,260946535.0
+Ibadan,7.37608,3.90869,Bungalow,Rent,Old,Internet,4.0,3.0,341.0,37027732.0
+Maiduguri,11.82011,13.13651,Duplex,Rent,Fairly Used,Water,4.0,3.0,569.0,105407377.0
+Kano,12.04489,8.56327,Appartment,Sale,Fairly Used,Security,5.0,3.0,403.0,7181930.0
+Kano,12.00064,8.61128,Duplex,Rent,Old,Security,5.0,3.0,350.0,67091864.0
+Port harcourt,4.80856,7.02769,Duplx,Sale,Old,Internet,2.0,3.0,345.0,34250847.0
+Ibadan,7.4117,3.94527,Duplx,Sale,New,Electricity,6.0,3.0,425.0,240527534.0
+Jos,9.92035,8.87496,Appartment,Rent,Fairly Used,Security,3.0,2.0,141.0,76954636.0
+Jos,9.88773,8.90177,Mini Flat,Sale,Old,Parking,1.0,2.0,580.0,25576259.0
+Lagos,6.51839,3.3936,Duplex,Rent,Fairly Used,Security,3.0,2.0,461.0,23807008.0
+Benin city,6.33061,5.59824,Duplex,Rent,New,Parking,4.0,4.0,259.0,4795126.0
+Lagos,6.55008,3.39726,Detached House,Rent,New,Parking,5.0,3.0,64.0,95637821.0
+Lagos,6.52987,3.33688,Bungalow,Rent,Old,Water,3.0,4.0,150.0,120242815.0
+Maiduguri,11.79805,13.1061,Appartment,Rent,Fairly Used,Electricity,5.0,2.0,214.0,13791470.0
+Abuja,9.10097,7.38984,Apartment,Rent,Fairly Used,Water,4.0,1.0,440.0,60874792.0
+Enugu,6.50601,7.5213,Studio,Sale,Fairly Used,Electricity,3.0,1.0,81.0,241356271.0
+Jos,9.92557,8.84677,Duplex,Sale,Fairly Used,Parking,2.0,2.0,530.0,201230985.0
+Kaduna,10.50926,7.47927,Bungalow,Sale,Old,Parking,4.0,3.0,190.0,229389165.0
+Enugu,6.52302,7.4695,Duplex,Rent,Old,Parking,1.0,3.0,46.0,150783145.0
+Port harcourt,4.8529,7.01669,Studio,Rent,Fairly Used,Internet,6.0,3.0,126.0,53662376.0
+Abuja,9.06728,7.43724,Bungalow,Rent,New,Electricity,2.0,4.0,426.0,21878589.0
+Kaduna,10.50343,7.46565,Detached House,Sale,New,Electricity,4.0,1.0,585.0,460487563.0
+Kaduna,10.53788,7.44819,Studio,Rent,Fairly Used,Electricity,1.0,4.0,533.0,418925657.0
+Lagos,6.57298,3.40833,Appartment,Sale,New,Water,5.0,2.0,168.0,209506415.0
+Abuja,9.02919,7.38665,Appartment,Sale,New,Internet,2.0,2.0,179.0,353485228.0
+Lagos,6.56742,3.38196,Bungalow,Sale,Old,Water,1.0,3.0,555.0,87582689.0
+Port harcourt,4.82732,7.09678,Appartment,Rent,Old,Internet,2.0,2.0,431.0,81293706.0
+Abuja,9.05929,7.42231,Apartment,Sale,New,Parking,2.0,3.0,485.0,81076741.0
+Port harcourt,4.85942,7.02736,Detached House,Rent,Old,Security,5.0,4.0,346.0,74319630.0
+Maiduguri,11.85284,13.14536,Duplex,Rent,Old,Electricity,3.0,2.0,153.0,453476502.0
+Kano,11.95908,8.59687,Mini Flat,Rent,Old,Parking,2.0,3.0,285.0,416047419.0
+Lagos,6.57173,3.34934,Studio,Sale,Old,Electricity,5.0,3.0,81.0,69421156.0
+Port harcourt,4.78378,7.05021,Duplex,Rent,New,Water,1.0,1.0,434.0,88417276.0
+Kano,12.01431,8.57208,Duplex,Rent,Fairly Used,Electricity,5.0,4.0,91.0,358143413.0
+Kano,12.03916,8.56084,Mini Flat,Sale,Old,Parking,5.0,4.0,471.0,334477118.0
+Kano,12.04748,8.56583,Apartment,Rent,Fairly Used,Internet,1.0,2.0,68.0,11898445.0
+Maiduguri,11.81267,13.18014,Apartment,Rent,Fairly Used,Water,3.0,2.0,101.0,72739916.0
+Lagos,6.49478,3.35527,Detached House,Sale,Old,Security,6.0,4.0,576.0,76847531.0
+Enugu,6.54762,7.4819,Appartment,Sale,Fairly Used,Security,5.0,2.0,172.0,37650069.0
+Kano,11.95512,8.59602,Duplex,Rent,New,Internet,6.0,2.0,183.0,451859769.0
+Port harcourt,4.80381,7.00262,Apartment,Sale,New,Security,1.0,4.0,499.0,397648125.0
+Kaduna,10.49369,7.46861,Mini Flat,Rent,Fairly Used,Parking,3.0,3.0,213.0,463355666.0
+Jos,9.93682,8.87967,Studio,Sale,Old,Parking,1.0,4.0,493.0,48999208.0
+Kano,11.95379,8.60352,Appartment,Sale,New,Security,5.0,2.0,247.0,58479049.0
+Enugu,6.54701,7.55038,Appartment,Sale,Old,Parking,4.0,1.0,241.0,52599764.0
+Jos,9.89543,8.83691,Apartment,Rent,Fairly Used,Internet,5.0,2.0,160.0,304695710.0
+Maiduguri,11.79062,13.10375,Detached House,Sale,New,Internet,4.0,4.0,117.0,7243174.0
+Port harcourt,4.84016,7.09936,Appartment,Rent,New,Internet,4.0,4.0,190.0,20130723.0
+Abuja,9.12167,7.38057,Apartment,Sale,Fairly Used,Electricity,6.0,4.0,317.0,335965519.0
+Kano,11.99877,8.56592,Duplex,Sale,Fairly Used,Water,4.0,3.0,262.0,175914313.0
+Port harcourt,4.76838,7.02447,Duplex,Rent,New,Water,5.0,3.0,421.0,33849424.0
+Enugu,6.49432,7.50108,Appartment,Rent,Old,Water,6.0,2.0,466.0,250229570.0
+Maiduguri,11.80733,13.14461,Bungalow,Rent,Old,Water,1.0,4.0,454.0,9308201.0
+Enugu,6.49964,7.52428,Bungalow,Rent,New,Parking,3.0,2.0,200.0,164015386.0
+Benin city,6.3546,5.57752,Detached House,Sale,Fairly Used,Internet,1.0,3.0,248.0,60734685.0
+Abuja,9.05596,7.37447,Duplex,Rent,Old,Electricity,5.0,4.0,548.0,64002678.0
+Abuja,9.03516,7.41552,Detached House,Rent,Old,Water,2.0,1.0,450.0,224361965.0
+Enugu,6.50497,7.51105,Mini Flat,Sale,Old,Water,4.0,2.0,307.0,53659302.0
+Enugu,6.56625,7.54901,Detached House,Rent,New,Security,3.0,4.0,217.0,148034408.0
+Port harcourt,4.81926,7.09328,Mini Flat,Rent,New,Internet,5.0,1.0,311.0,48682092.0
+Kaduna,10.55313,7.40165,Duplx,Rent,Old,Internet,3.0,3.0,318.0,380425469.0
+Lagos,6.5345,3.33263,Apartment,Rent,New,Parking,4.0,3.0,412.0,17855977.0
+Kaduna,10.56441,7.46854,Bungalow,Rent,Fairly Used,Security,5.0,1.0,207.0,354148217.0
+Benin city,6.36057,5.56068,Appartment,Rent,New,Electricity,2.0,2.0,69.0,478741439.0
+Maiduguri,11.85685,13.18198,Mini Flat,Sale,New,Electricity,6.0,2.0,398.0,355458309.0
+Lagos,6.52531,3.34395,Mini Flat,Rent,Old,Water,1.0,4.0,366.0,422700270.0
+Ibadan,7.37137,3.95108,Apartment,Sale,Old,Parking,6.0,4.0,313.0,41987407.0
+Jos,9.91066,8.81064,Detached House,Rent,Old,Water,5.0,4.0,296.0,146277824.0
+Jos,9.85043,8.87379,Bungalow,Rent,Old,Internet,4.0,1.0,515.0,355911086.0
+Port harcourt,4.85509,7.00222,Duplex,Sale,Fairly Used,Parking,5.0,4.0,533.0,257770861.0
+Ibadan,7.42457,3.91457,Duplex,Sale,Fairly Used,Internet,5.0,4.0,296.0,270296787.0
+Jos,9.87329,8.8687,Duplx,Sale,Fairly Used,Electricity,3.0,1.0,541.0,448730704.0
+Ibadan,7.42083,3.98287,Appartment,Sale,New,Parking,5.0,3.0,152.0,67166972.0
+Benin city,6.29881,5.62833,Apartment,Sale,New,Internet,1.0,1.0,496.0,89960491.0
+Enugu,6.56345,7.51553,Studio,Rent,New,Internet,4.0,1.0,134.0,74309146.0
+Maiduguri,11.78846,13.10634,Appartment,Rent,Fairly Used,Water,3.0,1.0,581.0,97716177.0
+Kano,11.99364,8.61085,Appartment,Rent,Old,Security,5.0,2.0,143.0,64434790.0
+Benin city,6.35475,5.59997,Duplex,Rent,New,Internet,1.0,2.0,508.0,72627929.0
+Kaduna,10.54013,7.39597,Mini Flat,Sale,New,Electricity,3.0,4.0,489.0,199531027.0
+Ibadan,7.37303,3.98784,Bungalow,Sale,Fairly Used,Electricity,5.0,1.0,193.0,268310099.0
+Maiduguri,11.78332,13.13137,Studio,Sale,Old,Water,3.0,3.0,171.0,52888479.0
+Maiduguri,11.79923,13.1722,Appartment,Rent,Fairly Used,Parking,3.0,1.0,265.0,99312216.0
+Abuja,9.04639,7.37263,Mini Flat,Rent,Old,Water,3.0,1.0,288.0,9782634.0
+Jos,9.88387,8.84711,Studio,Rent,Old,Internet,3.0,2.0,310.0,288265390.0
+Maiduguri,11.82988,13.13246,Apartment,Sale,Old,Water,6.0,4.0,294.0,300154676.0
+Enugu,6.5152,7.52735,Bungalow,Rent,Old,Parking,1.0,3.0,353.0,83785837.0
+Lagos,6.50939,3.39195,Studio,Sale,New,Electricity,5.0,1.0,374.0,385092106.0
+Port harcourt,4.85139,7.03069,Bungalow,Sale,New,Internet,5.0,2.0,348.0,185559551.0
+Jos,9.87871,8.86616,Detached House,Sale,Fairly Used,Internet,2.0,1.0,410.0,7761434.0
+Abuja,9.07776,7.39447,Detached House,Sale,Fairly Used,Electricity,4.0,4.0,358.0,269878099.0
+Enugu,6.53608,7.51846,Duplx,Rent,Old,Parking,4.0,4.0,81.0,276270947.0
+Jos,9.909,8.8937,Mini Flat,Rent,New,Water,4.0,2.0,316.0,64982807.0
+Port harcourt,4.82969,7.03084,Detached House,Rent,New,Electricity,1.0,4.0,240.0,55636017.0
+Kaduna,10.56959,7.45595,Apartment,Rent,New,Electricity,6.0,4.0,540.0,26555117.0
+Kano,11.97781,8.55393,Appartment,Sale,Old,Parking,2.0,4.0,463.0,431874602.0
+Maiduguri,11.81679,13.19995,Bungalow,Rent,Old,Parking,3.0,3.0,502.0,67852304.0
+Port harcourt,4.82997,7.06073,Bungalow,Rent,Old,Electricity,2.0,1.0,316.0,50124750.0
+Lagos,6.53739,3.33098,Appartment,Rent,Fairly Used,Internet,4.0,1.0,188.0,389460602.0
+Benin city,6.29041,5.57165,Studio,Rent,Fairly Used,Parking,3.0,4.0,333.0,91438602.0
+Maiduguri,11.78203,13.14706,Duplex,Sale,New,Parking,3.0,3.0,120.0,138285173.0
+Kaduna,10.55132,7.41664,Duplex,Sale,Old,Security,4.0,3.0,96.0,174660202.0
+Jos,9.87474,8.89183,Studio,Sale,New,Internet,6.0,1.0,542.0,2531562.0
+Benin city,6.38189,5.64173,Detached House,Rent,Old,Security,4.0,2.0,202.0,56194613.0
+Maiduguri,11.80367,13.10309,Appartment,Sale,New,Electricity,3.0,1.0,519.0,420872214.0
+Kaduna,10.52051,7.42151,Detached House,Sale,Old,Parking,2.0,2.0,570.0,72618176.0
+Enugu,6.48163,7.52767,Studio,Sale,Fairly Used,Security,1.0,2.0,513.0,91496768.0
+Enugu,6.55165,7.47569,Studio,Rent,New,Electricity,2.0,4.0,47.0,53465590.0
+Abuja,9.03482,7.37794,Bungalow,Rent,New,Electricity,3.0,2.0,118.0,414795772.0
+Maiduguri,11.86739,13.14854,Duplex,Sale,Fairly Used,Internet,2.0,2.0,211.0,155858319.0
+Kano,12.03529,8.54606,Bungalow,Rent,New,Security,4.0,1.0,224.0,380137058.0
+Ibadan,7.34158,3.91949,Mini Flat,Sale,New,Water,6.0,4.0,458.0,76318674.0
+Ibadan,7.33145,3.89845,Bungalow,Rent,Fairly Used,Electricity,2.0,1.0,477.0,80910646.0
+Benin city,6.34279,5.60384,Duplex,Sale,Old,Electricity,1.0,1.0,360.0,48053730.0
+Kaduna,10.47846,7.44847,Mini Flat,Sale,New,Parking,1.0,2.0,116.0,464486264.0
+Abuja,9.09892,7.4394,Bungalow,Sale,Old,Parking,4.0,2.0,536.0,70443860.0
+Enugu,6.51334,7.55263,Detached House,Sale,Fairly Used,Electricity,1.0,3.0,88.0,79830733.0
+Maiduguri,11.79774,13.17964,Appartment,Rent,Old,Parking,6.0,2.0,336.0,345721048.0
+Port harcourt,4.85605,7.05012,Detached House,Rent,New,Water,6.0,2.0,154.0,80918401.0
+Kano,11.99838,8.63293,Detached House,Rent,New,Parking,1.0,3.0,108.0,80157405.0
+Port harcourt,4.83752,7.08797,Duplx,Rent,New,Security,1.0,2.0,468.0,23437512.0
+Abuja,9.10292,7.40686,Duplx,Sale,New,Security,6.0,1.0,399.0,99549745.0
+Lagos,6.50464,3.40877,Appartment,Rent,New,Water,5.0,4.0,242.0,18795119.0
+Kano,12.03207,8.56623,Detached House,Sale,Fairly Used,Security,6.0,4.0,284.0,34453667.0
+Ibadan,7.32974,3.90198,Bungalow,Sale,Fairly Used,Water,3.0,3.0,201.0,159812176.0
+Ibadan,7.40617,3.93089,Duplex,Rent,Fairly Used,Electricity,1.0,2.0,357.0,79807451.0
+Port harcourt,4.78849,7.01196,Studio,Sale,New,Internet,6.0,2.0,475.0,449386049.0
+Port harcourt,4.84752,7.00779,Apartment,Sale,Fairly Used,Parking,3.0,2.0,400.0,390676639.0
+Abuja,9.03465,7.4129,Bungalow,Rent,Old,Water,2.0,3.0,372.0,57679345.0
+Kano,11.99423,8.59961,Studio,Rent,New,Internet,3.0,4.0,354.0,64678143.0
+Maiduguri,11.86897,13.13669,Studio,Sale,Fairly Used,Electricity,2.0,1.0,448.0,88424389.0
+Port harcourt,4.86244,7.08852,Apartment,Sale,Fairly Used,Security,1.0,1.0,360.0,54120735.0
+Ibadan,7.3835,3.94204,Detached House,Rent,Fairly Used,Parking,4.0,1.0,490.0,277200850.0
+Kano,12.0142,8.55664,Appartment,Rent,Fairly Used,Water,1.0,1.0,311.0,492281266.0
+Jos,9.85267,8.82917,Detached House,Rent,Old,Internet,4.0,2.0,533.0,129177514.0
+Ibadan,7.38105,3.98889,Appartment,Sale,Old,Water,4.0,1.0,237.0,30104750.0
+Ibadan,7.41905,3.97466,Duplex,Sale,Old,Water,6.0,1.0,435.0,22961953.0
+Port harcourt,4.76642,7.08777,Mini Flat,Rent,New,Water,4.0,2.0,105.0,98984295.0
+Port harcourt,4.81649,7.04629,Studio,Rent,Old,Internet,3.0,1.0,347.0,309713648.0
+Port harcourt,4.78259,7.03811,Apartment,Rent,Fairly Used,Parking,3.0,3.0,69.0,415171676.0
+Maiduguri,11.88009,13.14169,Duplx,Rent,Fairly Used,Water,5.0,1.0,62.0,18681715.0
+Kaduna,10.49288,7.45084,Mini Flat,Sale,Fairly Used,Electricity,1.0,2.0,487.0,64377907.0
+Abuja,9.10508,7.37823,Bungalow,Sale,New,Internet,3.0,1.0,238.0,79411804.0
+Benin city,6.36728,5.56585,Duplx,Sale,Old,Security,4.0,2.0,247.0,207133605.0
+Jos,9.89934,8.90445,Duplx,Rent,Old,Electricity,4.0,3.0,69.0,34883013.0
+Ibadan,7.33084,3.93557,Duplex,Sale,New,Internet,1.0,4.0,255.0,306631647.0
+Benin city,6.37455,5.55739,Duplex,Sale,Fairly Used,Electricity,2.0,4.0,457.0,12864648.0
+Port harcourt,4.81515,7.01046,Detached House,Sale,Fairly Used,Parking,4.0,4.0,446.0,425356033.0
+Jos,9.92572,8.88411,Studio,Rent,Fairly Used,Internet,5.0,1.0,191.0,349191075.0
+Port harcourt,4.82167,7.08159,Detached House,Sale,Fairly Used,Internet,3.0,3.0,347.0,41201493.0
+Lagos,6.54484,3.41824,Studio,Sale,Old,Water,4.0,3.0,463.0,96506732.0
+Ibadan,7.38215,3.93922,Duplex,Rent,Old,Parking,2.0,2.0,576.0,240970544.0
+Port harcourt,4.80573,7.00263,Duplex,Rent,New,Security,4.0,3.0,285.0,24216450.0
+Lagos,6.56826,3.36089,Mini Flat,Sale,Fairly Used,Security,2.0,3.0,207.0,230960526.0
+Ibadan,7.41373,3.93153,Detached House,Rent,New,Security,5.0,2.0,227.0,484870445.0
+Abuja,9.12606,7.35626,Bungalow,Sale,New,Electricity,6.0,3.0,557.0,49033364.0
+Port harcourt,4.76952,7.0934,Appartment,Sale,New,Internet,4.0,1.0,557.0,87012608.0
+Enugu,6.49164,7.53057,Detached House,Sale,Fairly Used,Internet,6.0,2.0,165.0,55207428.0
+Ibadan,7.34632,3.89783,Studio,Sale,New,Internet,2.0,2.0,263.0,99041727.0
+Benin city,6.37754,5.64055,Mini Flat,Rent,Fairly Used,Internet,2.0,2.0,438.0,221249121.0
+Kano,11.98354,8.55684,Detached House,Rent,Fairly Used,Security,5.0,3.0,251.0,219794212.0
+Lagos,6.53827,3.36797,Apartment,Rent,Old,Security,6.0,4.0,72.0,325442210.0
+Benin city,6.30989,5.62915,Detached House,Rent,Old,Electricity,3.0,2.0,342.0,66288166.0
+Kano,12.03239,8.61458,Duplex,Sale,Fairly Used,Internet,5.0,4.0,204.0,60495708.0
+Abuja,9.10688,7.4039,Detached House,Rent,Fairly Used,Parking,2.0,1.0,326.0,71391447.0
+Lagos,6.56646,3.42269,Duplex,Rent,New,Security,5.0,2.0,455.0,497907055.0
+Ibadan,7.35719,3.97936,Studio,Rent,Fairly Used,Security,6.0,1.0,373.0,31520915.0
+Benin city,6.32272,5.6446,Duplx,Sale,Fairly Used,Water,5.0,2.0,277.0,351390799.0
+Kano,11.96049,8.55212,Studio,Sale,Old,Internet,4.0,3.0,480.0,211052181.0
+Abuja,9.05714,7.39869,Bungalow,Sale,Fairly Used,Security,6.0,1.0,578.0,62056664.0
+Kaduna,10.56947,7.39024,Duplex,Rent,New,Electricity,6.0,4.0,583.0,56284078.0
+Enugu,6.56231,7.49905,Duplx,Rent,Old,Water,3.0,4.0,423.0,268214125.0
+Kaduna,10.53883,7.47926,Studio,Rent,Fairly Used,Electricity,5.0,2.0,192.0,95394213.0
+Jos,9.86516,8.87193,Detached House,Sale,New,Parking,1.0,1.0,128.0,310968988.0
+Abuja,9.09241,7.35366,Bungalow,Rent,Old,Water,6.0,4.0,238.0,44488295.0
+Ibadan,7.36107,3.94999,Mini Flat,Sale,New,Parking,4.0,1.0,180.0,7313499.0
+Port harcourt,4.76951,7.09442,Detached House,Sale,Old,Parking,1.0,3.0,139.0,291000498.0
+Abuja,9.12183,7.43365,Detached House,Sale,Old,Parking,4.0,3.0,169.0,57012563.0
+Benin city,6.32647,5.55548,Bungalow,Sale,Fairly Used,Security,2.0,4.0,253.0,184105255.0
+Benin city,6.32297,5.55376,Duplex,Rent,Old,Internet,1.0,1.0,195.0,305958893.0
+Port harcourt,4.7973,7.02115,Mini Flat,Sale,Fairly Used,Electricity,1.0,4.0,599.0,190245379.0
+Kaduna,10.56744,7.45194,Apartment,Rent,Fairly Used,Parking,4.0,4.0,146.0,88498785.0
+Ibadan,7.35932,3.91159,Duplx,Sale,Fairly Used,Security,2.0,3.0,164.0,239923336.0
+Lagos,6.57217,3.40826,Bungalow,Sale,Fairly Used,Electricity,6.0,1.0,174.0,80791377.0
+Kaduna,10.49916,7.4178,Detached House,Sale,Old,Electricity,1.0,1.0,450.0,374970238.0
+Ibadan,7.41704,3.97307,Bungalow,Rent,New,Security,2.0,3.0,467.0,67686427.0
+Lagos,6.54805,3.42173,Bungalow,Rent,Fairly Used,Internet,1.0,3.0,525.0,35001263.0
+Enugu,6.48307,7.4703,Appartment,Sale,New,Electricity,1.0,3.0,336.0,485168376.0
+Enugu,6.48901,7.52184,Duplex,Sale,Old,Electricity,4.0,2.0,261.0,266009865.0
+Kano,11.98308,8.57343,Mini Flat,Rent,Fairly Used,Security,6.0,4.0,429.0,89577925.0
+Maiduguri,11.85194,13.10997,Mini Flat,Rent,Fairly Used,Security,5.0,1.0,568.0,73716605.0
+Kaduna,10.50404,7.43811,Detached House,Sale,New,Internet,1.0,1.0,283.0,32405486.0
+Lagos,6.50682,3.38852,Duplx,Sale,Fairly Used,Internet,1.0,1.0,502.0,337140054.0
+Abuja,9.04513,7.38499,Studio,Rent,Fairly Used,Security,3.0,3.0,232.0,465062884.0
+Jos,9.86331,8.82473,Mini Flat,Rent,New,Internet,2.0,1.0,253.0,195962194.0
+Ibadan,7.36981,3.98293,Studio,Sale,Fairly Used,Parking,2.0,3.0,559.0,89860116.0
+Jos,9.90439,8.86051,Duplx,Rent,New,Parking,4.0,4.0,347.0,45933164.0
+Abuja,9.04228,7.38781,Studio,Rent,Old,Water,6.0,1.0,395.0,201334989.0
+Kano,12.02519,8.61683,Studio,Sale,New,Security,5.0,1.0,270.0,66991431.0
+Kano,11.98401,8.55701,Mini Flat,Sale,New,Security,2.0,1.0,58.0,59290806.0
+Enugu,6.49382,7.50016,Bungalow,Rent,Fairly Used,Electricity,3.0,1.0,571.0,263094941.0
+Ibadan,7.40111,3.9483,Apartment,Rent,Fairly Used,Water,6.0,4.0,316.0,447572221.0
+Kaduna,10.49859,7.44166,Duplx,Rent,Fairly Used,Parking,5.0,3.0,185.0,92074467.0
+Enugu,6.54868,7.47584,Detached House,Sale,Fairly Used,Parking,2.0,1.0,40.0,71704037.0
+Kano,11.97475,8.60334,Duplx,Sale,New,Security,4.0,2.0,127.0,56921960.0
+Enugu,6.48911,7.53514,Duplex,Rent,Fairly Used,Parking,2.0,2.0,93.0,490223588.0
+Kano,12.01642,8.63699,Duplx,Rent,Old,Internet,1.0,4.0,437.0,81441650.0
+Benin city,6.29503,5.55645,Detached House,Sale,New,Security,2.0,1.0,278.0,185881208.0
+Ibadan,7.39739,3.99695,Duplx,Sale,Old,Water,5.0,2.0,208.0,74493040.0
+Port harcourt,4.81599,7.06786,Apartment,Rent,Fairly Used,Water,5.0,3.0,175.0,344845807.0
+Enugu,6.47499,7.46337,Mini Flat,Rent,New,Electricity,3.0,3.0,330.0,182043348.0
+Ibadan,7.37387,3.90735,Apartment,Rent,Old,Security,6.0,3.0,108.0,175904338.0
+Kano,12.03068,8.63311,Mini Flat,Sale,New,Security,1.0,2.0,504.0,92585614.0
+Port harcourt,4.8498,7.07183,Duplex,Sale,Old,Internet,4.0,4.0,48.0,73434032.0
+Kano,11.95567,8.61096,Detached House,Rent,Old,Water,5.0,2.0,146.0,492831067.0
+Kano,11.96095,8.60748,Duplx,Sale,Fairly Used,Electricity,4.0,1.0,302.0,175286989.0
+Kano,12.02602,8.61534,Mini Flat,Sale,Old,Parking,3.0,1.0,201.0,429649899.0
+Ibadan,7.33192,3.95058,Detached House,Rent,New,Water,3.0,3.0,478.0,87910001.0
+Benin city,6.38374,5.65175,Appartment,Sale,Old,Internet,2.0,3.0,540.0,30147823.0
+Abuja,9.08737,7.43622,Duplx,Sale,Old,Security,1.0,2.0,76.0,112017787.0
+Jos,9.90304,8.81791,Mini Flat,Rent,Old,Internet,4.0,4.0,464.0,42798142.0
+Benin city,6.34173,5.61395,Detached House,Rent,New,Internet,3.0,1.0,488.0,318944458.0
+Benin city,6.30414,5.5579,Detached House,Rent,New,Water,6.0,4.0,212.0,417759669.0
+Enugu,6.51032,7.49694,Mini Flat,Sale,New,Security,6.0,1.0,134.0,39587677.0
+Enugu,6.56417,7.55657,Duplex,Rent,Fairly Used,Internet,6.0,2.0,580.0,484302959.0
+Kano,12.01498,8.61518,Detached House,Sale,New,Water,3.0,4.0,375.0,208891303.0
+Kano,12.01863,8.63183,Apartment,Rent,Old,Water,1.0,3.0,279.0,479753307.0
+Maiduguri,11.825,13.18071,Detached House,Sale,Old,Water,5.0,2.0,301.0,325521581.0
+Ibadan,7.34984,3.90033,Bungalow,Sale,Fairly Used,Parking,5.0,2.0,308.0,2451420.0
+Kano,12.00775,8.62103,Studio,Rent,Old,Internet,5.0,4.0,419.0,28521434.0
+Abuja,9.05027,7.40702,Studio,Rent,Old,Parking,2.0,1.0,204.0,283313973.0
+Kaduna,10.51483,7.41167,Bungalow,Rent,Old,Security,6.0,3.0,71.0,284207063.0
+Enugu,6.51618,7.53363,Detached House,Sale,Old,Internet,2.0,2.0,409.0,70066081.0
+Benin city,6.3565,5.55603,Bungalow,Sale,New,Parking,4.0,1.0,584.0,3224233.0
+Lagos,6.50954,3.38447,Detached House,Sale,Old,Internet,2.0,4.0,435.0,83691834.0
+Jos,9.8863,8.83129,Duplx,Sale,New,Security,4.0,1.0,357.0,286121016.0
+Kano,12.05,8.55769,Duplex,Sale,New,Parking,3.0,2.0,588.0,80115339.0
+Ibadan,7.40667,3.98538,Duplx,Rent,Old,Parking,2.0,3.0,594.0,196707880.0
+Abuja,9.11969,7.41139,Appartment,Rent,Old,Internet,1.0,4.0,430.0,435105582.0
+Kaduna,10.50956,7.42059,Detached House,Sale,New,Internet,6.0,2.0,65.0,271023778.0
+Benin city,6.3576,5.63074,Duplex,Rent,Fairly Used,Water,2.0,1.0,594.0,77009288.0
+Jos,9.93489,8.89937,Studio,Rent,Old,Electricity,5.0,3.0,149.0,51397272.0
+Kano,11.99169,8.56738,Duplx,Rent,Old,Electricity,4.0,1.0,438.0,167697107.0
+Abuja,9.06031,7.36086,Detached House,Sale,New,Electricity,3.0,2.0,212.0,60265054.0
+Port harcourt,4.84916,7.05759,Studio,Rent,Old,Security,3.0,3.0,593.0,332245399.0
+Maiduguri,11.8495,13.19734,Detached House,Rent,Fairly Used,Water,5.0,4.0,498.0,413212741.0
+Kano,11.97768,8.61986,Mini Flat,Rent,Old,Internet,6.0,1.0,512.0,485723333.0
+Enugu,6.54985,7.47316,Mini Flat,Rent,Old,Water,2.0,3.0,169.0,237237611.0
+Kano,12.00989,8.55451,Detached House,Rent,Old,Security,6.0,2.0,416.0,180495221.0
+Maiduguri,11.79149,13.14227,Appartment,Sale,Fairly Used,Security,1.0,3.0,193.0,379963341.0
+Enugu,6.48118,7.54938,Apartment,Sale,New,Water,1.0,1.0,396.0,65482926.0
+Port harcourt,4.85113,7.09043,Mini Flat,Rent,Old,Internet,6.0,2.0,495.0,129902448.0
+Ibadan,7.3866,3.93175,Duplex,Rent,Old,Internet,2.0,1.0,208.0,228787032.0
+Enugu,6.52904,7.54209,Bungalow,Sale,Old,Water,1.0,2.0,349.0,68925927.0
+Lagos,6.53142,3.35287,Detached House,Sale,New,Internet,5.0,4.0,337.0,126645868.0
+Ibadan,7.35756,3.98314,Mini Flat,Sale,Fairly Used,Parking,2.0,4.0,148.0,440453770.0
+Maiduguri,11.87131,13.1661,Studio,Rent,Old,Water,3.0,3.0,351.0,184059987.0
+Kano,12.00678,8.58523,Mini Flat,Sale,Fairly Used,Electricity,5.0,2.0,90.0,316253490.0
+Port harcourt,4.80289,7.04775,Duplx,Rent,Old,Internet,6.0,3.0,173.0,307757272.0
+Jos,9.9079,8.84377,Detached House,Rent,Fairly Used,Internet,2.0,4.0,396.0,51182178.0
+Abuja,9.04824,7.37501,Studio,Sale,Fairly Used,Parking,6.0,1.0,444.0,278278603.0
+Kaduna,10.56282,7.4581,Apartment,Sale,Fairly Used,Security,6.0,1.0,304.0,234832339.0
+Port harcourt,4.85091,7.07308,Apartment,Rent,New,Internet,3.0,1.0,509.0,93145740.0
+Jos,9.91709,8.82295,Apartment,Rent,Fairly Used,Water,1.0,3.0,51.0,31570956.0
+Abuja,9.06332,7.42205,Duplx,Sale,Fairly Used,Electricity,3.0,1.0,423.0,246041189.0
+Enugu,6.54668,7.47322,Duplex,Rent,Fairly Used,Parking,6.0,2.0,394.0,47488487.0
+Enugu,6.56291,7.55409,Apartment,Rent,New,Parking,5.0,4.0,436.0,5042265.0
+Lagos,6.50476,3.37029,Apartment,Rent,Fairly Used,Water,3.0,1.0,477.0,426185776.0
+Abuja,9.06733,7.38172,Duplx,Sale,Old,Security,4.0,1.0,308.0,222435599.0
+Maiduguri,11.82417,13.11247,Apartment,Rent,Old,Parking,2.0,4.0,399.0,82696443.0
+Lagos,6.52102,3.42565,Bungalow,Rent,Fairly Used,Water,3.0,2.0,277.0,42001312.0
+Lagos,6.48249,3.3949,Detached House,Rent,Old,Security,6.0,1.0,434.0,37752388.0
+Kano,12.01005,8.5598,Studio,Sale,New,Water,5.0,4.0,268.0,61475184.0
+Ibadan,7.36048,3.90321,Studio,Rent,New,Security,5.0,3.0,570.0,365150836.0
+Enugu,6.55748,7.55245,Appartment,Sale,Old,Security,5.0,2.0,358.0,106656539.0
+Abuja,9.06178,7.4033,Studio,Sale,Fairly Used,Internet,1.0,3.0,464.0,61889082.0
+Port harcourt,4.86405,7.0093,Bungalow,Sale,Fairly Used,Internet,5.0,1.0,95.0,297020715.0
+Enugu,6.52232,7.48734,Bungalow,Sale,Old,Parking,2.0,4.0,163.0,239184275.0
+Kaduna,10.47763,7.41402,Detached House,Sale,New,Security,6.0,4.0,42.0,272786160.0
+Benin city,6.33082,5.62397,Duplex,Rent,Old,Water,3.0,2.0,297.0,103010871.0
+Ibadan,7.34752,3.97874,Apartment,Sale,New,Security,4.0,2.0,597.0,81175395.0
+Jos,9.89251,8.86775,Mini Flat,Sale,Old,Water,5.0,2.0,181.0,450248649.0
+Ibadan,7.37977,3.97419,Detached House,Rent,New,Electricity,5.0,4.0,317.0,41387664.0
+Ibadan,7.37262,3.98359,Appartment,Rent,Fairly Used,Water,3.0,1.0,144.0,303865357.0
+Jos,9.87203,8.83593,Duplex,Rent,Fairly Used,Internet,6.0,4.0,270.0,27337527.0
+Kaduna,10.4862,7.41051,Duplx,Rent,New,Security,3.0,4.0,158.0,97973261.0
+Kano,11.95451,8.57658,Apartment,Rent,Fairly Used,Security,5.0,3.0,586.0,204237873.0
+Abuja,9.11148,7.35459,Studio,Sale,Fairly Used,Internet,3.0,2.0,280.0,75673833.0
+Kaduna,10.48208,7.47396,Appartment,Rent,New,Internet,3.0,1.0,551.0,475385185.0
+Jos,9.87005,8.82525,Mini Flat,Rent,New,Internet,5.0,1.0,495.0,63505835.0
+Jos,9.85941,8.83163,Apartment,Rent,Fairly Used,Parking,6.0,3.0,96.0,94727939.0
+Lagos,6.54786,3.33118,Apartment,Sale,New,Electricity,5.0,3.0,565.0,82887070.0
+Enugu,6.55505,7.54896,Duplex,Rent,New,Internet,6.0,2.0,66.0,61723718.0
+Enugu,6.53344,7.55019,Mini Flat,Sale,Old,Electricity,1.0,2.0,501.0,61277000.0
+Kaduna,10.50553,7.39557,Mini Flat,Rent,New,Security,2.0,3.0,64.0,88979473.0
+Ibadan,7.42066,3.98415,Mini Flat,Sale,Fairly Used,Electricity,1.0,2.0,392.0,385585598.0
+Abuja,9.10102,7.3824,Bungalow,Rent,Fairly Used,Internet,1.0,3.0,137.0,420344854.0
+Lagos,6.49784,3.33959,Detached House,Rent,New,Internet,6.0,2.0,94.0,287001918.0
+Jos,9.85406,8.80864,Apartment,Sale,Fairly Used,Water,4.0,2.0,509.0,38069069.0
+Abuja,9.0473,7.41402,Duplex,Rent,Fairly Used,Security,5.0,2.0,413.0,81801935.0
+Benin city,6.30477,5.60763,Mini Flat,Rent,Old,Water,6.0,3.0,348.0,228045887.0
+Maiduguri,11.78912,13.18579,Duplx,Rent,Old,Parking,1.0,2.0,407.0,367926180.0
+Benin city,6.34259,5.60308,Appartment,Sale,Old,Internet,5.0,1.0,60.0,178707818.0
+Ibadan,7.40207,3.92649,Duplex,Sale,Old,Security,4.0,1.0,584.0,417246026.0
+Maiduguri,11.80603,13.16865,Appartment,Rent,New,Electricity,6.0,4.0,102.0,19173895.0
+Kano,12.00658,8.63904,Duplx,Rent,Old,Internet,3.0,3.0,486.0,60202743.0
+Abuja,9.03704,7.40011,Apartment,Rent,New,Water,5.0,1.0,314.0,75489791.0
+Maiduguri,11.82804,13.17009,Duplx,Rent,Fairly Used,Internet,4.0,1.0,500.0,307322421.0
+Benin city,6.33472,5.57782,Detached House,Sale,Old,Internet,2.0,2.0,580.0,276554902.0
+Benin city,6.29227,5.61718,Apartment,Rent,Old,Electricity,3.0,1.0,228.0,280303146.0
+Enugu,6.50256,7.46003,Studio,Rent,Fairly Used,Internet,4.0,3.0,243.0,234789801.0
+Abuja,9.07122,7.44028,Apartment,Rent,New,Electricity,4.0,4.0,566.0,62013077.0
+Abuja,9.05951,7.41428,Apartment,Sale,New,Internet,3.0,3.0,79.0,314331869.0
+Maiduguri,11.84293,13.15156,Apartment,Rent,Fairly Used,Parking,3.0,2.0,447.0,50132128.0
+Port harcourt,4.81387,7.01336,Appartment,Rent,New,Internet,6.0,4.0,361.0,80150448.0
+Jos,9.90265,8.81391,Mini Flat,Sale,New,Parking,1.0,4.0,553.0,401217299.0
+Ibadan,7.40991,3.91947,Duplex,Sale,Fairly Used,Security,3.0,4.0,514.0,60348056.0
+Ibadan,7.37977,3.96434,Duplx,Sale,Fairly Used,Parking,4.0,1.0,65.0,96948920.0
+Abuja,9.07813,7.35827,Studio,Rent,Old,Internet,6.0,1.0,581.0,88484722.0
+Benin city,6.28446,5.61413,Appartment,Rent,Old,Security,3.0,2.0,414.0,86834555.0
+Lagos,6.54548,3.39464,Bungalow,Rent,New,Electricity,6.0,1.0,305.0,285343468.0
+Maiduguri,11.7921,13.19225,Apartment,Sale,Old,Internet,6.0,3.0,182.0,5516951.0
+Kano,12.00295,8.55239,Duplx,Rent,Old,Water,1.0,1.0,498.0,42679300.0
+Benin city,6.29435,5.60006,Duplex,Sale,New,Security,1.0,3.0,256.0,169293421.0
+Jos,9.92176,8.89,Studio,Rent,Old,Internet,2.0,2.0,461.0,95245101.0
+Jos,9.87816,8.84168,Mini Flat,Rent,New,Security,1.0,2.0,385.0,463420118.0
+Kaduna,10.53628,7.43854,Appartment,Sale,Fairly Used,Security,5.0,2.0,165.0,37964763.0
+Kaduna,10.48064,7.47827,Duplx,Rent,Fairly Used,Parking,5.0,4.0,194.0,367044015.0
+Jos,9.93628,8.81901,Mini Flat,Sale,Old,Security,5.0,3.0,444.0,63680194.0
+Maiduguri,11.87711,13.15622,Studio,Rent,Old,Parking,2.0,1.0,180.0,52056585.0
+Abuja,9.11898,7.38156,Appartment,Sale,Fairly Used,Electricity,4.0,4.0,345.0,31988465.0
+Kano,12.00023,8.62625,Apartment,Sale,New,Parking,6.0,2.0,218.0,70938190.0
+Abuja,9.08494,7.36992,Duplx,Rent,New,Internet,3.0,4.0,222.0,57665399.0
+Kano,12.00098,8.60479,Studio,Rent,Old,Water,5.0,3.0,116.0,267756445.0
+Abuja,9.04704,7.39856,Duplex,Rent,New,Water,5.0,4.0,251.0,132626870.0
+Benin city,6.34704,5.55514,Apartment,Sale,Fairly Used,Electricity,5.0,4.0,315.0,7269724.0
+Lagos,6.52624,3.37884,Mini Flat,Rent,Old,Electricity,6.0,1.0,438.0,6517940.0
+Kano,12.03714,8.56319,Detached House,Rent,Fairly Used,Internet,1.0,4.0,346.0,70974924.0
+Kano,11.98375,8.57742,Duplex,Sale,New,Water,3.0,1.0,97.0,305164627.0
+Maiduguri,11.80818,13.10768,Studio,Sale,Old,Internet,6.0,4.0,294.0,14001200.0
+Port harcourt,4.81664,7.0166,Mini Flat,Rent,New,Parking,1.0,1.0,237.0,403141039.0
+Lagos,6.51072,3.40667,Duplx,Sale,Old,Parking,5.0,4.0,380.0,141556024.0
+Kano,11.95332,8.56462,Mini Flat,Sale,Fairly Used,Security,4.0,3.0,119.0,298466883.0
+Port harcourt,4.86184,7.01468,Bungalow,Rent,New,Internet,3.0,4.0,143.0,79928648.0
+Lagos,6.49539,3.37816,Bungalow,Sale,Fairly Used,Security,5.0,3.0,564.0,94643187.0
+Kaduna,10.54091,7.42509,Appartment,Rent,New,Internet,6.0,4.0,199.0,184758914.0
+Benin city,6.32686,5.57761,Bungalow,Sale,Old,Water,6.0,4.0,525.0,180710232.0
+Abuja,9.07074,7.42885,Duplx,Rent,Old,Water,4.0,1.0,149.0,73892872.0
+Maiduguri,11.7835,13.15691,Apartment,Sale,Fairly Used,Internet,4.0,3.0,190.0,375224213.0
+Kano,11.95372,8.61198,Bungalow,Sale,New,Internet,1.0,4.0,505.0,495284471.0
+Lagos,6.53117,3.41053,Detached House,Sale,New,Security,4.0,3.0,471.0,323462130.0
+Benin city,6.35413,5.61833,Studio,Rent,Old,Internet,3.0,2.0,242.0,428466927.0
+Benin city,6.29212,5.64267,Detached House,Sale,New,Security,5.0,3.0,320.0,65725484.0
+Jos,9.84887,8.90226,Appartment,Rent,New,Parking,5.0,1.0,333.0,30469622.0
+Benin city,6.34431,5.59901,Duplx,Rent,New,Security,6.0,3.0,560.0,438071407.0
+Lagos,6.5494,3.35766,Appartment,Rent,Fairly Used,Parking,6.0,3.0,146.0,4098215.0
+Jos,9.85265,8.85534,Studio,Sale,Fairly Used,Internet,2.0,3.0,480.0,215440827.0
+Jos,9.84769,8.81995,Mini Flat,Rent,Fairly Used,Water,4.0,2.0,459.0,184056684.0
+Port harcourt,4.77612,7.06818,Appartment,Rent,New,Water,3.0,3.0,104.0,404459057.0
+Benin city,6.28965,5.6129,Duplx,Sale,New,Security,3.0,2.0,303.0,71059155.0
+Kaduna,10.54554,7.3901,Detached House,Sale,Old,Parking,5.0,3.0,424.0,16747209.0
+Port harcourt,4.80833,7.08994,Duplex,Rent,New,Electricity,6.0,1.0,552.0,496563241.0
+Ibadan,7.38331,3.93796,Bungalow,Sale,Old,Internet,1.0,2.0,455.0,343725629.0
+Benin city,6.34328,5.61241,Mini Flat,Sale,Fairly Used,Security,1.0,4.0,382.0,162134647.0
+Benin city,6.3061,5.62757,Appartment,Sale,Old,Water,5.0,3.0,500.0,67617580.0
+Ibadan,7.34185,3.94778,Bungalow,Rent,Fairly Used,Parking,1.0,1.0,264.0,25339480.0
+Port harcourt,4.84193,7.07277,Appartment,Sale,Fairly Used,Parking,2.0,3.0,562.0,70795600.0
+Maiduguri,11.8585,13.10183,Duplex,Sale,Old,Parking,5.0,3.0,528.0,310659961.0
+Ibadan,7.40986,3.98634,Bungalow,Sale,Fairly Used,Parking,2.0,3.0,58.0,78136407.0
+Port harcourt,4.82232,7.0215,Apartment,Sale,Fairly Used,Internet,1.0,4.0,340.0,28563025.0
+Benin city,6.30088,5.6375,Mini Flat,Rent,Old,Parking,4.0,2.0,470.0,70156882.0
+Enugu,6.47572,7.50554,Duplx,Rent,New,Internet,3.0,4.0,326.0,242893364.0
+Ibadan,7.35911,3.97707,Appartment,Sale,New,Parking,5.0,2.0,202.0,73813575.0
+Abuja,9.03975,7.44802,Detached House,Sale,New,Electricity,1.0,1.0,403.0,52235992.0
+Kano,12.01109,8.56056,Apartment,Sale,New,Water,5.0,4.0,363.0,185709319.0
+Jos,9.9096,8.85012,Mini Flat,Sale,Old,Electricity,5.0,4.0,192.0,80166506.0
+Lagos,6.56656,3.42086,Detached House,Rent,Old,Electricity,6.0,2.0,119.0,85597449.0
+Abuja,9.0728,7.44306,Studio,Rent,Fairly Used,Security,5.0,2.0,186.0,18506869.0
+Abuja,9.05313,7.40602,Duplex,Rent,Old,Water,3.0,3.0,589.0,45660624.0
+Port harcourt,4.86067,7.03645,Bungalow,Sale,New,Security,1.0,1.0,387.0,68283660.0
+Jos,9.86609,8.84014,Appartment,Sale,Old,Water,5.0,3.0,524.0,498969908.0
+Maiduguri,11.82407,13.12065,Appartment,Rent,Old,Parking,4.0,4.0,405.0,81423880.0
+Kaduna,10.48032,7.40223,Bungalow,Rent,New,Internet,3.0,2.0,563.0,36411310.0
+Benin city,6.29887,5.59203,Apartment,Rent,New,Security,2.0,2.0,158.0,40538002.0
+Abuja,9.09897,7.41301,Mini Flat,Rent,Old,Parking,1.0,4.0,299.0,58881066.0
+Maiduguri,11.82919,13.15665,Bungalow,Sale,New,Security,3.0,1.0,227.0,4992473.0
+Enugu,6.50018,7.47485,Studio,Sale,Fairly Used,Electricity,2.0,2.0,409.0,5087906.0
+Lagos,6.48283,3.39829,Detached House,Rent,Old,Water,4.0,2.0,282.0,39294620.0
+Enugu,6.50169,7.47961,Studio,Rent,New,Electricity,3.0,4.0,589.0,59786828.0
+Port harcourt,4.79253,7.04897,Duplx,Sale,New,Internet,5.0,2.0,460.0,24377890.0
+Benin city,6.34458,5.62622,Bungalow,Rent,New,Security,3.0,2.0,523.0,11946206.0
+Enugu,6.49828,7.5469,Detached House,Rent,Fairly Used,Security,3.0,1.0,175.0,465601232.0
+Benin city,6.3542,5.60406,Duplex,Sale,Old,Parking,4.0,4.0,125.0,443229399.0
+Enugu,6.47715,7.47858,Detached House,Sale,Fairly Used,Security,2.0,3.0,492.0,114979929.0
+Port harcourt,4.81603,7.06673,Apartment,Rent,Fairly Used,Water,2.0,3.0,327.0,17964254.0
+Kano,11.99612,8.55655,Duplex,Rent,Old,Water,3.0,4.0,526.0,369753608.0
+Kaduna,10.56766,7.41315,Apartment,Sale,New,Parking,4.0,3.0,538.0,215563574.0
+Ibadan,7.39214,3.9263,Duplx,Sale,Fairly Used,Parking,6.0,1.0,67.0,325226097.0
+Kano,12.03837,8.56216,Mini Flat,Rent,New,Parking,2.0,2.0,119.0,47921913.0
+Ibadan,7.39373,3.97623,Bungalow,Sale,New,Security,2.0,1.0,188.0,351723900.0
+Kano,11.97168,8.61502,Mini Flat,Rent,Old,Parking,6.0,2.0,565.0,51570252.0
+Jos,9.94645,8.89317,Duplex,Sale,Old,Electricity,1.0,3.0,291.0,47616967.0
+Jos,9.92945,8.84091,Duplx,Sale,Old,Water,6.0,2.0,406.0,378183447.0
+Lagos,6.55571,3.36378,Studio,Sale,New,Parking,6.0,4.0,415.0,66368718.0
+Maiduguri,11.78625,13.12312,Appartment,Sale,Old,Security,1.0,2.0,332.0,11681617.0
+Abuja,9.04826,7.42119,Duplex,Sale,New,Water,1.0,2.0,464.0,34525888.0
+Kano,11.96451,8.59249,Appartment,Rent,New,Parking,6.0,3.0,327.0,47438479.0
+Ibadan,7.40497,3.97381,Mini Flat,Sale,New,Electricity,5.0,3.0,382.0,32625227.0
+Kaduna,10.53767,7.41946,Appartment,Rent,New,Parking,5.0,2.0,564.0,25873172.0
+Port harcourt,4.85558,7.04387,Duplx,Rent,New,Water,3.0,3.0,88.0,379541778.0
+Benin city,6.30995,5.58263,Duplx,Sale,Fairly Used,Internet,5.0,1.0,326.0,212991436.0
+Lagos,6.49301,3.3323,Appartment,Sale,New,Internet,5.0,4.0,397.0,54792482.0
+Jos,9.88254,8.86037,Detached House,Sale,New,Internet,2.0,4.0,314.0,178451312.0
+Ibadan,7.42026,3.95365,Bungalow,Rent,Old,Security,4.0,1.0,157.0,44942263.0
+Abuja,9.03545,7.35784,Bungalow,Sale,Old,Water,1.0,4.0,138.0,269004042.0
+Port harcourt,4.81009,7.06305,Bungalow,Rent,New,Water,1.0,4.0,576.0,60093066.0
+Jos,9.92664,8.86082,Duplex,Rent,New,Electricity,6.0,3.0,359.0,78061440.0
+Port harcourt,4.77777,7.06276,Duplx,Sale,Fairly Used,Security,4.0,4.0,570.0,85634257.0
+Kano,12.01264,8.56635,Duplex,Rent,Old,Water,3.0,2.0,278.0,73819547.0
+Kaduna,10.50011,7.39465,Mini Flat,Sale,New,Water,2.0,1.0,73.0,43906615.0
+Abuja,9.08822,7.43382,Bungalow,Rent,Fairly Used,Internet,2.0,2.0,508.0,77862722.0
+Maiduguri,11.80165,13.14596,Duplx,Rent,Fairly Used,Electricity,1.0,1.0,410.0,9406996.0
+Abuja,9.05927,7.38299,Duplex,Sale,Fairly Used,Parking,6.0,4.0,400.0,27477971.0
+Port harcourt,4.85996,7.00768,Bungalow,Sale,Fairly Used,Electricity,5.0,1.0,590.0,475380568.0
+Port harcourt,4.82905,7.01543,Apartment,Rent,New,Water,5.0,4.0,270.0,33296437.0
+Benin city,6.31042,5.60061,Duplx,Sale,New,Water,6.0,3.0,144.0,76420559.0
+Jos,9.93955,8.81488,Duplx,Rent,New,Security,4.0,2.0,354.0,28757652.0
+Maiduguri,11.79208,13.17719,Appartment,Sale,Old,Parking,5.0,4.0,374.0,499446892.0
+Kaduna,10.48979,7.45249,Detached House,Rent,Fairly Used,Electricity,3.0,2.0,456.0,51477972.0
+Jos,9.90475,8.90026,Apartment,Sale,Fairly Used,Internet,4.0,3.0,495.0,43843076.0
+Lagos,6.56682,3.33327,Studio,Sale,Fairly Used,Water,3.0,4.0,193.0,342920262.0
+Maiduguri,11.86607,13.19736,Studio,Rent,Fairly Used,Internet,3.0,2.0,270.0,41253491.0
+Lagos,6.55159,3.36846,Bungalow,Sale,New,Security,3.0,4.0,266.0,45065113.0
+Lagos,6.51345,3.36003,Duplex,Rent,New,Electricity,6.0,3.0,469.0,193982442.0
+Lagos,6.49769,3.40285,Bungalow,Rent,New,Water,5.0,2.0,449.0,14732374.0
+Ibadan,7.37733,3.94044,Duplex,Rent,New,Security,3.0,1.0,270.0,27275774.0
+Maiduguri,11.86722,13.18988,Bungalow,Sale,Fairly Used,Security,2.0,3.0,389.0,98188487.0
+Benin city,6.32665,5.57723,Detached House,Sale,New,Water,6.0,1.0,61.0,10393607.0
+Jos,9.88572,8.85348,Apartment,Sale,New,Parking,3.0,2.0,389.0,100294867.0
+Abuja,9.05517,7.4247,Bungalow,Rent,Old,Electricity,6.0,1.0,475.0,280018992.0
+Jos,9.90465,8.87238,Duplx,Rent,Fairly Used,Parking,4.0,1.0,318.0,55498838.0
+Benin city,6.31204,5.63835,Bungalow,Sale,Fairly Used,Security,1.0,1.0,583.0,399800709.0
+Kano,12.01816,8.60772,Duplx,Sale,Old,Security,1.0,3.0,322.0,27800790.0
+Ibadan,7.37899,3.90547,Duplx,Rent,Fairly Used,Electricity,6.0,2.0,565.0,308088011.0
+Lagos,6.47447,3.36578,Duplex,Sale,Old,Security,6.0,4.0,372.0,433628994.0
+Benin city,6.37621,5.55767,Apartment,Rent,Fairly Used,Security,3.0,2.0,581.0,410461797.0
+Lagos,6.52857,3.36411,Appartment,Sale,New,Internet,3.0,3.0,551.0,55601702.0
+Kano,12.02439,8.56994,Bungalow,Sale,Old,Water,6.0,4.0,217.0,99634983.0
+Benin city,6.36922,5.59344,Detached House,Rent,Fairly Used,Electricity,3.0,1.0,333.0,65633319.0
+Lagos,6.52247,3.35905,Duplex,Rent,Old,Internet,2.0,3.0,378.0,65868482.0
+Jos,9.93279,8.89675,Bungalow,Rent,Fairly Used,Electricity,5.0,3.0,289.0,325647344.0
+Enugu,6.50812,7.51027,Detached House,Sale,Fairly Used,Parking,2.0,3.0,451.0,344058322.0
+Port harcourt,4.85678,7.05991,Duplx,Sale,Fairly Used,Water,1.0,4.0,586.0,32983086.0
+Kaduna,10.56686,7.42855,Appartment,Rent,New,Parking,4.0,4.0,541.0,13413810.0
+Port harcourt,4.8279,7.08244,Studio,Rent,Fairly Used,Security,6.0,2.0,352.0,7389677.0
+Kaduna,10.48172,7.47071,Duplx,Sale,Old,Security,5.0,1.0,481.0,327940072.0
+Kano,11.96513,8.58562,Duplex,Rent,New,Security,2.0,3.0,385.0,483953396.0
+Kaduna,10.51599,7.46614,Duplex,Rent,New,Electricity,6.0,2.0,368.0,41445397.0
+Kano,12.00104,8.55611,Detached House,Sale,Fairly Used,Security,4.0,1.0,59.0,4264928.0
+Jos,9.89502,8.88794,Appartment,Rent,Old,Internet,5.0,2.0,44.0,6225289.0
+Benin city,6.29294,5.61981,Appartment,Sale,Old,Water,3.0,3.0,363.0,424828517.0
+Maiduguri,11.78286,13.10838,Studio,Rent,Fairly Used,Internet,2.0,2.0,523.0,449858221.0
+Jos,9.90027,8.89025,Duplex,Sale,Fairly Used,Electricity,1.0,4.0,520.0,11888145.0
+Enugu,6.50945,7.49657,Detached House,Rent,Fairly Used,Parking,1.0,4.0,352.0,72725310.0
+Benin city,6.32211,5.57958,Duplx,Rent,New,Parking,5.0,1.0,160.0,325001516.0
+Lagos,6.5606,3.3665,Detached House,Sale,New,Electricity,5.0,1.0,122.0,91999798.0
+Benin city,6.29972,5.56043,Bungalow,Rent,New,Internet,1.0,2.0,42.0,87160262.0
+Maiduguri,11.84,13.18242,Duplex,Rent,Old,Water,5.0,3.0,66.0,444113218.0
+Ibadan,7.36346,3.96941,Bungalow,Sale,Fairly Used,Parking,1.0,4.0,557.0,96580873.0
+Lagos,6.50269,3.33265,Mini Flat,Sale,Fairly Used,Security,5.0,2.0,321.0,44301116.0
+Lagos,6.56567,3.42909,Apartment,Sale,New,Electricity,6.0,3.0,110.0,57593897.0
+Ibadan,7.38438,3.98884,Mini Flat,Sale,Fairly Used,Electricity,2.0,1.0,367.0,61761993.0
+Enugu,6.50802,7.49281,Detached House,Sale,New,Electricity,4.0,1.0,568.0,478077075.0
+Lagos,6.48482,3.40174,Mini Flat,Rent,Old,Parking,3.0,3.0,241.0,98170400.0
+Abuja,9.11451,7.43711,Duplex,Sale,Fairly Used,Electricity,3.0,1.0,581.0,226214613.0
+Kano,11.97624,8.60235,Studio,Sale,New,Internet,2.0,2.0,271.0,344959006.0
+Jos,9.9251,8.8177,Studio,Sale,New,Electricity,2.0,1.0,362.0,319173264.0
+Maiduguri,11.8704,13.12278,Detached House,Rent,Old,Water,1.0,4.0,486.0,333947804.0
+Benin city,6.29658,5.57518,Duplx,Sale,Old,Electricity,2.0,3.0,574.0,63111751.0
+Benin city,6.35776,5.62686,Duplex,Sale,Old,Parking,3.0,1.0,415.0,51515197.0
+Abuja,9.05493,7.35043,Bungalow,Rent,New,Parking,4.0,4.0,105.0,40226821.0
+Kaduna,10.4823,7.4437,Bungalow,Sale,Fairly Used,Parking,2.0,4.0,547.0,275603319.0
+Ibadan,7.40838,3.97932,Appartment,Sale,Old,Parking,2.0,2.0,507.0,406718524.0
+Kaduna,10.4937,7.45183,Bungalow,Rent,Old,Parking,5.0,1.0,509.0,459885467.0
+Maiduguri,11.8648,13.17598,Duplex,Sale,Old,Internet,1.0,1.0,291.0,369445421.0
+Kaduna,10.50201,7.45115,Mini Flat,Rent,Fairly Used,Internet,5.0,1.0,42.0,61958806.0
+Port harcourt,4.84072,7.05264,Appartment,Rent,Fairly Used,Parking,6.0,1.0,124.0,333009544.0
+Port harcourt,4.77547,7.02773,Duplex,Rent,New,Internet,1.0,3.0,340.0,217906651.0
+Benin city,6.28798,5.6426,Detached House,Sale,New,Internet,2.0,1.0,345.0,58103748.0
+Abuja,9.06846,7.41,Duplex,Rent,New,Parking,6.0,4.0,599.0,158093525.0
+Benin city,6.29722,5.58544,Duplex,Rent,New,Electricity,6.0,1.0,577.0,328014059.0
+Jos,9.90544,8.83637,Duplex,Rent,New,Internet,6.0,1.0,349.0,173032998.0
+Kaduna,10.50693,7.44102,Duplex,Sale,Old,Electricity,6.0,3.0,178.0,274701490.0
+Abuja,9.08814,7.38021,Duplex,Sale,Fairly Used,Parking,1.0,2.0,105.0,35725982.0
+Abuja,9.12455,7.44243,Duplx,Rent,Fairly Used,Internet,5.0,1.0,283.0,232870314.0
+Maiduguri,11.82892,13.14431,Apartment,Sale,New,Water,3.0,1.0,583.0,43989972.0
+Jos,9.89967,8.85981,Duplx,Rent,Fairly Used,Parking,6.0,2.0,121.0,43214162.0
+Ibadan,7.33157,3.89849,Duplx,Rent,New,Electricity,5.0,1.0,343.0,436916596.0
+Enugu,6.55826,7.53109,Duplx,Sale,New,Electricity,4.0,3.0,244.0,257895120.0
+Abuja,9.12217,7.40747,Mini Flat,Rent,New,Security,6.0,4.0,68.0,69594692.0
+Port harcourt,4.82842,7.075,Bungalow,Rent,New,Water,2.0,2.0,479.0,180810346.0
+Jos,9.9216,8.82689,Appartment,Sale,New,Parking,2.0,3.0,40.0,228836571.0
+Lagos,6.49284,3.36743,Detached House,Rent,New,Parking,2.0,4.0,132.0,80431446.0
+Abuja,9.06116,7.40128,Studio,Rent,Fairly Used,Water,5.0,1.0,304.0,176283123.0
+Ibadan,7.33639,3.95723,Mini Flat,Sale,New,Parking,6.0,3.0,413.0,22359176.0
+Ibadan,7.41862,3.98551,Bungalow,Sale,Old,Internet,6.0,2.0,79.0,7291427.0
+Jos,9.92005,8.87724,Duplx,Sale,New,Parking,5.0,3.0,559.0,50474844.0
+Benin city,6.35269,5.58402,Appartment,Sale,Fairly Used,Water,2.0,1.0,241.0,441390310.0
+Enugu,6.54167,7.47228,Detached House,Sale,New,Parking,6.0,2.0,274.0,141765465.0
+Benin city,6.28595,5.56567,Apartment,Sale,Fairly Used,Water,4.0,4.0,458.0,160888847.0
+Lagos,6.55931,3.33643,Detached House,Rent,Fairly Used,Parking,6.0,4.0,240.0,25611332.0
+Kaduna,10.4791,7.41144,Duplx,Sale,Old,Parking,6.0,3.0,466.0,253604461.0
+Kano,11.96994,8.56393,Mini Flat,Sale,Old,Internet,2.0,3.0,592.0,37922104.0
+Jos,9.94206,8.8574,Studio,Rent,Old,Parking,1.0,1.0,330.0,78622767.0
+Kano,12.01675,8.63425,Detached House,Rent,Old,Parking,3.0,2.0,197.0,45896247.0
+Jos,9.92241,8.8803,Duplex,Sale,New,Water,6.0,2.0,410.0,65109205.0
+Port harcourt,4.86208,7.06579,Bungalow,Rent,Fairly Used,Internet,6.0,4.0,335.0,24477741.0
+Maiduguri,11.86346,13.1076,Studio,Sale,New,Internet,5.0,1.0,330.0,51960898.0
+Lagos,6.54622,3.40933,Apartment,Sale,New,Security,2.0,2.0,464.0,393663842.0
+Lagos,6.50292,3.42553,Duplex,Sale,Old,Water,6.0,2.0,94.0,8773249.0
+Benin city,6.35104,5.55954,Duplex,Sale,Fairly Used,Security,2.0,1.0,491.0,130740298.0
+Ibadan,7.42063,3.96287,Detached House,Sale,Old,Security,5.0,3.0,330.0,55557962.0
+Abuja,9.08058,7.43444,Duplex,Rent,Old,Parking,6.0,2.0,399.0,23624204.0
+Kano,12.03823,8.56316,Studio,Sale,Old,Electricity,2.0,2.0,583.0,325521385.0
+Enugu,6.48536,7.46254,Mini Flat,Rent,Fairly Used,Parking,1.0,2.0,335.0,55075087.0
+Ibadan,7.39589,3.97947,Duplex,Rent,New,Internet,1.0,3.0,532.0,47120474.0
+Kaduna,10.54279,7.39297,Detached House,Sale,Old,Water,5.0,1.0,324.0,99536447.0
+Benin city,6.34502,5.63139,Duplex,Rent,Fairly Used,Internet,4.0,1.0,180.0,368260639.0
+Benin city,6.36154,5.57989,Appartment,Sale,New,Internet,3.0,2.0,299.0,92867120.0
+Abuja,9.06305,7.41247,Duplex,Rent,Old,Water,4.0,1.0,431.0,59742848.0
+Lagos,6.53652,3.35397,Studio,Rent,New,Electricity,2.0,2.0,96.0,6666034.0
+Kano,12.05146,8.57213,Mini Flat,Sale,New,Electricity,5.0,4.0,466.0,95089903.0
+Lagos,6.48109,3.3605,Bungalow,Sale,New,Parking,6.0,3.0,113.0,129394745.0
+Kano,12.03919,8.5662,Duplx,Sale,Fairly Used,Security,6.0,4.0,271.0,92534206.0
+Kano,11.9551,8.60959,Apartment,Rent,Fairly Used,Water,3.0,2.0,247.0,34230552.0
+Abuja,9.09063,7.37495,Duplex,Rent,Fairly Used,Parking,4.0,4.0,234.0,369630155.0
+Abuja,9.05437,7.42049,Duplx,Sale,Old,Parking,6.0,1.0,437.0,1920584.0
+Port harcourt,4.83639,7.06696,Appartment,Rent,Fairly Used,Electricity,1.0,3.0,123.0,351809089.0
+Abuja,9.11256,7.39045,Duplex,Rent,New,Parking,4.0,1.0,91.0,39925520.0
+Lagos,6.48861,3.37761,Appartment,Sale,Fairly Used,Electricity,6.0,4.0,260.0,120078258.0
+Enugu,6.53916,7.52554,Apartment,Rent,New,Parking,5.0,3.0,509.0,465416787.0
+Ibadan,7.40086,3.97593,Mini Flat,Rent,Fairly Used,Water,2.0,3.0,384.0,8768219.0
+Port harcourt,4.86302,7.09876,Duplx,Rent,New,Water,2.0,1.0,254.0,87253018.0
+Lagos,6.55395,3.33048,Studio,Sale,New,Security,5.0,4.0,254.0,23994386.0
+Kaduna,10.56265,7.43356,Mini Flat,Sale,Fairly Used,Water,3.0,3.0,549.0,44787269.0
+Jos,9.85594,8.86851,Duplx,Rent,New,Security,4.0,3.0,302.0,6226722.0
+Lagos,6.52627,3.38281,Detached House,Rent,New,Internet,6.0,4.0,417.0,21785845.0
+Port harcourt,4.80448,7.07264,Appartment,Rent,Fairly Used,Electricity,3.0,3.0,279.0,256690428.0
+Ibadan,7.39207,3.94956,Mini Flat,Rent,Old,Water,3.0,4.0,471.0,382595220.0
+Kaduna,10.51259,7.42839,Apartment,Sale,Old,Parking,2.0,1.0,547.0,49929935.0
+Maiduguri,11.86604,13.15951,Bungalow,Sale,Fairly Used,Internet,3.0,4.0,540.0,25611670.0
+Kano,11.95318,8.61329,Mini Flat,Sale,New,Electricity,4.0,1.0,284.0,55716434.0
+Kaduna,10.49574,7.47272,Duplx,Rent,Old,Internet,1.0,1.0,381.0,51173422.0
+Jos,9.91511,8.85608,Duplex,Rent,Fairly Used,Internet,3.0,2.0,59.0,34275681.0
+Kaduna,10.55804,7.42325,Apartment,Rent,Fairly Used,Security,6.0,2.0,250.0,32298510.0
+Ibadan,7.35622,3.96071,Studio,Sale,Fairly Used,Electricity,3.0,2.0,596.0,37202259.0
+Benin city,6.3441,5.59416,Bungalow,Rent,Fairly Used,Parking,5.0,4.0,582.0,87139325.0
+Jos,9.86357,8.81053,Bungalow,Sale,Fairly Used,Parking,2.0,3.0,128.0,19728270.0
+Benin city,6.34344,5.64729,Bungalow,Sale,New,Security,4.0,1.0,356.0,77923531.0
+Jos,9.88438,8.84826,Studio,Sale,Old,Water,4.0,1.0,264.0,69023757.0
+Lagos,6.53012,3.38463,Studio,Sale,Fairly Used,Security,5.0,1.0,481.0,31023115.0
+Kano,11.96707,8.59642,Studio,Rent,New,Security,1.0,3.0,530.0,59986319.0
+Benin city,6.33057,5.60424,Duplx,Sale,New,Parking,4.0,1.0,424.0,35943450.0
+Jos,9.92854,8.87535,Appartment,Sale,New,Electricity,3.0,4.0,389.0,442216674.0
+Jos,9.93143,8.85039,Detached House,Rent,Fairly Used,Electricity,4.0,4.0,175.0,417366745.0
+Kaduna,10.51011,7.41241,Bungalow,Sale,Old,Water,5.0,1.0,182.0,96461790.0
+Kaduna,10.53045,7.48712,Mini Flat,Sale,Fairly Used,Parking,3.0,2.0,213.0,90339442.0
+Port harcourt,4.84802,7.01076,Duplex,Sale,New,Water,4.0,4.0,526.0,41467421.0
+Maiduguri,11.83299,13.10222,Duplx,Sale,Old,Security,2.0,3.0,351.0,476381384.0
+Abuja,9.099,7.42566,Apartment,Sale,New,Electricity,5.0,1.0,447.0,408881777.0
+Abuja,9.06711,7.36287,Duplex,Sale,New,Electricity,2.0,1.0,416.0,57334673.0
+Ibadan,7.33054,3.98418,Bungalow,Sale,New,Parking,4.0,4.0,362.0,53036846.0
+Jos,9.8566,8.87271,Apartment,Sale,New,Security,3.0,3.0,327.0,68701415.0
+Enugu,6.54263,7.54458,Apartment,Sale,Fairly Used,Water,4.0,2.0,433.0,276591020.0
+Kano,12.03178,8.55739,Duplex,Sale,Old,Security,2.0,4.0,378.0,377990989.0
+Abuja,9.04024,7.35606,Mini Flat,Sale,New,Electricity,2.0,1.0,322.0,292896276.0
+Kano,12.03913,8.55391,Mini Flat,Rent,New,Water,5.0,4.0,68.0,69874619.0
+Kano,12.04105,8.62261,Apartment,Rent,Old,Water,3.0,2.0,110.0,31568392.0
+Kaduna,10.53736,7.46853,Apartment,Rent,Fairly Used,Water,4.0,4.0,169.0,298566053.0
+Jos,9.90686,8.8429,Studio,Rent,Fairly Used,Parking,2.0,4.0,590.0,424745124.0
+Jos,9.94599,8.81295,Mini Flat,Sale,Old,Security,1.0,2.0,149.0,55297389.0
+Lagos,6.48689,3.34835,Studio,Rent,Fairly Used,Electricity,5.0,4.0,528.0,7055196.0
+Jos,9.85714,8.87312,Duplex,Rent,Old,Parking,2.0,3.0,310.0,463576541.0
+Port harcourt,4.79847,7.02525,Duplx,Rent,Old,Security,2.0,3.0,587.0,179332323.0
+Port harcourt,4.82763,7.01902,Apartment,Sale,Old,Internet,6.0,2.0,340.0,62306361.0
+Jos,9.85065,8.81616,Bungalow,Rent,New,Parking,1.0,2.0,238.0,224031339.0
+Jos,9.89684,8.89896,Duplex,Rent,Fairly Used,Security,5.0,1.0,383.0,402477603.0
+Kano,12.0087,8.63565,Studio,Sale,New,Security,2.0,4.0,596.0,88038502.0
+Maiduguri,11.85972,13.12214,Studio,Sale,Old,Electricity,5.0,4.0,379.0,442831308.0
+Benin city,6.30566,5.56372,Duplex,Sale,Fairly Used,Electricity,6.0,2.0,127.0,65168945.0
+Abuja,9.06665,7.43095,Detached House,Sale,Old,Electricity,3.0,1.0,215.0,63685674.0
+Kaduna,10.54138,7.42297,Mini Flat,Rent,Fairly Used,Parking,6.0,3.0,166.0,440015253.0
+Kano,12.01199,8.54462,Bungalow,Sale,Fairly Used,Security,3.0,3.0,409.0,47026761.0
+Kano,12.01878,8.63192,Studio,Rent,Old,Parking,2.0,2.0,467.0,149407590.0
+Jos,9.9314,8.87791,Apartment,Rent,Old,Internet,6.0,1.0,556.0,131737880.0
+Jos,9.88699,8.88544,Bungalow,Rent,Fairly Used,Water,6.0,4.0,163.0,38569199.0
+Enugu,6.52374,7.53984,Detached House,Sale,Old,Electricity,3.0,4.0,317.0,243745849.0
+Jos,9.93058,8.87598,Appartment,Rent,New,Security,4.0,3.0,92.0,322022151.0
+Kano,11.96539,8.63272,Bungalow,Rent,New,Electricity,6.0,2.0,52.0,457501529.0
+Kaduna,10.5239,7.39348,Duplx,Sale,New,Security,4.0,2.0,543.0,17334070.0
+Port harcourt,4.85017,7.073,Duplex,Sale,New,Water,1.0,3.0,366.0,88348682.0
+Kano,12.0317,8.63081,Mini Flat,Sale,Old,Internet,5.0,4.0,99.0,50780164.0
+Lagos,6.51001,3.40775,Appartment,Rent,Fairly Used,Security,2.0,3.0,87.0,404766886.0
+Kaduna,10.55687,7.47741,Appartment,Rent,Old,Parking,6.0,1.0,539.0,417416504.0
+Jos,9.8615,8.84727,Mini Flat,Sale,New,Electricity,1.0,4.0,118.0,16421588.0
+Enugu,6.47526,7.5103,Studio,Rent,Fairly Used,Parking,6.0,4.0,114.0,273741234.0
+Lagos,6.48495,3.41511,Duplex,Sale,Fairly Used,Security,3.0,3.0,263.0,380256570.0
+Lagos,6.54032,3.41673,Studio,Rent,Old,Security,3.0,3.0,337.0,9601039.0
+Benin city,6.3259,5.59773,Duplex,Sale,New,Security,5.0,3.0,451.0,63973354.0
+Kaduna,10.55879,7.4754,Apartment,Rent,Fairly Used,Security,3.0,3.0,357.0,47399255.0
+Kaduna,10.5227,7.39775,Duplex,Rent,New,Security,3.0,3.0,591.0,329493791.0
+Enugu,6.47593,7.53209,Mini Flat,Sale,Fairly Used,Water,5.0,1.0,405.0,14468692.0
+Abuja,9.07667,7.42557,Bungalow,Sale,Fairly Used,Parking,2.0,1.0,489.0,76063348.0
+Lagos,6.53872,3.38082,Duplex,Sale,New,Internet,2.0,4.0,234.0,275933629.0
+Abuja,9.09211,7.39601,Detached House,Rent,New,Internet,6.0,1.0,278.0,12851335.0
+Jos,9.88087,8.87309,Studio,Rent,Fairly Used,Internet,6.0,1.0,237.0,491123659.0
+Maiduguri,11.82576,13.11224,Studio,Rent,New,Electricity,4.0,1.0,276.0,29458524.0
+Abuja,9.12494,7.36491,Duplx,Sale,Old,Water,2.0,3.0,349.0,466992271.0
+Ibadan,7.38382,3.92198,Duplx,Rent,Fairly Used,Security,2.0,1.0,297.0,9358231.0
+Kano,11.97027,8.60271,Studio,Sale,Fairly Used,Internet,1.0,2.0,138.0,74821248.0
+Lagos,6.47463,3.3469,Detached House,Sale,Old,Security,6.0,2.0,525.0,89111628.0
+Kaduna,10.56647,7.42119,Studio,Rent,Old,Water,6.0,1.0,319.0,36816279.0
+Maiduguri,11.8547,13.13473,Mini Flat,Sale,Fairly Used,Parking,1.0,2.0,358.0,30762904.0
+Ibadan,7.40369,3.9455,Mini Flat,Sale,New,Internet,5.0,1.0,229.0,94943387.0
+Jos,9.90281,8.88972,Duplx,Sale,Fairly Used,Internet,5.0,4.0,508.0,375385772.0
+Kano,11.95649,8.59676,Studio,Rent,Old,Security,2.0,1.0,397.0,14983439.0
+Port harcourt,4.79237,7.00466,Detached House,Rent,Old,Water,2.0,3.0,66.0,54115020.0
+Port harcourt,4.81184,7.08455,Apartment,Rent,Fairly Used,Electricity,3.0,3.0,443.0,62767843.0
+Port harcourt,4.7965,7.03433,Duplx,Rent,Old,Internet,5.0,3.0,366.0,453974832.0
+Maiduguri,11.79711,13.18708,Duplx,Sale,New,Water,2.0,1.0,471.0,115334593.0
+Enugu,6.48289,7.53631,Detached House,Sale,Old,Water,5.0,1.0,206.0,45438094.0
+Enugu,6.5573,7.54588,Mini Flat,Rent,Fairly Used,Internet,1.0,1.0,134.0,8456535.0
+Maiduguri,11.80643,13.10338,Duplx,Rent,New,Electricity,6.0,1.0,209.0,16484465.0
+Port harcourt,4.85724,7.06026,Duplx,Sale,Old,Parking,2.0,3.0,366.0,62434686.0
+Kaduna,10.54967,7.43531,Duplx,Sale,New,Water,3.0,2.0,509.0,43382152.0
+Lagos,6.54465,3.39518,Duplex,Sale,Fairly Used,Water,4.0,4.0,229.0,99473063.0
+Ibadan,7.33565,3.90279,Detached House,Rent,Fairly Used,Electricity,6.0,4.0,188.0,67708637.0
+Lagos,6.55889,3.35794,Duplx,Rent,Old,Electricity,1.0,2.0,503.0,52586382.0
+Ibadan,7.38554,3.99022,Mini Flat,Rent,New,Security,6.0,4.0,287.0,45701291.0
+Abuja,9.05314,7.35554,Mini Flat,Rent,Old,Internet,1.0,4.0,303.0,275854419.0
+Lagos,6.49057,3.33685,Mini Flat,Rent,New,Water,6.0,2.0,176.0,54519707.0
+Ibadan,7.36058,3.98384,Studio,Sale,New,Parking,4.0,3.0,450.0,65466316.0
+Benin city,6.33964,5.55799,Apartment,Sale,Fairly Used,Electricity,3.0,3.0,288.0,378066554.0
+Enugu,6.5134,7.46519,Duplex,Rent,Fairly Used,Internet,5.0,4.0,225.0,410098083.0
+Kano,11.98931,8.58106,Studio,Sale,Old,Parking,6.0,4.0,508.0,76125096.0
+Maiduguri,11.86171,13.1356,Apartment,Rent,Fairly Used,Security,5.0,4.0,452.0,209616311.0
+Ibadan,7.36857,3.90915,Duplex,Rent,Fairly Used,Water,3.0,2.0,467.0,15143195.0
+Kaduna,10.54939,7.43675,Detached House,Sale,New,Internet,2.0,2.0,444.0,406753754.0
+Kano,12.0486,8.57191,Studio,Sale,New,Security,4.0,4.0,446.0,89542271.0
+Ibadan,7.42339,3.89846,Mini Flat,Sale,Fairly Used,Internet,2.0,1.0,329.0,95232547.0
+Kaduna,10.50725,7.43684,Apartment,Sale,Fairly Used,Internet,4.0,3.0,127.0,354338079.0
+Lagos,6.48452,3.38561,Mini Flat,Rent,Fairly Used,Internet,2.0,4.0,459.0,135648219.0
+Abuja,9.11316,7.42087,Apartment,Sale,Old,Water,4.0,3.0,357.0,75314086.0
+Enugu,6.51436,7.53683,Bungalow,Rent,Old,Parking,5.0,3.0,243.0,130186217.0
+Jos,9.93099,8.85489,Studio,Rent,New,Parking,5.0,2.0,206.0,48852596.0
+Benin city,6.3102,5.60313,Mini Flat,Rent,Old,Internet,4.0,4.0,240.0,96855024.0
+Ibadan,7.34852,3.93543,Bungalow,Sale,New,Parking,1.0,3.0,552.0,35748068.0
+Benin city,6.38296,5.55626,Bungalow,Sale,New,Security,3.0,4.0,296.0,79360586.0
+Enugu,6.55379,7.4902,Mini Flat,Rent,Old,Electricity,5.0,2.0,183.0,88944993.0
+Ibadan,7.4088,3.91916,Mini Flat,Sale,Fairly Used,Security,3.0,4.0,449.0,449162855.0
+Benin city,6.3321,5.64271,Duplex,Rent,Old,Parking,3.0,2.0,184.0,81815996.0
+Jos,9.86619,8.89496,Appartment,Sale,New,Security,5.0,3.0,292.0,490811763.0
+Maiduguri,11.80961,13.16328,Studio,Rent,Fairly Used,Internet,1.0,2.0,63.0,270501329.0
+Ibadan,7.41843,3.95378,Studio,Sale,Fairly Used,Internet,5.0,1.0,442.0,96712344.0
+Lagos,6.50676,3.38832,Studio,Sale,Fairly Used,Water,5.0,1.0,328.0,296114240.0
+Jos,9.88705,8.82288,Apartment,Sale,Fairly Used,Parking,1.0,2.0,285.0,90792535.0
+Benin city,6.34182,5.61225,Duplx,Sale,Fairly Used,Water,4.0,3.0,509.0,128913968.0
+Ibadan,7.37027,3.93498,Duplx,Sale,New,Security,1.0,4.0,301.0,65306675.0
+Benin city,6.34889,5.5901,Duplx,Rent,Fairly Used,Security,5.0,4.0,591.0,80242192.0
+Kaduna,10.54427,7.47033,Duplex,Sale,New,Water,2.0,3.0,509.0,315110243.0
+Maiduguri,11.79065,13.11886,Duplx,Sale,Old,Security,5.0,4.0,467.0,196902873.0
+Jos,9.88496,8.89612,Duplex,Sale,Old,Security,5.0,3.0,280.0,43571164.0
+Jos,9.87511,8.84362,Bungalow,Sale,Old,Parking,1.0,1.0,381.0,451124550.0
+Benin city,6.29774,5.62117,Bungalow,Sale,Fairly Used,Water,3.0,2.0,515.0,443615278.0
+Ibadan,7.42597,3.9649,Bungalow,Sale,Fairly Used,Water,1.0,4.0,368.0,429635406.0
+Lagos,6.50721,3.38382,Appartment,Sale,New,Water,4.0,2.0,290.0,48609060.0
+Kaduna,10.56909,7.4345,Mini Flat,Rent,New,Electricity,4.0,1.0,458.0,192803015.0
+Abuja,9.03014,7.41827,Duplex,Sale,New,Security,4.0,1.0,274.0,21100432.0
+Abuja,9.06564,7.42454,Mini Flat,Rent,New,Water,3.0,4.0,462.0,56106337.0
+Benin city,6.35955,5.59052,Appartment,Sale,Fairly Used,Parking,3.0,3.0,304.0,68345831.0
+Port harcourt,4.7757,7.04445,Mini Flat,Sale,New,Security,1.0,1.0,323.0,55165332.0
+Port harcourt,4.81182,7.07639,Appartment,Sale,Old,Security,4.0,3.0,158.0,473843366.0
+Benin city,6.35868,5.61629,Mini Flat,Sale,Old,Parking,5.0,1.0,356.0,99636525.0
+Jos,9.87461,8.85581,Appartment,Sale,Old,Parking,4.0,1.0,229.0,351748384.0
+Benin city,6.32895,5.60074,Appartment,Sale,Fairly Used,Water,1.0,2.0,594.0,69641910.0
+Maiduguri,11.84636,13.19705,Detached House,Rent,Fairly Used,Water,1.0,3.0,212.0,59552071.0
+Ibadan,7.40016,3.94342,Duplx,Sale,Fairly Used,Water,1.0,1.0,124.0,20837710.0
+Benin city,6.36369,5.57114,Mini Flat,Rent,Fairly Used,Security,6.0,4.0,63.0,57638338.0
+Port harcourt,4.83749,7.06852,Studio,Rent,Fairly Used,Water,3.0,1.0,478.0,8602065.0
+Enugu,6.48613,7.46442,Duplx,Sale,Fairly Used,Electricity,5.0,1.0,225.0,117460120.0
+Ibadan,7.33217,3.92652,Studio,Sale,Old,Parking,5.0,1.0,418.0,354888839.0
+Port harcourt,4.82821,7.04537,Mini Flat,Rent,New,Water,6.0,1.0,502.0,38253207.0
+Kaduna,10.55309,7.46227,Detached House,Rent,New,Electricity,2.0,3.0,562.0,131996443.0
+Benin city,6.34513,5.61958,Apartment,Rent,Fairly Used,Water,1.0,2.0,293.0,84413371.0
+Abuja,9.07129,7.39825,Appartment,Sale,Old,Electricity,1.0,3.0,304.0,30270992.0
+Benin city,6.35861,5.57613,Duplx,Rent,New,Parking,2.0,2.0,354.0,330168883.0
+Abuja,9.10141,7.42964,Duplex,Sale,Fairly Used,Electricity,5.0,4.0,243.0,216033154.0
+Maiduguri,11.81831,13.14592,Apartment,Rent,Fairly Used,Security,2.0,2.0,262.0,43718585.0
+Kano,11.96381,8.56063,Duplex,Rent,New,Internet,5.0,3.0,75.0,22468631.0
+Kano,12.01359,8.61073,Bungalow,Rent,Fairly Used,Internet,3.0,4.0,589.0,98406107.0
+Kaduna,10.50017,7.40843,Detached House,Sale,New,Water,6.0,2.0,418.0,12059976.0
+Kano,11.95433,8.61617,Detached House,Sale,Fairly Used,Parking,2.0,3.0,513.0,456225938.0
+Benin city,6.3373,5.62089,Apartment,Sale,Fairly Used,Security,4.0,4.0,312.0,96265455.0
+Benin city,6.33132,5.64993,Bungalow,Sale,New,Parking,1.0,4.0,211.0,80333457.0
+Kano,11.98452,8.64098,Mini Flat,Rent,Fairly Used,Electricity,5.0,4.0,408.0,145564939.0
+Port harcourt,4.77628,7.03884,Appartment,Rent,New,Internet,1.0,3.0,436.0,136724342.0
+Maiduguri,11.84068,13.10199,Duplx,Sale,Old,Electricity,5.0,1.0,126.0,19682196.0
+Jos,9.9173,8.85125,Studio,Sale,Old,Water,4.0,1.0,265.0,438393709.0
+Ibadan,7.36852,3.97944,Mini Flat,Rent,Fairly Used,Parking,2.0,4.0,42.0,143152431.0
+Maiduguri,11.83007,13.16251,Bungalow,Rent,New,Water,4.0,2.0,446.0,56487281.0
+Kano,12.04897,8.57116,Mini Flat,Sale,Fairly Used,Parking,5.0,4.0,133.0,417983884.0
+Enugu,6.54375,7.45878,Duplex,Sale,Fairly Used,Electricity,4.0,4.0,77.0,422632983.0
+Lagos,6.498,3.34486,Appartment,Sale,Old,Internet,5.0,1.0,473.0,455438706.0
+Abuja,9.06064,7.36816,Detached House,Rent,Fairly Used,Electricity,5.0,2.0,76.0,339646399.0
+Abuja,9.03339,7.41827,Studio,Sale,Old,Electricity,1.0,3.0,49.0,94923490.0
+Jos,9.87765,8.82458,Studio,Rent,Old,Internet,6.0,4.0,339.0,420966677.0
+Enugu,6.55421,7.47986,Duplx,Rent,Fairly Used,Security,5.0,2.0,354.0,86447382.0
+Port harcourt,4.82567,7.06957,Studio,Sale,Old,Parking,5.0,4.0,204.0,332517680.0
+Kaduna,10.48666,7.42718,Duplex,Sale,Fairly Used,Security,5.0,1.0,294.0,26430736.0
+Enugu,6.49044,7.51349,Studio,Rent,New,Parking,4.0,3.0,153.0,4933339.0
+Jos,9.91109,8.82393,Apartment,Rent,New,Security,6.0,4.0,478.0,31389945.0
+Jos,9.85045,8.82134,Duplex,Rent,Old,Electricity,5.0,1.0,382.0,363557751.0
+Lagos,6.53748,3.42815,Appartment,Rent,New,Parking,1.0,2.0,422.0,51667380.0
+Enugu,6.57173,7.54559,Studio,Sale,Old,Water,5.0,1.0,588.0,84949866.0
+Jos,9.86123,8.85532,Duplex,Sale,New,Security,1.0,2.0,79.0,96164583.0
+Kano,11.98278,8.6235,Mini Flat,Sale,New,Electricity,5.0,1.0,211.0,29270213.0
+Port harcourt,4.80362,7.00058,Mini Flat,Sale,Fairly Used,Electricity,3.0,2.0,279.0,218656105.0
+Lagos,6.56747,3.33784,Duplx,Sale,New,Water,4.0,4.0,437.0,56953066.0
+Ibadan,7.35422,3.98387,Duplx,Rent,Fairly Used,Parking,3.0,3.0,232.0,90644087.0
+Abuja,9.05504,7.36381,Detached House,Rent,New,Parking,5.0,3.0,396.0,8813237.0
+Maiduguri,11.84789,13.17556,Bungalow,Sale,New,Water,3.0,1.0,511.0,32469481.0
+Enugu,6.50662,7.51574,Apartment,Sale,Old,Parking,4.0,1.0,450.0,459097405.0
+Ibadan,7.35871,3.91367,Mini Flat,Sale,Old,Electricity,3.0,3.0,542.0,43848349.0
+Ibadan,7.40604,3.96865,Detached House,Rent,New,Electricity,4.0,1.0,594.0,310765764.0
+Benin city,6.37516,5.56204,Mini Flat,Rent,Fairly Used,Electricity,1.0,2.0,534.0,22488251.0
+Abuja,9.07036,7.37246,Studio,Rent,Fairly Used,Parking,2.0,1.0,316.0,350254713.0
+Abuja,9.03148,7.43917,Apartment,Rent,New,Security,5.0,2.0,124.0,77686778.0
+Maiduguri,11.84051,13.17398,Duplex,Sale,Old,Parking,6.0,1.0,353.0,16889911.0
+Kaduna,10.53554,7.41548,Duplex,Sale,New,Electricity,1.0,2.0,548.0,50198908.0
+Enugu,6.57376,7.52187,Bungalow,Sale,Old,Parking,2.0,4.0,341.0,81096115.0
+Kano,11.99092,8.60678,Duplex,Sale,Old,Security,3.0,4.0,53.0,69187765.0
+Kano,12.01443,8.62373,Studio,Sale,New,Internet,5.0,2.0,259.0,36228746.0
+Kano,12.00922,8.62935,Bungalow,Rent,New,Electricity,1.0,1.0,363.0,25248756.0
+Enugu,6.54147,7.47006,Studio,Rent,Fairly Used,Security,6.0,2.0,424.0,83701378.0
+Port harcourt,4.85466,7.02327,Detached House,Rent,Old,Parking,6.0,2.0,411.0,96025961.0
+Kano,11.95671,8.61373,Detached House,Rent,Fairly Used,Security,3.0,3.0,467.0,152170734.0
+Ibadan,7.34649,3.99446,Studio,Sale,Fairly Used,Security,3.0,4.0,344.0,56193892.0
+Jos,9.89629,8.81022,Mini Flat,Sale,Old,Electricity,2.0,2.0,586.0,78891888.0
+Benin city,6.34971,5.57775,Appartment,Sale,Old,Water,4.0,2.0,470.0,117172846.0
+Maiduguri,11.85292,13.16878,Studio,Sale,Fairly Used,Parking,4.0,3.0,284.0,58072766.0
+Port harcourt,4.76608,7.08878,Studio,Sale,Old,Water,3.0,2.0,418.0,371155114.0
+Enugu,6.51943,7.49707,Detached House,Rent,Old,Parking,2.0,1.0,334.0,34751475.0
+Lagos,6.55743,3.39657,Appartment,Sale,Fairly Used,Electricity,6.0,4.0,328.0,8080229.0
+Benin city,6.35825,5.63787,Appartment,Sale,Fairly Used,Parking,5.0,4.0,335.0,207687852.0
+Benin city,6.30657,5.58162,Duplex,Rent,New,Water,4.0,1.0,243.0,466421331.0
+Benin city,6.34228,5.59641,Studio,Sale,Old,Parking,4.0,2.0,396.0,181042299.0
+Ibadan,7.33322,3.93433,Duplex,Rent,Fairly Used,Internet,3.0,4.0,359.0,17769465.0
+Port harcourt,4.8428,7.00494,Duplex,Rent,Old,Water,1.0,2.0,268.0,28472692.0
+Kaduna,10.54664,7.43977,Appartment,Rent,New,Security,2.0,3.0,283.0,314461964.0
+Lagos,6.52146,3.35672,Bungalow,Sale,Old,Water,3.0,2.0,43.0,455454667.0
+Abuja,9.04948,7.43551,Duplx,Sale,Fairly Used,Security,3.0,2.0,465.0,135563827.0
+Kaduna,10.51928,7.44121,Apartment,Rent,New,Parking,2.0,4.0,574.0,146806067.0
+Benin city,6.29729,5.61892,Detached House,Sale,New,Parking,5.0,3.0,142.0,354586380.0
+Benin city,6.37308,5.63466,Mini Flat,Sale,New,Parking,4.0,3.0,147.0,46177592.0
+Enugu,6.49497,7.55683,Apartment,Rent,New,Internet,3.0,1.0,346.0,53934093.0
+Maiduguri,11.8022,13.11307,Appartment,Sale,Old,Internet,3.0,4.0,132.0,39543864.0
+Enugu,6.52167,7.46603,Studio,Sale,Old,Security,2.0,3.0,175.0,136392680.0
+Ibadan,7.39983,3.94163,Appartment,Rent,Fairly Used,Security,2.0,1.0,538.0,11638976.0
+Benin city,6.3265,5.59286,Mini Flat,Sale,Fairly Used,Electricity,1.0,3.0,396.0,78704106.0
+Lagos,6.48063,3.34508,Detached House,Sale,Fairly Used,Internet,2.0,1.0,333.0,98444672.0
+Jos,9.89112,8.85243,Duplex,Sale,Old,Internet,4.0,2.0,250.0,67738236.0
+Benin city,6.35736,5.64549,Apartment,Rent,New,Water,2.0,1.0,427.0,54700119.0
+Enugu,6.54396,7.48676,Appartment,Sale,New,Water,5.0,2.0,373.0,34059337.0
+Maiduguri,11.86311,13.11487,Studio,Sale,Old,Electricity,6.0,3.0,102.0,388939520.0
+Maiduguri,11.85581,13.19913,Studio,Sale,New,Electricity,1.0,2.0,46.0,32128929.0
+Kaduna,10.5025,7.42772,Studio,Sale,New,Security,3.0,1.0,446.0,80244144.0
+Ibadan,7.33465,3.93232,Bungalow,Rent,Fairly Used,Water,2.0,4.0,320.0,252027121.0
+Port harcourt,4.81025,7.02075,Mini Flat,Sale,Old,Internet,2.0,1.0,479.0,88840817.0
+Enugu,6.50642,7.53044,Bungalow,Rent,New,Internet,3.0,1.0,581.0,141598179.0
+Kaduna,10.49733,7.44481,Appartment,Rent,Old,Electricity,2.0,2.0,300.0,3799513.0
+Port harcourt,4.85472,7.08932,Duplex,Rent,New,Water,1.0,1.0,517.0,289629563.0
+Port harcourt,4.77018,7.06586,Duplex,Sale,Old,Water,3.0,4.0,42.0,16279504.0
+Maiduguri,11.78318,13.10843,Bungalow,Sale,New,Parking,4.0,2.0,145.0,131395536.0
+Jos,9.86111,8.8478,Studio,Rent,Old,Electricity,3.0,2.0,81.0,404393548.0
+Lagos,6.56684,3.36009,Detached House,Sale,New,Internet,1.0,4.0,573.0,413908317.0
+Benin city,6.30131,5.62118,Appartment,Rent,New,Security,5.0,4.0,374.0,251045940.0
+Maiduguri,11.7907,13.16605,Duplex,Rent,New,Internet,3.0,2.0,352.0,41103908.0
+Abuja,9.05289,7.40246,Detached House,Sale,Fairly Used,Electricity,6.0,4.0,126.0,110438851.0
+Kano,12.00344,8.58545,Appartment,Sale,New,Electricity,4.0,4.0,447.0,21826267.0
+Enugu,6.53502,7.4786,Duplx,Sale,Old,Parking,4.0,4.0,572.0,301519720.0
+Maiduguri,11.84175,13.13408,Duplex,Rent,Old,Internet,3.0,3.0,328.0,37537851.0
+Ibadan,7.34818,3.98416,Studio,Sale,New,Security,4.0,3.0,454.0,24463734.0
+Lagos,6.53633,3.37411,Duplex,Sale,Fairly Used,Electricity,6.0,3.0,354.0,25227156.0
+Enugu,6.5158,7.46017,Detached House,Rent,Old,Internet,4.0,2.0,280.0,81409144.0
+Kaduna,10.52573,7.38873,Duplex,Sale,Old,Parking,6.0,1.0,77.0,60283004.0
+Enugu,6.50153,7.51461,Appartment,Rent,New,Water,5.0,1.0,342.0,41925658.0
+Ibadan,7.36805,3.90825,Detached House,Sale,Old,Water,4.0,4.0,540.0,232908631.0
+Benin city,6.34223,5.6422,Studio,Rent,New,Internet,3.0,3.0,435.0,44688521.0
+Maiduguri,11.8786,13.18284,Duplx,Sale,New,Water,4.0,1.0,528.0,63873026.0
+Maiduguri,11.792,13.15039,Duplx,Rent,New,Internet,1.0,3.0,384.0,9830315.0
+Abuja,9.08504,7.42805,Detached House,Rent,Old,Water,2.0,3.0,169.0,62714310.0
+Lagos,6.51385,3.42406,Mini Flat,Sale,New,Parking,1.0,1.0,592.0,8635474.0
+Port harcourt,4.77633,7.09602,Detached House,Sale,New,Electricity,4.0,2.0,192.0,23502906.0
+Lagos,6.51456,3.41682,Duplx,Sale,Old,Internet,3.0,4.0,407.0,2415861.0
+Kano,11.98439,8.61243,Apartment,Rent,Fairly Used,Security,1.0,4.0,68.0,197753791.0
+Maiduguri,11.83426,13.14423,Studio,Rent,Fairly Used,Electricity,5.0,4.0,416.0,430070132.0
+Abuja,9.12029,7.40583,Studio,Rent,New,Parking,6.0,1.0,350.0,34391533.0
+Enugu,6.4806,7.46332,Duplx,Sale,Old,Internet,5.0,2.0,232.0,6972433.0
+Jos,9.9217,8.85844,Detached House,Sale,Old,Internet,6.0,4.0,318.0,84883638.0
+Abuja,9.12352,7.43295,Apartment,Rent,Fairly Used,Water,1.0,3.0,373.0,490601287.0
+Jos,9.91858,8.90123,Duplex,Rent,Old,Parking,3.0,4.0,585.0,321434250.0
+Jos,9.88456,8.82966,Studio,Sale,Old,Security,1.0,4.0,275.0,48678791.0
+Enugu,6.49466,7.51753,Appartment,Rent,New,Security,1.0,2.0,77.0,16841173.0
+Enugu,6.53098,7.52567,Mini Flat,Rent,New,Water,3.0,2.0,551.0,45114664.0
+Enugu,6.56963,7.5405,Appartment,Rent,Fairly Used,Water,1.0,2.0,309.0,99130357.0
+Benin city,6.36297,5.56905,Apartment,Rent,Fairly Used,Internet,2.0,2.0,431.0,78972086.0
+Abuja,9.09903,7.38935,Studio,Sale,New,Security,5.0,4.0,272.0,55922078.0
+Kano,11.97458,8.63077,Studio,Rent,Old,Water,1.0,1.0,500.0,42217815.0
+Jos,9.87115,8.87539,Apartment,Sale,New,Water,5.0,1.0,122.0,27676841.0
+Maiduguri,11.8306,13.10445,Duplex,Sale,Old,Water,6.0,2.0,208.0,370432637.0
+Ibadan,7.37309,3.9695,Mini Flat,Sale,Old,Electricity,3.0,2.0,523.0,308638888.0
+Kaduna,10.50018,7.44609,Appartment,Rent,Fairly Used,Water,5.0,2.0,406.0,88932355.0
+Kaduna,10.48742,7.41467,Studio,Rent,Fairly Used,Security,6.0,3.0,316.0,205498050.0
+Enugu,6.54845,7.51186,Apartment,Sale,Old,Internet,5.0,4.0,411.0,79910013.0
+Jos,9.84721,8.82293,Detached House,Rent,Old,Internet,3.0,3.0,229.0,16931138.0
+Kano,12.00969,8.59113,Appartment,Rent,Fairly Used,Security,2.0,2.0,245.0,74106047.0
+Abuja,9.10498,7.40481,Studio,Sale,Old,Water,6.0,4.0,250.0,230380091.0
+Abuja,9.06975,7.43711,Mini Flat,Rent,Fairly Used,Parking,4.0,1.0,553.0,205880366.0
+Port harcourt,4.83,7.0917,Studio,Rent,Old,Water,5.0,2.0,480.0,55260562.0
+Ibadan,7.39938,3.92332,Duplx,Sale,Fairly Used,Parking,1.0,4.0,472.0,124557809.0
+Lagos,6.5366,3.36303,Detached House,Sale,Fairly Used,Parking,3.0,2.0,512.0,70738619.0
+Benin city,6.31057,5.64453,Apartment,Sale,New,Parking,3.0,2.0,333.0,396633459.0
+Maiduguri,11.81348,13.14758,Duplx,Rent,Old,Parking,2.0,3.0,330.0,99116331.0
+Port harcourt,4.78939,7.09615,Studio,Rent,New,Internet,1.0,1.0,106.0,99767948.0
+Kano,11.98482,8.57209,Duplx,Sale,New,Security,6.0,4.0,544.0,82454022.0
+Enugu,6.51198,7.52914,Bungalow,Sale,Old,Water,6.0,3.0,321.0,43379581.0
+Port harcourt,4.85238,7.04745,Apartment,Sale,Fairly Used,Security,3.0,4.0,71.0,32918255.0
+Maiduguri,11.84512,13.12332,Mini Flat,Sale,Fairly Used,Electricity,6.0,3.0,252.0,490560434.0
+Maiduguri,11.84891,13.10127,Studio,Sale,New,Electricity,5.0,1.0,177.0,437553308.0
+Kaduna,10.49655,7.4528,Duplx,Sale,Fairly Used,Internet,6.0,3.0,462.0,75319721.0
+Enugu,6.52391,7.5024,Duplx,Rent,Old,Water,2.0,3.0,252.0,364053816.0
+Lagos,6.52927,3.41995,Bungalow,Sale,Fairly Used,Internet,1.0,4.0,504.0,18681323.0
+Lagos,6.54708,3.41942,Bungalow,Sale,New,Security,5.0,3.0,100.0,60130509.0
+Benin city,6.35967,5.6019,Studio,Sale,New,Parking,1.0,4.0,519.0,11032458.0
+Benin city,6.3358,5.64245,Appartment,Rent,Fairly Used,Electricity,4.0,1.0,115.0,305946586.0
+Enugu,6.5195,7.49291,Duplex,Sale,Old,Security,5.0,2.0,337.0,72473613.0
+Lagos,6.56035,3.38462,Appartment,Rent,Fairly Used,Parking,3.0,3.0,114.0,72530090.0
+Abuja,9.03097,7.43517,Duplx,Sale,New,Parking,6.0,3.0,423.0,334977397.0
+Kaduna,10.47971,7.47171,Studio,Sale,Fairly Used,Parking,2.0,3.0,256.0,99622019.0
+Maiduguri,11.85473,13.12981,Studio,Sale,New,Security,5.0,1.0,219.0,343886117.0
+Kano,11.9539,8.56541,Detached House,Sale,New,Water,6.0,1.0,149.0,68205919.0
+Enugu,6.55064,7.51924,Bungalow,Rent,Old,Internet,3.0,3.0,147.0,54921280.0
+Ibadan,7.33895,3.94311,Studio,Sale,Old,Parking,1.0,2.0,409.0,464501389.0
+Kano,12.02842,8.63583,Mini Flat,Sale,Old,Water,4.0,4.0,376.0,57510921.0
+Enugu,6.57296,7.54966,Bungalow,Rent,Fairly Used,Security,3.0,3.0,103.0,94793172.0
+Jos,9.89885,8.8777,Mini Flat,Sale,Old,Water,5.0,4.0,573.0,41527340.0
+Maiduguri,11.79263,13.10722,Mini Flat,Rent,Fairly Used,Electricity,2.0,3.0,322.0,199858058.0
+Kaduna,10.50359,7.45297,Detached House,Rent,Old,Parking,2.0,1.0,501.0,40207230.0
+Kaduna,10.55898,7.48035,Duplex,Sale,Old,Electricity,5.0,3.0,479.0,65709004.0
+Benin city,6.30752,5.60213,Duplex,Sale,New,Electricity,2.0,2.0,481.0,363925431.0
+Abuja,9.12398,7.37253,Apartment,Sale,Old,Electricity,5.0,1.0,178.0,155175873.0
+Port harcourt,4.78665,7.0245,Detached House,Rent,Fairly Used,Security,6.0,4.0,202.0,312821630.0
+Port harcourt,4.82884,7.03132,Bungalow,Rent,Fairly Used,Electricity,5.0,4.0,316.0,90038638.0
+Ibadan,7.41016,3.91181,Apartment,Sale,New,Parking,2.0,4.0,146.0,252920166.0
+Jos,9.86841,8.81526,Bungalow,Rent,New,Parking,5.0,4.0,560.0,48813668.0
+Port harcourt,4.81044,7.07958,Duplx,Rent,Fairly Used,Electricity,3.0,3.0,152.0,62783371.0
+Lagos,6.53617,3.35271,Duplx,Rent,New,Security,6.0,4.0,492.0,85288974.0
+Kaduna,10.54483,7.44037,Duplx,Sale,New,Internet,6.0,2.0,75.0,88526286.0
+Enugu,6.51236,7.48047,Studio,Rent,New,Internet,3.0,3.0,94.0,34109385.0
+Enugu,6.51283,7.55715,Studio,Sale,Old,Parking,5.0,1.0,51.0,300116932.0
+Port harcourt,4.81359,7.0109,Bungalow,Rent,Old,Security,3.0,4.0,344.0,153116915.0
+Kano,11.99085,8.59603,Appartment,Rent,Old,Security,6.0,4.0,237.0,54032729.0
+Ibadan,7.39124,3.95549,Detached House,Sale,Fairly Used,Internet,2.0,3.0,489.0,51256589.0
+Jos,9.88276,8.84029,Appartment,Sale,Fairly Used,Electricity,6.0,2.0,240.0,151995923.0
+Maiduguri,11.84932,13.16223,Apartment,Rent,Fairly Used,Security,3.0,4.0,346.0,6313158.0
+Port harcourt,4.7996,7.07117,Duplex,Sale,Fairly Used,Parking,1.0,3.0,155.0,53114426.0
+Port harcourt,4.78101,7.01096,Duplex,Sale,Old,Water,1.0,1.0,551.0,165657753.0
+Port harcourt,4.79223,7.08928,Duplx,Rent,New,Security,3.0,4.0,284.0,65709145.0
+Enugu,6.476,7.51853,Studio,Rent,New,Electricity,5.0,3.0,122.0,14417260.0
+Kano,11.97611,8.56615,Duplx,Sale,Fairly Used,Parking,3.0,4.0,579.0,131646210.0
+Kaduna,10.52359,7.42478,Bungalow,Sale,Fairly Used,Internet,3.0,2.0,172.0,311047185.0
+Kaduna,10.56879,7.43479,Bungalow,Sale,Old,Internet,3.0,2.0,41.0,307061978.0
+Ibadan,7.38727,3.98653,Appartment,Sale,Fairly Used,Internet,1.0,4.0,408.0,82797531.0
+Kaduna,10.50448,7.39291,Bungalow,Rent,Old,Security,1.0,3.0,291.0,99457263.0
+Port harcourt,4.79567,7.07663,Appartment,Rent,New,Water,5.0,1.0,590.0,411211864.0
+Enugu,6.53381,7.52747,Duplx,Sale,New,Parking,3.0,3.0,445.0,25324038.0
+Kaduna,10.56599,7.43741,Detached House,Rent,Fairly Used,Electricity,6.0,4.0,435.0,33831142.0
+Benin city,6.37633,5.60342,Studio,Rent,New,Parking,3.0,3.0,415.0,63322313.0
+Jos,9.86657,8.83488,Studio,Rent,Old,Parking,2.0,2.0,152.0,67748945.0
+Lagos,6.49267,3.41301,Detached House,Sale,Old,Water,6.0,4.0,524.0,128502294.0
+Jos,9.8933,8.84523,Duplx,Sale,Old,Electricity,2.0,3.0,109.0,58893873.0
+Port harcourt,4.78413,7.03535,Studio,Sale,New,Electricity,1.0,4.0,244.0,85907998.0
+Port harcourt,4.81778,7.07626,Detached House,Rent,New,Internet,3.0,3.0,364.0,85134949.0
+Abuja,9.03514,7.43736,Mini Flat,Rent,Fairly Used,Security,2.0,2.0,352.0,449940191.0
+Kano,12.04528,8.62908,Appartment,Rent,New,Parking,4.0,4.0,223.0,209435080.0
+Abuja,9.11224,7.35751,Detached House,Sale,New,Water,4.0,2.0,267.0,43366808.0
+Maiduguri,11.82874,13.19865,Mini Flat,Sale,New,Parking,3.0,4.0,341.0,114615130.0
+Ibadan,7.36722,3.93164,Detached House,Rent,Old,Water,1.0,3.0,487.0,8523315.0
+Enugu,6.48786,7.46631,Bungalow,Sale,Old,Water,3.0,4.0,329.0,41483781.0
+Kano,12.00017,8.60929,Studio,Sale,Old,Water,1.0,1.0,224.0,7237588.0
+Abuja,9.11968,7.39257,Duplex,Sale,Old,Water,6.0,4.0,397.0,497375609.0
+Port harcourt,4.78062,7.03564,Duplx,Sale,Old,Internet,5.0,2.0,462.0,56727414.0
+Benin city,6.29085,5.58374,Mini Flat,Rent,Old,Parking,4.0,1.0,41.0,247232657.0
+Lagos,6.50845,3.40804,Mini Flat,Sale,Old,Electricity,4.0,1.0,337.0,89301417.0
+Benin city,6.3545,5.62923,Detached House,Rent,New,Water,4.0,4.0,141.0,69311998.0
+Abuja,9.10329,7.36331,Bungalow,Sale,Old,Security,2.0,1.0,213.0,29519793.0
+Abuja,9.09614,7.37741,Mini Flat,Sale,New,Water,5.0,4.0,238.0,481750602.0
+Kano,11.96697,8.60243,Duplx,Rent,New,Security,4.0,1.0,45.0,78910871.0
+Port harcourt,4.80208,7.09761,Studio,Sale,Old,Electricity,6.0,2.0,94.0,42390008.0
+Enugu,6.51643,7.55211,Duplex,Sale,Fairly Used,Security,6.0,2.0,292.0,474166893.0
+Port harcourt,4.85396,7.05677,Appartment,Sale,Old,Parking,4.0,3.0,472.0,42219478.0
+Maiduguri,11.81737,13.198,Duplex,Rent,New,Parking,4.0,2.0,151.0,43428422.0
+Maiduguri,11.82273,13.15483,Apartment,Rent,New,Water,6.0,2.0,321.0,225910870.0
+Kano,12.0327,8.58144,Bungalow,Rent,Fairly Used,Water,1.0,2.0,363.0,3050584.0
+Ibadan,7.35491,3.902,Bungalow,Sale,Fairly Used,Water,2.0,3.0,528.0,267770802.0
+Benin city,6.37645,5.64532,Detached House,Sale,Fairly Used,Water,6.0,4.0,91.0,495757114.0
+Benin city,6.32338,5.6448,Detached House,Sale,New,Parking,3.0,4.0,126.0,7986128.0
+Enugu,6.56168,7.46966,Duplx,Sale,Fairly Used,Security,1.0,4.0,530.0,38589461.0
+Kano,12.04604,8.61858,Appartment,Sale,Fairly Used,Internet,2.0,2.0,189.0,5189417.0
+Jos,9.86672,8.89492,Bungalow,Sale,Old,Parking,2.0,1.0,171.0,42840888.0
+Port harcourt,4.82771,7.07109,Apartment,Rent,Old,Parking,2.0,1.0,252.0,465763726.0
+Maiduguri,11.84625,13.15645,Studio,Sale,New,Water,4.0,1.0,511.0,12275506.0
+Ibadan,7.37491,3.95171,Detached House,Rent,New,Internet,3.0,3.0,361.0,370043641.0
+Benin city,6.32539,5.56425,Studio,Sale,Old,Security,4.0,2.0,152.0,70627990.0
+Jos,9.91757,8.82633,Studio,Sale,New,Electricity,5.0,1.0,501.0,312129552.0
+Kano,12.04759,8.60468,Apartment,Rent,Old,Parking,1.0,1.0,82.0,42904232.0
+Abuja,9.0651,7.40996,Studio,Sale,Fairly Used,Parking,1.0,2.0,339.0,56532569.0
+Ibadan,7.35566,3.92433,Mini Flat,Rent,New,Water,5.0,3.0,219.0,26510760.0
+Maiduguri,11.81403,13.10409,Bungalow,Sale,Old,Electricity,4.0,1.0,539.0,89064839.0
+Enugu,6.55204,7.47551,Detached House,Rent,Fairly Used,Security,2.0,2.0,594.0,6566148.0
+Maiduguri,11.85283,13.11537,Mini Flat,Sale,Fairly Used,Parking,1.0,4.0,431.0,105145448.0
+Lagos,6.52593,3.32934,Duplex,Sale,New,Water,3.0,4.0,113.0,33159798.0
+Maiduguri,11.87982,13.18347,Appartment,Sale,New,Security,4.0,2.0,165.0,343138940.0
+Enugu,6.57041,7.51779,Mini Flat,Sale,Old,Security,2.0,3.0,297.0,157529949.0
+Maiduguri,11.81568,13.11044,Appartment,Rent,Fairly Used,Water,6.0,4.0,413.0,485276476.0
+Kano,12.00726,8.63994,Detached House,Rent,New,Electricity,2.0,4.0,61.0,92940900.0
+Abuja,9.08146,7.40709,Apartment,Sale,New,Parking,1.0,1.0,310.0,98060940.0
+Lagos,6.56526,3.37479,Bungalow,Rent,Old,Internet,5.0,2.0,510.0,37667894.0
+Maiduguri,11.86553,13.12675,Mini Flat,Sale,Old,Parking,5.0,1.0,449.0,181001375.0
+Maiduguri,11.81561,13.14304,Studio,Sale,New,Electricity,5.0,4.0,571.0,127723160.0
+Jos,9.93084,8.88658,Appartment,Rent,New,Security,5.0,2.0,366.0,194798001.0
+Enugu,6.51741,7.51388,Duplex,Sale,New,Internet,1.0,2.0,162.0,314498667.0
+Kano,11.98897,8.61221,Duplx,Sale,Old,Water,2.0,4.0,567.0,223282158.0
+Port harcourt,4.85517,7.02989,Duplx,Sale,Old,Internet,1.0,4.0,492.0,478571042.0
+Maiduguri,11.80923,13.14547,Duplex,Rent,New,Water,3.0,4.0,264.0,59332109.0
+Maiduguri,11.83965,13.11194,Appartment,Sale,Old,Electricity,6.0,3.0,317.0,72870931.0
+Lagos,6.56815,3.39852,Bungalow,Sale,New,Electricity,1.0,4.0,352.0,326112268.0
+Benin city,6.341,5.63502,Appartment,Rent,New,Parking,3.0,1.0,130.0,48560953.0
+Ibadan,7.35112,3.97725,Appartment,Rent,New,Parking,3.0,1.0,200.0,33599098.0
+Port harcourt,4.81855,7.02875,Mini Flat,Rent,Fairly Used,Electricity,3.0,3.0,595.0,40502003.0
+Maiduguri,11.84959,13.15059,Apartment,Rent,New,Water,2.0,4.0,463.0,24281338.0
+Maiduguri,11.79696,13.16495,Mini Flat,Sale,New,Internet,6.0,4.0,536.0,148832194.0
+Lagos,6.49806,3.41783,Studio,Rent,New,Electricity,4.0,4.0,593.0,36815074.0
+Jos,9.85884,8.84462,Duplex,Rent,Old,Water,6.0,4.0,388.0,94415752.0
+Kano,12.04569,8.60718,Duplx,Sale,Old,Security,5.0,3.0,536.0,324623817.0
+Abuja,9.05956,7.41034,Apartment,Rent,Fairly Used,Internet,5.0,1.0,212.0,57214444.0
+Kano,11.99658,8.62756,Detached House,Sale,Fairly Used,Water,5.0,2.0,88.0,273313108.0
+Abuja,9.07279,7.37453,Bungalow,Rent,Fairly Used,Water,4.0,3.0,557.0,202162436.0
+Maiduguri,11.79939,13.14247,Apartment,Rent,New,Internet,5.0,4.0,86.0,341537806.0
+Benin city,6.32765,5.63018,Appartment,Rent,Fairly Used,Electricity,1.0,4.0,216.0,424970421.0
+Benin city,6.37465,5.62185,Apartment,Rent,Old,Electricity,1.0,4.0,212.0,33348729.0
+Ibadan,7.35152,3.93175,Mini Flat,Rent,Old,Parking,4.0,2.0,410.0,85478916.0
+Lagos,6.522,3.4038,Detached House,Sale,New,Internet,2.0,1.0,197.0,430033451.0
+Enugu,6.48059,7.51799,Studio,Sale,Fairly Used,Water,6.0,1.0,396.0,346831128.0
+Kaduna,10.5463,7.48591,Appartment,Sale,Old,Internet,2.0,4.0,132.0,174945828.0
+Maiduguri,11.7855,13.19881,Duplx,Sale,Fairly Used,Security,2.0,3.0,231.0,217179961.0
+Lagos,6.52708,3.36244,Detached House,Rent,Old,Electricity,6.0,4.0,584.0,277495372.0
+Abuja,9.09838,7.44213,Mini Flat,Sale,New,Security,6.0,2.0,588.0,259296569.0
+Maiduguri,11.80496,13.17965,Mini Flat,Sale,Old,Parking,2.0,3.0,326.0,42411823.0
+Lagos,6.53294,3.3893,Mini Flat,Rent,New,Security,2.0,4.0,532.0,399124262.0
+Kaduna,10.5406,7.39389,Appartment,Rent,New,Electricity,4.0,3.0,468.0,22582625.0
+Kaduna,10.52411,7.47858,Apartment,Rent,Old,Electricity,6.0,2.0,541.0,191034509.0
+Kaduna,10.51482,7.4799,Detached House,Rent,New,Electricity,6.0,4.0,64.0,47111472.0
+Ibadan,7.40749,3.93445,Duplx,Rent,New,Water,3.0,2.0,302.0,286431215.0
+Benin city,6.30286,5.59797,Appartment,Rent,Old,Security,3.0,1.0,81.0,106820223.0
+Enugu,6.53233,7.55473,Duplex,Sale,Fairly Used,Internet,4.0,1.0,62.0,59145233.0
+Kaduna,10.48884,7.47831,Detached House,Sale,Fairly Used,Security,4.0,3.0,234.0,56189930.0
+Abuja,9.08915,7.39489,Studio,Sale,Fairly Used,Parking,3.0,3.0,508.0,213911688.0
+Kano,12.00914,8.56191,Appartment,Sale,Old,Electricity,4.0,4.0,572.0,136025802.0
+Maiduguri,11.8562,13.10552,Apartment,Rent,Old,Security,5.0,3.0,340.0,57417056.0
+Jos,9.85322,8.8279,Apartment,Sale,Old,Security,3.0,3.0,501.0,76507552.0
+Lagos,6.49133,3.3807,Bungalow,Sale,Old,Internet,3.0,3.0,170.0,59026057.0
+Jos,9.87087,8.87118,Duplex,Sale,New,Parking,2.0,3.0,276.0,25428269.0
+Enugu,6.53966,7.48318,Studio,Sale,New,Internet,6.0,2.0,430.0,368358907.0
+Maiduguri,11.82364,13.10785,Duplx,Rent,Fairly Used,Parking,3.0,1.0,44.0,385810150.0
+Kaduna,10.5563,7.47817,Duplx,Rent,Old,Parking,1.0,2.0,102.0,86663319.0
+Maiduguri,11.86767,13.13995,Mini Flat,Sale,Old,Internet,6.0,2.0,265.0,39517343.0
+Kaduna,10.52672,7.46271,Mini Flat,Sale,New,Water,1.0,4.0,264.0,38801647.0
+Kano,11.98945,8.57989,Appartment,Sale,Old,Water,1.0,1.0,426.0,34575717.0
+Ibadan,7.36078,3.96637,Detached House,Sale,Old,Internet,2.0,1.0,482.0,26199037.0
+Kano,12.00382,8.54837,Mini Flat,Rent,Fairly Used,Internet,6.0,3.0,285.0,172835298.0
+Port harcourt,4.77821,7.01563,Studio,Rent,Old,Security,4.0,2.0,127.0,307685681.0
+Jos,9.93662,8.8418,Studio,Rent,New,Electricity,2.0,2.0,442.0,16067724.0
+Jos,9.87469,8.84464,Detached House,Sale,New,Internet,5.0,2.0,327.0,199763462.0
+Benin city,6.30771,5.6172,Duplx,Sale,Old,Internet,3.0,3.0,309.0,65635933.0
+Abuja,9.10622,7.37546,Detached House,Sale,Old,Parking,3.0,3.0,191.0,199632619.0
+Lagos,6.56195,3.38623,Bungalow,Rent,Fairly Used,Electricity,4.0,3.0,252.0,382333356.0
+Port harcourt,4.76685,7.03179,Mini Flat,Sale,Fairly Used,Internet,2.0,3.0,216.0,393890911.0
+Abuja,9.04543,7.43101,Appartment,Rent,Old,Security,4.0,1.0,434.0,427514186.0
+Kaduna,10.55345,7.47618,Duplex,Rent,Fairly Used,Water,5.0,3.0,502.0,48842308.0
+Ibadan,7.35213,3.90855,Detached House,Sale,Fairly Used,Parking,2.0,4.0,444.0,58030137.0
+Lagos,6.53055,3.33524,Bungalow,Sale,Old,Security,5.0,1.0,312.0,74802954.0
+Kano,11.99069,8.58898,Appartment,Sale,Old,Water,5.0,4.0,142.0,21242795.0
+Abuja,9.10375,7.41468,Apartment,Rent,Fairly Used,Internet,5.0,2.0,481.0,77708815.0
+Kano,11.99832,8.56025,Bungalow,Rent,Fairly Used,Water,6.0,4.0,503.0,5023457.0
+Maiduguri,11.83377,13.1087,Apartment,Sale,Old,Water,3.0,3.0,517.0,9659825.0
+Ibadan,7.41962,3.92112,Detached House,Sale,Fairly Used,Internet,5.0,3.0,459.0,211713513.0
+Jos,9.8975,8.87522,Duplx,Rent,Fairly Used,Parking,1.0,1.0,535.0,489080254.0
+Ibadan,7.33283,3.91155,Mini Flat,Rent,Old,Parking,4.0,4.0,112.0,240706572.0
+Port harcourt,4.82392,7.00564,Appartment,Rent,Fairly Used,Security,2.0,2.0,331.0,417043124.0
+Port harcourt,4.85916,7.08069,Detached House,Sale,Fairly Used,Water,4.0,3.0,274.0,39728561.0
+Benin city,6.35236,5.65364,Bungalow,Sale,New,Electricity,4.0,3.0,159.0,151710918.0
+Jos,9.89016,8.82692,Appartment,Sale,Old,Internet,1.0,3.0,466.0,10033580.0
+Kano,11.97785,8.55998,Studio,Sale,New,Security,2.0,1.0,318.0,76098059.0
+Kano,12.0458,8.54569,Detached House,Sale,Old,Security,3.0,1.0,400.0,34248888.0
+Jos,9.89817,8.81481,Detached House,Rent,Old,Parking,3.0,4.0,374.0,214272123.0
+Jos,9.91037,8.83412,Studio,Rent,Old,Water,5.0,4.0,389.0,13717485.0
+Maiduguri,11.83198,13.10302,Apartment,Sale,Old,Parking,6.0,4.0,394.0,401735943.0
+Abuja,9.07369,7.42309,Appartment,Rent,Fairly Used,Internet,1.0,4.0,124.0,89250455.0
+Kano,11.99858,8.5985,Mini Flat,Sale,Fairly Used,Internet,4.0,3.0,322.0,29128996.0
+Port harcourt,4.82669,7.00604,Apartment,Sale,New,Parking,3.0,2.0,394.0,116254670.0
+Jos,9.90723,8.83059,Bungalow,Sale,Fairly Used,Water,4.0,3.0,197.0,8402839.0
+Kaduna,10.56279,7.46998,Duplex,Sale,New,Water,2.0,1.0,195.0,436173884.0
+Kano,11.97792,8.59004,Bungalow,Sale,New,Water,5.0,3.0,50.0,412321119.0
+Ibadan,7.36737,3.96501,Apartment,Sale,Fairly Used,Security,1.0,1.0,43.0,55835380.0
+Abuja,9.07213,7.43957,Bungalow,Sale,Old,Water,5.0,1.0,536.0,186321763.0
+Kaduna,10.54589,7.47279,Apartment,Sale,Fairly Used,Water,6.0,4.0,88.0,173667693.0
+Kaduna,10.48355,7.40483,Bungalow,Sale,New,Electricity,4.0,2.0,75.0,34359876.0
+Enugu,6.56048,7.54476,Studio,Rent,Fairly Used,Parking,4.0,1.0,256.0,498545027.0
+Abuja,9.10479,7.35833,Duplex,Rent,Old,Electricity,5.0,3.0,479.0,24857432.0
+Kano,12.035,8.59803,Mini Flat,Sale,Old,Internet,4.0,1.0,310.0,342877016.0
+Maiduguri,11.80538,13.1139,Duplex,Sale,New,Water,3.0,4.0,463.0,39584184.0
+Maiduguri,11.80214,13.18952,Detached House,Rent,Fairly Used,Water,6.0,1.0,51.0,423468586.0
+Benin city,6.3115,5.64477,Duplex,Rent,New,Internet,6.0,3.0,266.0,461806078.0
+Kaduna,10.55231,7.46286,Appartment,Rent,Fairly Used,Electricity,2.0,4.0,447.0,270781530.0
+Maiduguri,11.83806,13.10699,Mini Flat,Rent,Old,Internet,2.0,1.0,239.0,75472497.0
+Enugu,6.54744,7.51773,Bungalow,Rent,Fairly Used,Water,2.0,4.0,42.0,29742237.0
+Port harcourt,4.81008,7.04046,Bungalow,Rent,Old,Water,5.0,4.0,541.0,68145555.0
+Lagos,6.52192,3.33597,Detached House,Sale,Fairly Used,Security,3.0,3.0,198.0,43772231.0
+Lagos,6.56313,3.35563,Detached House,Rent,Old,Water,5.0,3.0,130.0,94291365.0
+Abuja,9.06373,7.36368,Studio,Sale,Fairly Used,Water,4.0,4.0,190.0,81097366.0
+Ibadan,7.33334,3.9206,Duplx,Sale,New,Internet,2.0,4.0,377.0,355879536.0
+Ibadan,7.3899,3.99281,Mini Flat,Rent,Old,Internet,6.0,3.0,470.0,181418289.0
+Enugu,6.52296,7.48649,Duplx,Rent,Fairly Used,Electricity,1.0,1.0,346.0,22892944.0
+Lagos,6.57251,3.36952,Duplex,Rent,New,Parking,3.0,2.0,237.0,210619566.0
+Ibadan,7.40356,3.91313,Apartment,Sale,New,Electricity,5.0,1.0,337.0,125448940.0
+Port harcourt,4.80072,7.05447,Studio,Rent,Old,Security,5.0,4.0,99.0,54272966.0
+Benin city,6.36368,5.61324,Detached House,Rent,Old,Water,2.0,2.0,265.0,52761459.0
+Lagos,6.53309,3.34633,Appartment,Rent,Old,Security,4.0,4.0,566.0,223938751.0
+Benin city,6.30795,5.60995,Apartment,Sale,Old,Internet,6.0,4.0,435.0,61629327.0
+Maiduguri,11.82448,13.10103,Detached House,Sale,New,Water,3.0,4.0,263.0,47929846.0
+Abuja,9.05982,7.42961,Bungalow,Rent,Old,Parking,1.0,2.0,548.0,204627373.0
+Port harcourt,4.82291,7.02083,Studio,Rent,Fairly Used,Security,5.0,4.0,275.0,11875314.0
+Jos,9.86352,8.84706,Apartment,Sale,Old,Water,2.0,2.0,390.0,99972735.0
+Ibadan,7.40018,3.93201,Duplx,Rent,New,Security,2.0,3.0,139.0,11832294.0
+Jos,9.88417,8.845,Duplx,Sale,Old,Water,1.0,4.0,563.0,253973831.0
+Abuja,9.03269,7.39618,Duplex,Rent,Fairly Used,Security,2.0,2.0,357.0,165241684.0
+Ibadan,7.41619,3.94474,Appartment,Sale,Old,Security,4.0,1.0,577.0,485964737.0
+Kaduna,10.56303,7.46118,Mini Flat,Sale,Old,Electricity,4.0,2.0,548.0,251057329.0
+Lagos,6.48646,3.41369,Apartment,Sale,Fairly Used,Parking,6.0,3.0,144.0,401281916.0
+Kaduna,10.54831,7.40255,Mini Flat,Rent,Fairly Used,Parking,5.0,3.0,477.0,144488439.0
+Lagos,6.52409,3.40369,Appartment,Rent,Old,Water,3.0,3.0,365.0,368359299.0
+Jos,9.89301,8.84164,Bungalow,Sale,Old,Internet,1.0,2.0,497.0,313303029.0
+Enugu,6.48809,7.47994,Duplx,Sale,New,Security,4.0,1.0,76.0,17769549.0
+Port harcourt,4.78005,7.04404,Detached House,Rent,Old,Parking,2.0,2.0,325.0,110920861.0
+Benin city,6.2913,5.63493,Bungalow,Rent,New,Parking,5.0,4.0,315.0,482315452.0
+Ibadan,7.40836,3.98963,Duplex,Rent,Fairly Used,Parking,3.0,1.0,425.0,22892537.0
+Lagos,6.54913,3.39826,Detached House,Sale,Fairly Used,Security,4.0,4.0,144.0,38492714.0
+Enugu,6.48058,7.53387,Studio,Rent,New,Security,3.0,1.0,566.0,458683042.0
+Abuja,9.06692,7.35843,Bungalow,Rent,Fairly Used,Electricity,6.0,3.0,49.0,3379528.0
+Jos,9.89666,8.82341,Studio,Sale,Old,Electricity,6.0,1.0,110.0,52945374.0
+Benin city,6.32074,5.60791,Duplx,Sale,Old,Security,5.0,1.0,294.0,32013633.0
+Maiduguri,11.8132,13.13835,Apartment,Sale,Old,Electricity,1.0,3.0,162.0,26869374.0
+Jos,9.85713,8.89832,Appartment,Sale,Fairly Used,Water,2.0,3.0,458.0,434196314.0
+Benin city,6.36203,5.5605,Duplex,Sale,Old,Internet,5.0,2.0,241.0,53783323.0
+Ibadan,7.37579,3.92923,Apartment,Sale,New,Electricity,6.0,3.0,49.0,443846876.0
+Port harcourt,4.80705,7.08932,Studio,Sale,Old,Parking,3.0,4.0,232.0,91757065.0
+Abuja,9.0739,7.36336,Duplx,Rent,New,Water,3.0,4.0,454.0,79295498.0
+Benin city,6.33798,5.57736,Bungalow,Rent,New,Electricity,4.0,3.0,145.0,77594053.0
+Abuja,9.08313,7.39963,Appartment,Sale,Fairly Used,Parking,2.0,1.0,318.0,62922725.0
+Port harcourt,4.80126,7.00115,Studio,Rent,Old,Electricity,6.0,1.0,272.0,231686410.0
+Abuja,9.09428,7.38029,Apartment,Rent,Old,Internet,6.0,3.0,578.0,28932959.0
+Ibadan,7.40847,3.92578,Mini Flat,Sale,New,Security,4.0,2.0,484.0,22985309.0
+Lagos,6.53205,3.41532,Duplx,Rent,Fairly Used,Electricity,1.0,1.0,116.0,69796889.0
+Abuja,9.06236,7.36421,Apartment,Sale,Fairly Used,Internet,4.0,2.0,492.0,22770243.0
+Abuja,9.07868,7.43784,Duplex,Sale,New,Parking,4.0,4.0,535.0,214379669.0
+Enugu,6.49842,7.52371,Duplex,Sale,Fairly Used,Security,5.0,2.0,278.0,25923961.0
+Kano,11.96937,8.58992,Duplex,Rent,Fairly Used,Water,5.0,2.0,437.0,283727122.0
+Kano,11.97105,8.56015,Mini Flat,Sale,Fairly Used,Parking,1.0,3.0,79.0,44268146.0
+Abuja,9.0429,7.41001,Apartment,Rent,New,Electricity,1.0,3.0,420.0,92457391.0
+Ibadan,7.38355,3.98115,Apartment,Rent,New,Parking,5.0,2.0,537.0,73149986.0
+Enugu,6.50792,7.49598,Mini Flat,Rent,New,Electricity,6.0,3.0,406.0,95566460.0
+Kano,12.0431,8.58969,Detached House,Sale,Fairly Used,Internet,6.0,1.0,186.0,429950570.0
+Ibadan,7.33004,3.98312,Bungalow,Sale,Fairly Used,Security,5.0,2.0,124.0,74301666.0
+Kaduna,10.54102,7.47897,Mini Flat,Rent,Old,Security,3.0,3.0,460.0,99955208.0
+Jos,9.91914,8.85189,Bungalow,Rent,Old,Electricity,6.0,4.0,265.0,74897795.0
+Abuja,9.04375,7.4383,Appartment,Rent,New,Internet,3.0,2.0,553.0,61756938.0
+Abuja,9.03215,7.42627,Duplx,Rent,New,Water,4.0,2.0,340.0,35298263.0
+Kaduna,10.55718,7.40172,Duplex,Rent,Fairly Used,Electricity,6.0,1.0,344.0,4926220.0
+Enugu,6.57196,7.50991,Duplex,Sale,Fairly Used,Parking,4.0,1.0,388.0,97963670.0
+Ibadan,7.34965,3.91154,Duplex,Sale,Fairly Used,Parking,4.0,4.0,300.0,88918586.0
+Benin city,6.28752,5.56053,Mini Flat,Rent,Fairly Used,Electricity,6.0,1.0,434.0,161018570.0
+Ibadan,7.36432,3.90985,Duplex,Rent,New,Water,2.0,2.0,418.0,306627668.0
+Kano,12.02173,8.61379,Duplex,Rent,Fairly Used,Security,5.0,4.0,335.0,451409235.0
+Kano,11.96429,8.63979,Appartment,Rent,Old,Water,5.0,2.0,201.0,13535686.0
+Ibadan,7.40782,3.97067,Duplx,Sale,Fairly Used,Electricity,6.0,4.0,346.0,81496434.0
+Benin city,6.35972,5.64138,Studio,Rent,New,Electricity,6.0,2.0,149.0,88061908.0
+Enugu,6.50856,7.47069,Mini Flat,Sale,Fairly Used,Internet,4.0,1.0,220.0,2643824.0
+Maiduguri,11.82655,13.16481,Duplex,Sale,Fairly Used,Electricity,5.0,4.0,593.0,37188563.0
+Lagos,6.516,3.37936,Bungalow,Rent,New,Security,5.0,2.0,482.0,58683735.0
+Benin city,6.30107,5.55852,Bungalow,Rent,New,Security,3.0,3.0,425.0,378090099.0
+Abuja,9.09073,7.38876,Apartment,Rent,Fairly Used,Parking,2.0,3.0,329.0,297748389.0
+Abuja,9.05597,7.3532,Bungalow,Sale,Old,Electricity,2.0,4.0,103.0,240493070.0
+Enugu,6.53132,7.55692,Mini Flat,Rent,Old,Electricity,1.0,3.0,577.0,93547357.0
+Benin city,6.35979,5.63432,Detached House,Sale,Old,Parking,6.0,1.0,571.0,14698027.0
+Maiduguri,11.7831,13.17809,Duplx,Sale,Fairly Used,Electricity,5.0,1.0,551.0,41514649.0
+Abuja,9.03014,7.41796,Duplex,Rent,Fairly Used,Internet,4.0,1.0,323.0,82327497.0
+Benin city,6.31745,5.56423,Duplx,Rent,New,Internet,5.0,3.0,96.0,38610002.0
+Port harcourt,4.83726,7.06582,Mini Flat,Rent,New,Electricity,6.0,4.0,436.0,73304657.0
+Kano,11.98208,8.6332,Duplex,Sale,New,Internet,3.0,4.0,306.0,105459640.0
+Kaduna,10.48433,7.41268,Duplx,Sale,Fairly Used,Parking,1.0,3.0,267.0,385822800.0
+Lagos,6.49111,3.35689,Appartment,Sale,New,Electricity,6.0,1.0,425.0,469792727.0
+Abuja,9.04726,7.35751,Mini Flat,Rent,New,Water,3.0,3.0,43.0,11648196.0
+Ibadan,7.3776,3.89962,Mini Flat,Sale,New,Electricity,2.0,4.0,292.0,476271464.0
+Ibadan,7.32784,3.91892,Duplex,Rent,New,Electricity,2.0,3.0,260.0,254089210.0
+Kano,12.00445,8.5853,Duplex,Sale,Old,Parking,6.0,3.0,106.0,13871833.0
+Jos,9.85893,8.90388,Duplx,Rent,Fairly Used,Water,5.0,1.0,82.0,55158171.0
+Lagos,6.49488,3.33639,Apartment,Sale,Fairly Used,Internet,2.0,2.0,174.0,35556845.0
+Ibadan,7.38443,3.91644,Studio,Rent,Old,Water,2.0,4.0,137.0,287341720.0
+Port harcourt,4.78693,7.03198,Detached House,Sale,Old,Water,1.0,1.0,42.0,60924959.0
+Benin city,6.31198,5.5757,Appartment,Rent,Fairly Used,Water,4.0,3.0,528.0,73874591.0
+Kaduna,10.4809,7.43746,Duplex,Sale,New,Internet,3.0,3.0,458.0,491587020.0
+Enugu,6.55043,7.46738,Appartment,Rent,Fairly Used,Internet,2.0,2.0,577.0,295311677.0
+Abuja,9.04697,7.4405,Apartment,Rent,Fairly Used,Parking,2.0,1.0,456.0,494868968.0
+Port harcourt,4.79174,7.09136,Duplx,Rent,Old,Security,5.0,3.0,257.0,60075182.0
+Ibadan,7.35956,3.97587,Apartment,Sale,New,Parking,1.0,1.0,467.0,63443017.0
+Port harcourt,4.78564,7.084,Bungalow,Rent,New,Electricity,2.0,3.0,498.0,54529205.0
+Maiduguri,11.78535,13.10121,Appartment,Sale,Fairly Used,Security,3.0,3.0,79.0,97406213.0
+Kano,12.04584,8.60591,Duplx,Sale,New,Internet,2.0,3.0,585.0,25081529.0
+Jos,9.89167,8.88904,Duplx,Rent,New,Parking,3.0,2.0,542.0,482303928.0
+Maiduguri,11.87964,13.1618,Appartment,Rent,Fairly Used,Parking,2.0,4.0,564.0,473625150.0
+Ibadan,7.41901,3.99354,Apartment,Rent,New,Water,2.0,2.0,371.0,66856873.0
+Enugu,6.48447,7.52594,Appartment,Sale,Fairly Used,Water,1.0,3.0,230.0,137222569.0
+Maiduguri,11.85323,13.16979,Mini Flat,Rent,New,Security,6.0,4.0,477.0,351905144.0
+Abuja,9.08798,7.3915,Detached House,Rent,New,Parking,5.0,3.0,544.0,2032627.0
+Benin city,6.36055,5.5974,Studio,Rent,Old,Security,3.0,2.0,311.0,80413194.0
+Kano,12.02581,8.6289,Duplx,Sale,Old,Parking,5.0,1.0,485.0,51658983.0
+Benin city,6.2873,5.57138,Bungalow,Sale,Fairly Used,Internet,4.0,4.0,535.0,13875170.0
+Enugu,6.50167,7.50328,Studio,Sale,New,Parking,2.0,1.0,355.0,98721742.0
+Abuja,9.06702,7.35266,Detached House,Sale,Old,Parking,2.0,3.0,367.0,24419924.0
+Enugu,6.54183,7.50048,Studio,Rent,New,Internet,1.0,2.0,313.0,250672599.0
+Kaduna,10.47497,7.43783,Appartment,Sale,New,Electricity,4.0,2.0,351.0,2523568.0
+Ibadan,7.36678,3.95946,Appartment,Sale,New,Electricity,5.0,1.0,134.0,9055054.0
+Kaduna,10.54611,7.39913,Duplex,Sale,Old,Internet,4.0,3.0,572.0,26347852.0
+Benin city,6.34195,5.57778,Appartment,Rent,Fairly Used,Parking,5.0,3.0,378.0,2051027.0
+Enugu,6.56102,7.51628,Duplex,Rent,New,Internet,2.0,4.0,419.0,256935579.0
+Benin city,6.36201,5.60491,Duplx,Rent,Old,Electricity,3.0,1.0,354.0,490421270.0
+Kaduna,10.49488,7.42764,Bungalow,Rent,Fairly Used,Security,5.0,1.0,182.0,10671100.0
+Benin city,6.3047,5.63997,Bungalow,Rent,Old,Internet,3.0,2.0,592.0,400406655.0
+Maiduguri,11.85645,13.19649,Duplx,Sale,New,Security,2.0,3.0,369.0,83391553.0
+Benin city,6.29452,5.61182,Studio,Sale,Old,Electricity,4.0,4.0,91.0,278162496.0
+Maiduguri,11.85044,13.1309,Appartment,Rent,Fairly Used,Security,1.0,1.0,205.0,286685916.0
+Lagos,6.52951,3.41197,Apartment,Rent,Old,Water,6.0,1.0,385.0,64663105.0
+Abuja,9.04085,7.399,Duplx,Sale,Old,Electricity,3.0,3.0,182.0,83401433.0
+Ibadan,7.374,3.97926,Studio,Sale,New,Parking,3.0,4.0,336.0,339029983.0
+Maiduguri,11.81337,13.19212,Appartment,Sale,Old,Internet,4.0,3.0,413.0,19138782.0
+Kaduna,10.55293,7.39729,Appartment,Rent,New,Water,2.0,4.0,440.0,84125464.0
+Maiduguri,11.78404,13.17747,Studio,Rent,Fairly Used,Water,1.0,2.0,449.0,327219936.0
+Kano,11.97405,8.62526,Duplx,Rent,Fairly Used,Parking,4.0,3.0,268.0,67004412.0
+Lagos,6.54087,3.36932,Bungalow,Sale,Old,Electricity,6.0,2.0,114.0,19163979.0
+Maiduguri,11.83581,13.12947,Detached House,Sale,Old,Parking,1.0,2.0,241.0,18456396.0
+Port harcourt,4.7742,7.06874,Mini Flat,Sale,Fairly Used,Water,3.0,4.0,174.0,75561995.0
+Enugu,6.55887,7.51797,Duplex,Sale,New,Parking,5.0,4.0,380.0,55463656.0
+Benin city,6.30361,5.63245,Apartment,Rent,Old,Parking,2.0,3.0,456.0,369961094.0
+Enugu,6.51962,7.54609,Duplex,Sale,New,Security,6.0,4.0,45.0,147369790.0
+Jos,9.85468,8.8422,Bungalow,Rent,Fairly Used,Electricity,3.0,1.0,176.0,298544940.0
+Port harcourt,4.78334,7.06029,Detached House,Sale,New,Internet,1.0,4.0,554.0,496310302.0
+Ibadan,7.39417,3.93729,Studio,Rent,New,Internet,6.0,3.0,47.0,22628132.0
+Benin city,6.29574,5.62436,Appartment,Sale,Fairly Used,Parking,3.0,2.0,514.0,220708896.0
+Port harcourt,4.79032,7.00118,Studio,Rent,Old,Water,3.0,2.0,291.0,91728724.0
+Benin city,6.32022,5.56023,Studio,Sale,Old,Parking,2.0,2.0,481.0,18193806.0
+Kano,11.97284,8.58453,Studio,Rent,Old,Security,1.0,1.0,87.0,39753919.0
+Jos,9.85427,8.829,Detached House,Sale,New,Internet,4.0,1.0,426.0,241392602.0
+Kaduna,10.51985,7.46642,Duplx,Rent,Fairly Used,Internet,5.0,3.0,354.0,100869636.0
+Enugu,6.55676,7.53206,Detached House,Sale,Fairly Used,Electricity,3.0,4.0,558.0,96879157.0
+Benin city,6.30039,5.58827,Detached House,Sale,Old,Water,2.0,4.0,304.0,54485542.0
+Lagos,6.51594,3.33167,Duplx,Rent,New,Internet,2.0,2.0,589.0,92488090.0
+Kano,11.95898,8.58931,Appartment,Rent,Old,Electricity,3.0,1.0,257.0,53173293.0
+Abuja,9.03312,7.38515,Duplex,Rent,New,Electricity,5.0,2.0,244.0,62577120.0
+Benin city,6.343,5.62931,Bungalow,Sale,Old,Parking,1.0,4.0,382.0,78515815.0
+Benin city,6.32377,5.6516,Appartment,Rent,New,Water,1.0,4.0,454.0,32285055.0
+Maiduguri,11.84838,13.12738,Duplex,Rent,Old,Internet,1.0,3.0,241.0,89540134.0
+Abuja,9.09535,7.36244,Apartment,Sale,Old,Security,4.0,4.0,418.0,339806545.0
+Benin city,6.35504,5.60207,Bungalow,Rent,Old,Internet,5.0,4.0,348.0,126166014.0
+Ibadan,7.40294,3.97154,Detached House,Rent,Fairly Used,Security,5.0,4.0,193.0,217882222.0
+Enugu,6.49231,7.47047,Apartment,Sale,Old,Security,1.0,4.0,108.0,42875100.0
+Benin city,6.36501,5.58398,Duplex,Sale,Fairly Used,Internet,3.0,2.0,361.0,181478199.0
+Ibadan,7.41924,3.93888,Appartment,Rent,New,Security,6.0,2.0,104.0,49120974.0
+Lagos,6.50699,3.40041,Mini Flat,Rent,New,Internet,3.0,2.0,85.0,15619972.0
+Kaduna,10.49237,7.4009,Mini Flat,Rent,Old,Parking,3.0,3.0,349.0,30131002.0
+Ibadan,7.34822,3.92233,Studio,Rent,Fairly Used,Electricity,3.0,2.0,99.0,420484510.0
+Maiduguri,11.78887,13.16286,Mini Flat,Rent,Fairly Used,Security,3.0,3.0,124.0,305236387.0
+Ibadan,7.38124,3.90042,Duplex,Sale,New,Internet,1.0,4.0,230.0,40834396.0
+Benin city,6.29068,5.58441,Duplx,Sale,Fairly Used,Parking,2.0,2.0,166.0,16153800.0
+Jos,9.87892,8.82927,Apartment,Rent,Old,Electricity,5.0,2.0,213.0,110537472.0
+Benin city,6.34243,5.5548,Mini Flat,Rent,Fairly Used,Internet,6.0,4.0,127.0,145292326.0
+Maiduguri,11.85311,13.15912,Bungalow,Rent,Fairly Used,Internet,6.0,4.0,220.0,90816719.0
+Ibadan,7.34027,3.9053,Bungalow,Sale,Old,Security,6.0,2.0,534.0,15890163.0
+Jos,9.93173,8.87034,Bungalow,Rent,Old,Electricity,5.0,2.0,552.0,436593007.0
+Maiduguri,11.84316,13.13718,Studio,Rent,Fairly Used,Internet,4.0,4.0,194.0,375765077.0
+Kaduna,10.568,7.39885,Detached House,Sale,Old,Electricity,4.0,2.0,457.0,112625833.0
+Lagos,6.53719,3.40666,Duplex,Sale,New,Parking,2.0,2.0,309.0,168887485.0
+Kano,12.00064,8.62134,Duplex,Rent,Old,Parking,4.0,3.0,83.0,83582144.0
+Jos,9.9263,8.90666,Duplx,Sale,Fairly Used,Water,3.0,2.0,52.0,54093290.0
+Lagos,6.4899,3.36599,Duplex,Rent,Old,Parking,3.0,2.0,475.0,78876506.0
+Abuja,9.0564,7.4032,Duplx,Rent,New,Parking,5.0,1.0,170.0,81185848.0
+Port harcourt,4.86142,7.07044,Bungalow,Rent,Old,Water,6.0,4.0,228.0,208226181.0
+Enugu,6.54093,7.51716,Appartment,Sale,New,Security,4.0,2.0,351.0,331281990.0
+Kaduna,10.56443,7.43263,Appartment,Sale,Fairly Used,Security,2.0,1.0,125.0,34697297.0
+Kaduna,10.51612,7.47843,Detached House,Rent,New,Internet,3.0,3.0,218.0,341851419.0
+Jos,9.88262,8.8244,Bungalow,Rent,Fairly Used,Electricity,6.0,4.0,498.0,69500504.0
+Benin city,6.29523,5.61338,Duplx,Sale,New,Security,2.0,3.0,338.0,8098470.0
+Maiduguri,11.78406,13.1819,Mini Flat,Rent,Fairly Used,Parking,6.0,1.0,345.0,257001760.0
+Maiduguri,11.86622,13.14701,Mini Flat,Rent,Old,Internet,6.0,4.0,550.0,40554338.0
+Maiduguri,11.82744,13.16171,Detached House,Sale,New,Water,5.0,3.0,186.0,71213919.0
+Enugu,6.49261,7.4592,Duplx,Rent,Old,Security,5.0,3.0,518.0,444537025.0
+Benin city,6.34597,5.6194,Appartment,Rent,Fairly Used,Electricity,4.0,2.0,409.0,417574144.0
+Port harcourt,4.7779,7.09922,Apartment,Rent,Fairly Used,Internet,2.0,4.0,339.0,55999992.0
+Port harcourt,4.80001,7.09324,Bungalow,Rent,New,Security,3.0,1.0,120.0,46172990.0
+Benin city,6.35626,5.6181,Duplx,Rent,Old,Parking,3.0,3.0,427.0,47672749.0
+Port harcourt,4.82669,7.06168,Studio,Sale,New,Electricity,6.0,1.0,208.0,185386023.0
+Ibadan,7.39866,3.92935,Mini Flat,Sale,Fairly Used,Internet,3.0,2.0,356.0,368832305.0
+Enugu,6.51916,7.505,Bungalow,Rent,Fairly Used,Parking,4.0,1.0,406.0,24435505.0
+Jos,9.86743,8.85218,Duplex,Rent,Fairly Used,Electricity,4.0,2.0,544.0,5173712.0
+Maiduguri,11.78137,13.12098,Apartment,Sale,Old,Internet,5.0,1.0,413.0,238106081.0
+Abuja,9.10181,7.3498,Bungalow,Sale,Old,Internet,3.0,2.0,522.0,7529687.0
+Enugu,6.50849,7.46107,Studio,Sale,New,Internet,6.0,2.0,69.0,20663701.0
+Jos,9.92426,8.81213,Detached House,Rent,New,Internet,3.0,1.0,536.0,12509161.0
+Abuja,9.11175,7.37969,Duplex,Rent,Fairly Used,Electricity,2.0,4.0,323.0,468062547.0
+Abuja,9.04171,7.40011,Studio,Sale,Old,Security,4.0,4.0,559.0,162552603.0
+Maiduguri,11.85174,13.10918,Bungalow,Rent,Old,Parking,4.0,1.0,160.0,79473847.0
+Ibadan,7.38965,3.96161,Detached House,Sale,Old,Parking,3.0,3.0,407.0,350250893.0
+Ibadan,7.37164,3.96673,Duplx,Rent,Old,Water,6.0,4.0,589.0,267857285.0
+Enugu,6.54619,7.46102,Detached House,Rent,Old,Security,5.0,3.0,400.0,190873747.0
+Abuja,9.05917,7.42986,Bungalow,Rent,Fairly Used,Water,3.0,2.0,473.0,85928929.0
+Ibadan,7.40496,3.89705,Bungalow,Rent,Old,Security,6.0,4.0,155.0,39233012.0
+Jos,9.92574,8.89269,Duplx,Rent,New,Electricity,3.0,2.0,55.0,45327845.0
+Benin city,6.30266,5.57891,Bungalow,Rent,New,Water,1.0,1.0,374.0,312535485.0
+Maiduguri,11.82044,13.19765,Apartment,Sale,Fairly Used,Electricity,3.0,4.0,428.0,50287319.0
+Kano,11.99307,8.62756,Duplx,Sale,Old,Security,4.0,4.0,278.0,344362684.0
+Abuja,9.10358,7.39779,Mini Flat,Sale,New,Water,6.0,4.0,134.0,421232979.0
+Maiduguri,11.8065,13.13425,Mini Flat,Rent,New,Electricity,3.0,3.0,381.0,53550927.0
+Abuja,9.10589,7.36995,Duplx,Sale,Fairly Used,Water,5.0,1.0,129.0,83235243.0
+Jos,9.92475,8.88569,Appartment,Sale,Old,Internet,3.0,1.0,308.0,263833632.0
+Maiduguri,11.81983,13.12767,Duplx,Rent,Old,Water,2.0,3.0,125.0,92173767.0
+Abuja,9.07455,7.39921,Duplx,Sale,New,Electricity,4.0,1.0,151.0,124594715.0
+Jos,9.92014,8.84798,Detached House,Sale,Old,Electricity,6.0,1.0,398.0,77851312.0
+Abuja,9.04693,7.35554,Studio,Rent,Fairly Used,Security,2.0,2.0,230.0,26450290.0
+Maiduguri,11.82069,13.1347,Detached House,Sale,New,Electricity,6.0,1.0,461.0,86990680.0
+Enugu,6.51488,7.53191,Duplex,Rent,Fairly Used,Security,3.0,4.0,73.0,62033097.0
+Lagos,6.5603,3.34668,Detached House,Rent,Fairly Used,Electricity,3.0,1.0,219.0,373057015.0
+Ibadan,7.40958,3.93344,Apartment,Rent,Old,Internet,5.0,4.0,404.0,356202761.0
+Ibadan,7.37174,3.96716,Apartment,Sale,Fairly Used,Electricity,1.0,2.0,422.0,7914382.0
+Abuja,9.12468,7.35264,Apartment,Sale,Old,Parking,5.0,1.0,316.0,4824593.0
+Kano,11.99358,8.59418,Duplex,Rent,Fairly Used,Security,2.0,1.0,458.0,316621782.0
+Kano,11.95493,8.61338,Duplex,Sale,New,Internet,5.0,4.0,569.0,92833520.0
+Lagos,6.50424,3.35189,Studio,Rent,Old,Security,3.0,2.0,53.0,44932791.0
+Ibadan,7.38098,3.92995,Detached House,Rent,Fairly Used,Electricity,4.0,4.0,203.0,294445767.0
+Lagos,6.56582,3.38449,Duplx,Sale,Fairly Used,Electricity,5.0,2.0,382.0,24590613.0
+Lagos,6.51541,3.39533,Duplex,Rent,Fairly Used,Security,2.0,4.0,438.0,89328827.0
+Kaduna,10.52459,7.40319,Appartment,Rent,New,Water,5.0,2.0,351.0,88067830.0
+Maiduguri,11.87956,13.12591,Detached House,Sale,Old,Security,1.0,4.0,157.0,178659801.0
+Abuja,9.03194,7.4392,Studio,Sale,New,Parking,4.0,4.0,294.0,362082558.0
+Enugu,6.5573,7.54102,Studio,Sale,Fairly Used,Internet,4.0,3.0,330.0,84605656.0
+Jos,9.87878,8.84171,Apartment,Rent,Old,Water,2.0,2.0,328.0,397495351.0
+Benin city,6.37824,5.56957,Bungalow,Rent,Fairly Used,Electricity,6.0,4.0,229.0,49329651.0
+Maiduguri,11.8682,13.15366,Appartment,Rent,New,Security,3.0,2.0,444.0,54843811.0
+Port harcourt,4.82238,7.07249,Mini Flat,Sale,Old,Parking,2.0,1.0,433.0,65602873.0
+Enugu,6.48703,7.52421,Duplex,Rent,Fairly Used,Security,1.0,2.0,524.0,98736330.0
+Kano,12.03119,8.63425,Mini Flat,Sale,New,Electricity,6.0,3.0,366.0,85509361.0
+Kano,12.03675,8.60314,Bungalow,Sale,Fairly Used,Electricity,5.0,1.0,214.0,77969494.0
+Benin city,6.36031,5.64244,Duplx,Sale,New,Water,1.0,4.0,127.0,43005065.0
+Kano,12.03975,8.62337,Appartment,Rent,New,Water,3.0,1.0,392.0,220128090.0
+Port harcourt,4.8559,7.06528,Apartment,Sale,Old,Electricity,3.0,2.0,275.0,46172391.0
+Ibadan,7.40244,3.96644,Apartment,Rent,Fairly Used,Parking,5.0,1.0,233.0,138898540.0
+Port harcourt,4.77104,7.09152,Appartment,Rent,Old,Internet,2.0,3.0,294.0,275736687.0
+Enugu,6.48223,7.55165,Duplex,Sale,Old,Parking,3.0,4.0,80.0,127168448.0
+Enugu,6.4987,7.45876,Appartment,Sale,Fairly Used,Security,5.0,2.0,177.0,98002109.0
+Benin city,6.2891,5.60723,Duplex,Rent,New,Internet,1.0,1.0,530.0,31734048.0
+Port harcourt,4.80775,7.00018,Duplx,Rent,Old,Parking,1.0,1.0,497.0,390243898.0
+Maiduguri,11.85792,13.16525,Detached House,Sale,Fairly Used,Parking,6.0,2.0,464.0,81408718.0
+Port harcourt,4.84813,7.05369,Appartment,Sale,New,Internet,3.0,1.0,466.0,62869548.0
+Jos,9.85548,8.88475,Bungalow,Sale,New,Internet,6.0,4.0,397.0,57596072.0
+Jos,9.9034,8.87965,Mini Flat,Rent,Old,Parking,5.0,3.0,49.0,30944561.0
+Kaduna,10.51299,7.42114,Apartment,Sale,New,Electricity,4.0,2.0,129.0,161898661.0
+Kano,12.02344,8.54753,Detached House,Rent,Fairly Used,Parking,3.0,4.0,565.0,80496829.0
+Port harcourt,4.78955,7.08627,Duplex,Rent,New,Internet,4.0,3.0,381.0,11418710.0
+Abuja,9.09804,7.35515,Duplx,Sale,Fairly Used,Internet,3.0,4.0,189.0,92398482.0
+Benin city,6.30775,5.64501,Duplex,Sale,New,Electricity,5.0,2.0,518.0,89214101.0
+Kaduna,10.57058,7.38832,Detached House,Sale,Fairly Used,Water,3.0,2.0,75.0,271245006.0
+Lagos,6.51296,3.4192,Appartment,Rent,Fairly Used,Security,4.0,3.0,201.0,370548249.0
+Jos,9.85927,8.8762,Studio,Rent,Fairly Used,Water,5.0,1.0,243.0,78088144.0
+Benin city,6.34427,5.64812,Studio,Sale,Old,Security,4.0,4.0,316.0,89334567.0
+Benin city,6.36918,5.62799,Mini Flat,Rent,New,Parking,2.0,3.0,167.0,90827527.0
+Ibadan,7.34584,3.93959,Mini Flat,Sale,Old,Security,5.0,4.0,67.0,92195366.0
+Port harcourt,4.81191,7.05951,Bungalow,Rent,Fairly Used,Internet,1.0,2.0,326.0,68110102.0
+Port harcourt,4.78289,7.06622,Apartment,Rent,Old,Security,3.0,4.0,321.0,248520667.0
+Kaduna,10.47848,7.42078,Apartment,Rent,Old,Security,1.0,3.0,195.0,372874778.0
+Benin city,6.32189,5.63454,Studio,Rent,Old,Electricity,4.0,4.0,485.0,46485813.0
+Kaduna,10.56452,7.47314,Duplx,Sale,Fairly Used,Internet,3.0,3.0,356.0,94649661.0
+Abuja,9.05397,7.43568,Apartment,Rent,Old,Internet,6.0,3.0,589.0,61941677.0
+Kaduna,10.55116,7.46956,Apartment,Rent,Old,Security,2.0,4.0,126.0,412805575.0
+Kano,11.97188,8.54541,Apartment,Sale,Fairly Used,Parking,2.0,2.0,450.0,96858080.0
+Lagos,6.50853,3.36932,Detached House,Rent,Old,Parking,4.0,4.0,458.0,83538107.0
+Benin city,6.33611,5.56858,Duplex,Sale,Old,Water,1.0,4.0,446.0,367753606.0
+Jos,9.92673,8.88641,Bungalow,Rent,Old,Parking,3.0,1.0,346.0,69718640.0
+Kaduna,10.52832,7.4591,Studio,Rent,Old,Parking,5.0,4.0,222.0,475460111.0
+Ibadan,7.39608,3.9336,Apartment,Sale,New,Electricity,5.0,4.0,274.0,222263458.0
+Benin city,6.29859,5.65353,Duplex,Sale,Fairly Used,Electricity,3.0,4.0,76.0,9227434.0
+Benin city,6.35505,5.56858,Mini Flat,Sale,Fairly Used,Water,3.0,4.0,505.0,89782040.0
+Jos,9.86779,8.90181,Mini Flat,Sale,Fairly Used,Water,6.0,4.0,50.0,39024882.0
+Port harcourt,4.85508,7.02995,Duplx,Rent,Old,Water,2.0,3.0,157.0,58052044.0
+Kaduna,10.47899,7.40766,Studio,Sale,New,Electricity,5.0,3.0,343.0,188907756.0
+Abuja,9.10247,7.4309,Mini Flat,Sale,New,Internet,2.0,4.0,223.0,36287382.0
+Port harcourt,4.78362,7.03821,Detached House,Sale,Fairly Used,Security,2.0,1.0,212.0,53141450.0
+Benin city,6.33729,5.63597,Apartment,Rent,Fairly Used,Security,1.0,1.0,520.0,484068479.0
+Benin city,6.35443,5.57812,Appartment,Sale,New,Water,3.0,2.0,233.0,5798956.0
+Ibadan,7.33169,3.93024,Apartment,Rent,New,Electricity,6.0,3.0,536.0,28826139.0
+Abuja,9.06325,7.42636,Detached House,Rent,New,Parking,1.0,4.0,90.0,60795360.0
+Benin city,6.3272,5.61523,Duplx,Sale,Old,Security,2.0,2.0,198.0,73636308.0
+Maiduguri,11.83355,13.10631,Duplx,Sale,Fairly Used,Security,3.0,2.0,295.0,36436788.0
+Lagos,6.57364,3.3935,Apartment,Sale,New,Internet,3.0,1.0,143.0,385021614.0
+Enugu,6.52242,7.51666,Appartment,Rent,Fairly Used,Water,2.0,1.0,433.0,39901172.0
+Kano,12.03682,8.62855,Studio,Sale,Old,Water,3.0,2.0,585.0,16791109.0
+Ibadan,7.34034,3.98853,Studio,Sale,Old,Security,6.0,1.0,465.0,68290491.0
+Maiduguri,11.82817,13.10187,Duplex,Sale,Fairly Used,Security,6.0,3.0,116.0,342610093.0
+Ibadan,7.36003,3.95827,Duplex,Rent,Old,Security,5.0,4.0,184.0,152555909.0
+Abuja,9.11878,7.40554,Appartment,Sale,New,Security,1.0,4.0,559.0,66069521.0
+Enugu,6.53511,7.46499,Mini Flat,Rent,Old,Internet,3.0,4.0,481.0,107090151.0
+Abuja,9.05444,7.3607,Detached House,Rent,Fairly Used,Electricity,2.0,2.0,110.0,61020286.0
+Kano,12.00932,8.6111,Appartment,Sale,New,Electricity,2.0,3.0,213.0,88817471.0
+Abuja,9.04998,7.35709,Studio,Rent,New,Internet,2.0,3.0,421.0,41232098.0
+Benin city,6.38379,5.58545,Apartment,Sale,New,Water,2.0,3.0,195.0,327363531.0
+Maiduguri,11.85211,13.1026,Duplex,Rent,Fairly Used,Parking,5.0,2.0,306.0,219723908.0
+Lagos,6.53865,3.387,Appartment,Rent,Fairly Used,Water,2.0,2.0,154.0,83083230.0
+Abuja,9.10643,7.3742,Apartment,Rent,Old,Electricity,3.0,1.0,275.0,245327208.0
+Lagos,6.52922,3.33481,Studio,Rent,Old,Security,5.0,2.0,125.0,96291890.0
+Abuja,9.04293,7.43554,Duplx,Sale,Fairly Used,Security,5.0,1.0,40.0,46305619.0
+Lagos,6.49158,3.42456,Mini Flat,Rent,Old,Electricity,6.0,3.0,411.0,3432599.0
+Enugu,6.53073,7.54119,Apartment,Sale,New,Electricity,1.0,2.0,577.0,489489471.0
+Port harcourt,4.83461,7.08426,Studio,Rent,Old,Internet,4.0,4.0,516.0,415465009.0
+Lagos,6.47998,3.38264,Studio,Rent,New,Internet,2.0,2.0,341.0,54959397.0
+Jos,9.91976,8.80893,Studio,Sale,Fairly Used,Electricity,3.0,3.0,471.0,80402919.0
+Maiduguri,11.80396,13.17278,Apartment,Rent,Fairly Used,Parking,2.0,1.0,545.0,291865813.0
+Port harcourt,4.78652,7.0416,Studio,Rent,Fairly Used,Security,6.0,3.0,146.0,35548517.0
+Lagos,6.55284,3.41152,Detached House,Sale,Old,Water,3.0,4.0,91.0,375766926.0
+Abuja,9.11186,7.40045,Apartment,Sale,New,Security,3.0,1.0,324.0,276857726.0
+Enugu,6.56006,7.50766,Duplx,Rent,Old,Water,6.0,2.0,388.0,423988628.0
+Abuja,9.0494,7.41704,Mini Flat,Rent,Old,Water,3.0,4.0,101.0,51264768.0
+Enugu,6.52753,7.5413,Duplx,Sale,Fairly Used,Internet,6.0,2.0,40.0,96084017.0
+Jos,9.89591,8.87941,Studio,Sale,Fairly Used,Internet,2.0,2.0,396.0,229614973.0
+Ibadan,7.38767,3.91188,Duplx,Rent,New,Water,5.0,1.0,120.0,398649944.0
+Kaduna,10.50212,7.42753,Detached House,Sale,Fairly Used,Water,6.0,3.0,113.0,109763041.0
+Enugu,6.51614,7.51482,Apartment,Sale,Fairly Used,Internet,2.0,1.0,239.0,383678517.0
+Enugu,6.55722,7.53796,Appartment,Sale,Fairly Used,Electricity,4.0,3.0,46.0,61548169.0
+Benin city,6.35996,5.58819,Detached House,Sale,New,Electricity,6.0,2.0,328.0,283254074.0
+Lagos,6.5337,3.38565,Bungalow,Rent,New,Water,4.0,1.0,506.0,224392732.0
+Maiduguri,11.78145,13.18794,Mini Flat,Sale,New,Parking,2.0,2.0,247.0,306568894.0
+Maiduguri,11.81447,13.18705,Duplx,Sale,Old,Security,1.0,4.0,584.0,190937063.0
+Kaduna,10.5287,7.45323,Detached House,Rent,Old,Electricity,1.0,1.0,160.0,86746198.0
+Abuja,9.05851,7.41893,Bungalow,Sale,New,Parking,5.0,4.0,307.0,412479669.0
+Jos,9.87623,8.89901,Duplx,Sale,New,Water,5.0,4.0,90.0,88878527.0
+Abuja,9.08592,7.42004,Detached House,Rent,New,Security,5.0,3.0,388.0,30268894.0
+Lagos,6.49204,3.36194,Mini Flat,Rent,Old,Parking,1.0,4.0,42.0,46193163.0
+Enugu,6.50674,7.54152,Duplx,Rent,Old,Security,6.0,2.0,60.0,87914460.0
+Kano,11.97174,8.63965,Bungalow,Rent,Old,Internet,6.0,3.0,599.0,24569017.0
+Lagos,6.48964,3.42333,Mini Flat,Rent,Fairly Used,Internet,5.0,2.0,90.0,67578477.0
+Kaduna,10.49844,7.41176,Duplex,Sale,Old,Parking,1.0,3.0,233.0,88415298.0
+Ibadan,7.40832,3.9914,Detached House,Sale,New,Internet,3.0,4.0,100.0,15780226.0
+Enugu,6.55784,7.51001,Appartment,Rent,Old,Water,4.0,3.0,320.0,34423382.0
+Ibadan,7.40797,3.92337,Duplex,Sale,New,Security,1.0,2.0,467.0,20945937.0
+Kaduna,10.49364,7.47592,Bungalow,Rent,Old,Electricity,3.0,3.0,507.0,50996606.0
+Kaduna,10.55936,7.4219,Duplx,Rent,New,Electricity,3.0,4.0,420.0,97561414.0
+Benin city,6.31213,5.64847,Duplx,Rent,Fairly Used,Water,1.0,2.0,178.0,59155430.0
+Kaduna,10.52719,7.41738,Detached House,Sale,Old,Electricity,6.0,2.0,153.0,45107474.0
+Enugu,6.533,7.46627,Duplex,Sale,Fairly Used,Security,6.0,2.0,252.0,24973534.0
+Ibadan,7.37607,3.95705,Duplx,Rent,New,Security,4.0,1.0,210.0,402863678.0
+Kaduna,10.5433,7.41861,Studio,Rent,Fairly Used,Water,5.0,4.0,341.0,58151284.0
+Kano,12.04836,8.58796,Apartment,Sale,New,Water,2.0,1.0,312.0,69895613.0
+Lagos,6.5638,3.42404,Duplex,Sale,Fairly Used,Parking,5.0,2.0,582.0,251192201.0
+Enugu,6.55187,7.53856,Apartment,Rent,Old,Security,5.0,3.0,555.0,97798561.0
+Lagos,6.50142,3.38993,Duplx,Sale,New,Water,2.0,1.0,388.0,483174042.0
+Jos,9.8705,8.88215,Detached House,Sale,Fairly Used,Electricity,3.0,2.0,118.0,248279724.0
+Maiduguri,11.83727,13.1767,Studio,Sale,Old,Electricity,5.0,4.0,311.0,3290384.0
+Kano,11.95926,8.60857,Appartment,Sale,New,Security,5.0,3.0,319.0,26678434.0
+Kaduna,10.49454,7.42448,Studio,Sale,Old,Electricity,6.0,4.0,249.0,34484104.0
+Abuja,9.09435,7.4183,Appartment,Rent,Old,Electricity,1.0,2.0,138.0,98135584.0
+Benin city,6.36817,5.55966,Appartment,Sale,Old,Parking,5.0,1.0,563.0,481745166.0
+Maiduguri,11.84783,13.17282,Mini Flat,Sale,Old,Electricity,2.0,4.0,55.0,34904463.0
+Lagos,6.53406,3.41426,Duplx,Sale,Old,Parking,5.0,4.0,496.0,87854935.0
+Ibadan,7.41241,3.97944,Studio,Rent,New,Electricity,5.0,1.0,242.0,60378120.0
+Enugu,6.54294,7.46961,Studio,Rent,Fairly Used,Internet,1.0,4.0,531.0,148814223.0
+Kano,12.02481,8.62539,Mini Flat,Sale,Fairly Used,Internet,1.0,4.0,58.0,30092002.0
+Jos,9.89196,8.85758,Mini Flat,Rent,New,Water,1.0,1.0,559.0,161795469.0
+Kano,11.97327,8.56325,Duplex,Sale,Fairly Used,Water,2.0,2.0,557.0,7782110.0
+Benin city,6.31347,5.5829,Bungalow,Rent,New,Security,6.0,2.0,349.0,62271536.0
+Port harcourt,4.85875,7.09116,Apartment,Sale,Old,Water,2.0,4.0,361.0,7173743.0
+Kano,11.99368,8.61609,Studio,Rent,Fairly Used,Electricity,2.0,4.0,358.0,93146472.0
+Kano,11.96487,8.56223,Duplx,Sale,Old,Parking,6.0,3.0,355.0,63343296.0
+Kano,12.02043,8.57955,Bungalow,Sale,Fairly Used,Internet,6.0,3.0,300.0,105961582.0
+Abuja,9.10778,7.35121,Appartment,Sale,Fairly Used,Electricity,5.0,4.0,424.0,44481874.0
+Ibadan,7.4126,3.91389,Apartment,Sale,New,Electricity,4.0,4.0,179.0,39891204.0
+Kano,12.01557,8.62738,Appartment,Rent,Old,Security,3.0,1.0,135.0,49336270.0
+Kano,11.95658,8.60669,Appartment,Sale,New,Electricity,1.0,4.0,119.0,147100566.0
+Kano,12.01261,8.59478,Apartment,Sale,New,Water,1.0,4.0,273.0,156832329.0
+Abuja,9.03002,7.40817,Duplx,Sale,Fairly Used,Security,6.0,1.0,226.0,468526745.0
+Lagos,6.57315,3.34356,Bungalow,Rent,Old,Internet,3.0,1.0,388.0,54568991.0
+Port harcourt,4.81719,7.04138,Duplx,Rent,Fairly Used,Security,6.0,2.0,301.0,91751666.0
+Jos,9.8744,8.83812,Mini Flat,Rent,Fairly Used,Parking,5.0,4.0,386.0,8892574.0
+Kano,12.02042,8.555,Bungalow,Sale,Fairly Used,Parking,2.0,3.0,130.0,172295649.0
+Port harcourt,4.85989,7.07422,Appartment,Rent,New,Water,4.0,3.0,173.0,32379412.0
+Ibadan,7.39368,3.96397,Duplx,Rent,Old,Parking,1.0,4.0,258.0,72186846.0
+Abuja,9.04885,7.43195,Duplx,Sale,New,Security,6.0,3.0,120.0,193891162.0
+Ibadan,7.40615,3.99569,Detached House,Sale,Old,Parking,4.0,4.0,544.0,315647466.0
+Kano,12.01815,8.56912,Appartment,Rent,Old,Internet,2.0,3.0,539.0,358448828.0
+Kaduna,10.52604,7.42923,Duplex,Rent,Old,Security,1.0,2.0,523.0,261657835.0
+Benin city,6.33082,5.62679,Appartment,Rent,Old,Security,4.0,2.0,323.0,492197475.0
+Port harcourt,4.80793,7.02963,Duplx,Sale,Old,Security,4.0,1.0,231.0,339472159.0
+Ibadan,7.35059,3.90956,Duplex,Sale,Fairly Used,Electricity,5.0,3.0,275.0,24640137.0
+Port harcourt,4.80733,7.04299,Mini Flat,Sale,Fairly Used,Parking,2.0,1.0,299.0,51105395.0
+Abuja,9.11133,7.43354,Apartment,Rent,Fairly Used,Parking,5.0,2.0,436.0,91704311.0
+Port harcourt,4.81839,7.01031,Apartment,Rent,Fairly Used,Internet,2.0,1.0,416.0,83176321.0
+Jos,9.94489,8.88396,Duplx,Sale,New,Security,5.0,2.0,269.0,2929942.0
+Maiduguri,11.87506,13.13556,Duplex,Sale,Fairly Used,Electricity,6.0,3.0,187.0,40571879.0
+Abuja,9.06285,7.42549,Studio,Rent,Fairly Used,Internet,2.0,2.0,337.0,413669930.0
+Jos,9.90888,8.84616,Mini Flat,Sale,Fairly Used,Electricity,5.0,3.0,421.0,14453846.0
+Enugu,6.55883,7.54534,Bungalow,Rent,New,Parking,2.0,2.0,227.0,57978840.0
+Kano,12.01485,8.60895,Appartment,Sale,New,Parking,1.0,1.0,179.0,23124432.0
+Maiduguri,11.79825,13.19351,Apartment,Rent,Fairly Used,Water,4.0,4.0,484.0,21826122.0
+Enugu,6.53418,7.48771,Detached House,Rent,New,Water,6.0,4.0,294.0,2934731.0
+Maiduguri,11.79892,13.12298,Apartment,Sale,Old,Security,6.0,1.0,254.0,78678991.0
+Kano,11.98715,8.63117,Bungalow,Rent,New,Security,5.0,1.0,248.0,243292584.0
+Ibadan,7.34266,3.9465,Apartment,Rent,New,Electricity,4.0,3.0,375.0,25025498.0
+Maiduguri,11.81649,13.13564,Mini Flat,Sale,Old,Water,3.0,2.0,275.0,493339244.0
+Abuja,9.08749,7.36411,Bungalow,Sale,Fairly Used,Parking,2.0,3.0,461.0,35329809.0
+Abuja,9.11327,7.41184,Bungalow,Rent,Fairly Used,Water,4.0,1.0,349.0,492945603.0
+Maiduguri,11.8762,13.11617,Duplx,Rent,Fairly Used,Electricity,5.0,3.0,358.0,154449379.0
+Lagos,6.49034,3.40041,Mini Flat,Rent,Fairly Used,Parking,6.0,4.0,145.0,67999527.0
+Port harcourt,4.85693,7.06815,Detached House,Sale,Old,Security,1.0,3.0,594.0,71134568.0
+Maiduguri,11.839,13.18412,Bungalow,Rent,Old,Electricity,2.0,3.0,502.0,51233887.0
+Kano,11.99622,8.55976,Mini Flat,Sale,Old,Internet,3.0,4.0,148.0,92228081.0
+Kaduna,10.49683,7.46989,Duplex,Sale,Old,Parking,3.0,1.0,571.0,50163698.0
+Enugu,6.47804,7.47815,Mini Flat,Rent,Fairly Used,Water,3.0,2.0,163.0,96616300.0
+Enugu,6.50692,7.555,Appartment,Rent,New,Internet,6.0,3.0,129.0,91522814.0
+Benin city,6.35423,5.59149,Apartment,Sale,New,Electricity,2.0,3.0,190.0,81755567.0
+Maiduguri,11.79029,13.17173,Mini Flat,Rent,New,Security,2.0,4.0,237.0,48291105.0
+Ibadan,7.34121,3.9499,Apartment,Sale,Old,Electricity,1.0,3.0,525.0,370901269.0
+Lagos,6.53561,3.42199,Detached House,Rent,Old,Water,2.0,4.0,512.0,445296739.0
+Kaduna,10.52617,7.39042,Mini Flat,Sale,Old,Security,2.0,4.0,270.0,93239452.0
+Maiduguri,11.81679,13.12858,Appartment,Rent,Fairly Used,Security,3.0,3.0,487.0,75894409.0
+Jos,9.86325,8.89873,Appartment,Sale,Old,Water,4.0,2.0,527.0,119040598.0
+Kano,11.95228,8.62902,Bungalow,Sale,Fairly Used,Security,6.0,1.0,112.0,204172470.0
+Port harcourt,4.83793,7.04424,Detached House,Sale,Old,Electricity,4.0,3.0,596.0,367377506.0
+Kaduna,10.49537,7.47074,Duplex,Sale,New,Electricity,2.0,1.0,101.0,4602981.0
+Kaduna,10.54607,7.43821,Appartment,Sale,New,Water,6.0,3.0,424.0,2920938.0
+Maiduguri,11.83247,13.12111,Duplx,Sale,Old,Security,2.0,4.0,322.0,16052763.0
+Lagos,6.52726,3.41476,Studio,Sale,New,Internet,1.0,1.0,192.0,71540252.0
+Benin city,6.38164,5.64575,Mini Flat,Sale,New,Electricity,3.0,4.0,310.0,33345885.0
+Lagos,6.51278,3.3577,Mini Flat,Sale,Fairly Used,Electricity,3.0,4.0,506.0,88813169.0
+Benin city,6.2944,5.63629,Bungalow,Rent,Fairly Used,Security,6.0,1.0,493.0,29789870.0
+Jos,9.86474,8.81793,Bungalow,Rent,New,Parking,1.0,2.0,544.0,288326195.0
+Kaduna,10.56131,7.47772,Duplex,Rent,Old,Water,2.0,3.0,230.0,48256973.0
+Jos,9.91755,8.83764,Appartment,Sale,New,Water,2.0,4.0,125.0,11809363.0
+Enugu,6.49238,7.46649,Bungalow,Rent,New,Electricity,1.0,2.0,386.0,118807493.0
+Enugu,6.47536,7.52714,Mini Flat,Rent,New,Water,2.0,3.0,205.0,357046786.0
+Ibadan,7.41474,3.96458,Mini Flat,Rent,Old,Security,5.0,1.0,408.0,350973852.0
+Kaduna,10.53549,7.45727,Duplx,Rent,Old,Water,3.0,2.0,54.0,159956977.0
+Abuja,9.06974,7.43473,Bungalow,Sale,Old,Security,2.0,3.0,170.0,135529475.0
+Lagos,6.49545,3.39802,Apartment,Sale,Old,Parking,6.0,1.0,49.0,488473227.0
+Enugu,6.49165,7.47713,Bungalow,Sale,Fairly Used,Internet,5.0,3.0,372.0,87890882.0
+Kaduna,10.52402,7.39056,Mini Flat,Rent,New,Internet,2.0,1.0,432.0,43703435.0
+Lagos,6.50359,3.34921,Mini Flat,Rent,New,Security,3.0,2.0,579.0,131824154.0
+Jos,9.92065,8.90113,Appartment,Rent,New,Water,4.0,4.0,562.0,43464423.0
+Lagos,6.4977,3.37158,Detached House,Rent,Old,Security,6.0,3.0,144.0,460858573.0
+Benin city,6.31054,5.61977,Detached House,Sale,New,Water,2.0,1.0,113.0,288672958.0
+Jos,9.85979,8.87441,Apartment,Sale,Old,Internet,2.0,2.0,128.0,44938480.0
+Abuja,9.12545,7.38947,Bungalow,Rent,New,Internet,5.0,2.0,163.0,174433466.0
+Kaduna,10.52862,7.44474,Bungalow,Sale,New,Electricity,4.0,4.0,235.0,265402778.0
+Abuja,9.09209,7.4429,Duplx,Rent,New,Internet,1.0,4.0,519.0,25646767.0
+Benin city,6.3151,5.62298,Appartment,Sale,Old,Water,2.0,3.0,205.0,91518926.0
+Lagos,6.48541,3.38825,Mini Flat,Rent,Fairly Used,Water,4.0,2.0,88.0,328888109.0
+Port harcourt,4.78816,7.03026,Detached House,Rent,Fairly Used,Internet,3.0,2.0,139.0,12914433.0
+Enugu,6.49943,7.47403,Apartment,Sale,New,Water,2.0,1.0,375.0,403172496.0
+Maiduguri,11.84039,13.11838,Bungalow,Sale,Old,Security,5.0,4.0,201.0,338598303.0
+Lagos,6.49206,3.42915,Appartment,Rent,Fairly Used,Internet,3.0,2.0,79.0,289752845.0
+Kano,12.04876,8.60554,Mini Flat,Rent,New,Parking,3.0,4.0,139.0,354216516.0
+Maiduguri,11.87642,13.14705,Detached House,Rent,Old,Electricity,2.0,3.0,68.0,55858805.0
+Benin city,6.32983,5.56151,Studio,Rent,New,Electricity,6.0,4.0,49.0,457896889.0
+Kaduna,10.57183,7.48177,Mini Flat,Rent,Old,Parking,1.0,2.0,120.0,73105342.0
+Kano,11.95727,8.60012,Bungalow,Rent,New,Water,4.0,3.0,555.0,36603904.0
+Lagos,6.56944,3.41488,Detached House,Sale,Fairly Used,Electricity,1.0,1.0,520.0,295171931.0
+Abuja,9.10343,7.41857,Apartment,Sale,Old,Electricity,5.0,1.0,391.0,92989129.0
+Kaduna,10.53402,7.41917,Duplx,Rent,Fairly Used,Electricity,1.0,3.0,533.0,93929760.0
+Kano,12.04773,8.61713,Appartment,Sale,Old,Security,2.0,3.0,265.0,298988616.0
+Maiduguri,11.80276,13.12134,Duplex,Sale,New,Water,3.0,3.0,345.0,46431991.0
+Abuja,9.0762,7.43551,Duplex,Sale,New,Water,1.0,3.0,229.0,440307088.0
+Kano,12.03695,8.56812,Appartment,Rent,New,Electricity,4.0,3.0,394.0,20077546.0
+Kano,12.02722,8.60127,Mini Flat,Sale,New,Internet,4.0,4.0,311.0,358375605.0
+Abuja,9.05251,7.41684,Apartment,Sale,Old,Security,6.0,3.0,448.0,406022290.0
+Kaduna,10.49481,7.40277,Studio,Sale,Old,Parking,1.0,2.0,395.0,9203675.0
+Ibadan,7.35512,3.94283,Detached House,Sale,Old,Water,2.0,4.0,242.0,38390721.0
+Kano,12.00548,8.59032,Appartment,Sale,Fairly Used,Water,2.0,1.0,161.0,208504362.0
+Benin city,6.37298,5.61494,Duplx,Rent,Old,Parking,2.0,4.0,130.0,16034720.0
+Lagos,6.4775,3.38233,Detached House,Rent,Fairly Used,Parking,1.0,1.0,118.0,3341783.0
+Jos,9.93232,8.81157,Mini Flat,Sale,Old,Water,2.0,1.0,289.0,87765468.0
+Lagos,6.50301,3.3631,Duplx,Sale,Old,Internet,5.0,1.0,304.0,48345618.0
+Lagos,6.55267,3.38752,Apartment,Rent,New,Water,1.0,2.0,400.0,46695993.0
+Benin city,6.29017,5.56867,Apartment,Sale,New,Internet,4.0,1.0,490.0,188738550.0
+Maiduguri,11.78828,13.18399,Detached House,Rent,Old,Security,2.0,4.0,377.0,343940093.0
+Lagos,6.55337,3.33582,Mini Flat,Rent,Old,Internet,1.0,2.0,365.0,61815129.0
+Ibadan,7.41239,3.91907,Bungalow,Rent,Fairly Used,Water,3.0,3.0,553.0,86899530.0
+Jos,9.93912,8.81255,Mini Flat,Rent,Fairly Used,Parking,1.0,4.0,474.0,422373286.0
+Port harcourt,4.7982,7.0624,Duplex,Sale,New,Electricity,1.0,2.0,359.0,95735131.0
+Maiduguri,11.79674,13.1722,Detached House,Sale,Old,Electricity,4.0,3.0,509.0,71353961.0
+Lagos,6.50234,3.41599,Detached House,Rent,Fairly Used,Electricity,1.0,3.0,451.0,324123396.0
+Kaduna,10.49244,7.43309,Bungalow,Sale,New,Water,3.0,1.0,493.0,161452207.0
+Jos,9.86888,8.84003,Apartment,Sale,New,Water,6.0,3.0,186.0,391309230.0
+Kaduna,10.55314,7.45651,Duplx,Rent,Fairly Used,Parking,5.0,3.0,410.0,50426298.0
+Lagos,6.51029,3.35568,Studio,Rent,Old,Security,6.0,3.0,379.0,298833720.0
+Kano,11.97319,8.57359,Duplx,Sale,Old,Water,6.0,2.0,293.0,5830977.0
+Lagos,6.49652,3.38948,Apartment,Sale,Old,Security,4.0,4.0,446.0,91100871.0
+Ibadan,7.37621,3.93756,Duplx,Sale,Old,Internet,5.0,1.0,528.0,454928956.0
+Port harcourt,4.81608,7.00742,Mini Flat,Rent,Fairly Used,Internet,4.0,4.0,156.0,95642545.0
+Maiduguri,11.87428,13.19459,Apartment,Rent,New,Security,5.0,2.0,256.0,25897156.0
+Jos,9.94209,8.87313,Mini Flat,Rent,Old,Security,5.0,4.0,245.0,322208453.0
+Port harcourt,4.86557,7.00339,Appartment,Sale,Old,Security,3.0,3.0,85.0,57702131.0
+Benin city,6.34987,5.6425,Detached House,Rent,Old,Water,6.0,1.0,439.0,81519858.0
+Abuja,9.0351,7.37483,Duplx,Rent,Fairly Used,Electricity,1.0,2.0,490.0,69705073.0
+Kano,11.96599,8.62486,Bungalow,Rent,Old,Electricity,1.0,1.0,334.0,57705369.0
+Benin city,6.33606,5.62627,Detached House,Rent,Old,Parking,3.0,3.0,410.0,25072749.0
+Jos,9.85047,8.86307,Studio,Rent,Old,Water,1.0,3.0,135.0,86543036.0
+Jos,9.87571,8.82991,Apartment,Sale,Fairly Used,Parking,3.0,4.0,55.0,14113183.0
+Enugu,6.56903,7.49796,Appartment,Sale,Fairly Used,Parking,6.0,4.0,191.0,128819130.0
+Kano,11.98988,8.5916,Mini Flat,Sale,New,Internet,2.0,1.0,237.0,345279682.0
+Jos,9.89063,8.89252,Duplex,Sale,New,Internet,6.0,3.0,210.0,217879918.0
+Kano,12.048,8.57734,Bungalow,Sale,Fairly Used,Electricity,5.0,1.0,421.0,238364179.0
+Jos,9.86098,8.90573,Mini Flat,Sale,Old,Water,4.0,1.0,332.0,89027327.0
+Benin city,6.35323,5.58075,Detached House,Sale,Fairly Used,Water,5.0,2.0,518.0,184248388.0
+Ibadan,7.36136,3.93499,Appartment,Sale,New,Parking,1.0,2.0,173.0,5224513.0
+Ibadan,7.41872,3.94337,Mini Flat,Rent,Old,Internet,6.0,1.0,340.0,169166843.0
+Enugu,6.53943,7.53883,Studio,Sale,New,Security,5.0,4.0,105.0,265319783.0
+Port harcourt,4.83294,7.07619,Studio,Rent,New,Electricity,2.0,1.0,374.0,67843277.0
+Enugu,6.49574,7.51914,Detached House,Rent,New,Electricity,4.0,3.0,355.0,3908757.0
+Ibadan,7.36829,3.98248,Duplex,Sale,New,Electricity,6.0,4.0,307.0,480963738.0
+Jos,9.92047,8.81036,Apartment,Rent,Fairly Used,Water,3.0,4.0,479.0,225825391.0
+Lagos,6.49042,3.40631,Duplx,Sale,Fairly Used,Parking,4.0,3.0,362.0,523963.0
+Kaduna,10.50707,7.46941,Apartment,Sale,Old,Parking,6.0,1.0,470.0,472066137.0
+Lagos,6.52386,3.36468,Apartment,Rent,Fairly Used,Parking,2.0,3.0,404.0,46840399.0
+Benin city,6.3733,5.56056,Mini Flat,Sale,New,Parking,3.0,1.0,342.0,273289935.0
+Port harcourt,4.82419,7.05365,Mini Flat,Rent,New,Water,3.0,4.0,527.0,37250560.0
+Maiduguri,11.87803,13.12888,Detached House,Sale,Old,Internet,1.0,1.0,487.0,25478510.0
+Enugu,6.53206,7.46484,Bungalow,Sale,Old,Electricity,5.0,1.0,556.0,97117117.0
+Kano,12.01861,8.62313,Duplex,Sale,Old,Internet,3.0,1.0,329.0,18969986.0
+Maiduguri,11.87737,13.14068,Detached House,Rent,Fairly Used,Security,3.0,1.0,214.0,54911329.0
+Kaduna,10.54794,7.38824,Detached House,Sale,Old,Parking,1.0,2.0,491.0,10665418.0
+Abuja,9.06709,7.39053,Detached House,Rent,New,Electricity,3.0,4.0,99.0,63823656.0
+Port harcourt,4.7845,7.06958,Detached House,Rent,Old,Electricity,4.0,1.0,386.0,85680460.0
+Maiduguri,11.81383,13.16711,Studio,Sale,Fairly Used,Internet,5.0,3.0,462.0,93836761.0
+Jos,9.94431,8.81848,Studio,Sale,New,Water,5.0,4.0,64.0,34874074.0
+Kaduna,10.53195,7.41372,Bungalow,Rent,Fairly Used,Water,3.0,4.0,115.0,3779923.0
+Maiduguri,11.87616,13.11461,Studio,Rent,Fairly Used,Water,6.0,1.0,565.0,222550340.0
+Maiduguri,11.78697,13.14287,Appartment,Sale,Fairly Used,Water,5.0,4.0,147.0,80225930.0
+Lagos,6.52046,3.3874,Bungalow,Sale,New,Internet,2.0,3.0,457.0,52529977.0
+Ibadan,7.4102,3.9474,Studio,Sale,Fairly Used,Internet,3.0,1.0,502.0,14989245.0
+Lagos,6.53179,3.38564,Detached House,Rent,Fairly Used,Water,2.0,4.0,437.0,24338756.0
+Abuja,9.11855,7.36482,Mini Flat,Rent,Old,Security,2.0,1.0,98.0,229231184.0
+Kaduna,10.49157,7.47496,Bungalow,Rent,New,Security,1.0,2.0,465.0,36831364.0
+Benin city,6.37453,5.6159,Studio,Rent,New,Internet,6.0,2.0,90.0,157312095.0
+Port harcourt,4.80678,7.01001,Detached House,Rent,Old,Parking,1.0,2.0,66.0,56437866.0
+Kaduna,10.51137,7.43085,Duplx,Sale,Old,Internet,3.0,1.0,141.0,34722990.0
+Benin city,6.32207,5.59532,Mini Flat,Sale,Old,Parking,4.0,3.0,168.0,205406527.0
+Port harcourt,4.82785,7.09566,Duplx,Sale,New,Water,1.0,3.0,476.0,167687948.0
+Jos,9.93282,8.87206,Appartment,Sale,Fairly Used,Electricity,5.0,2.0,95.0,42267589.0
+Kano,12.04164,8.6149,Duplex,Sale,New,Security,1.0,3.0,78.0,357506289.0
+Kano,12.01873,8.64187,Bungalow,Rent,New,Water,2.0,3.0,504.0,213502512.0
+Benin city,6.32754,5.60174,Duplex,Rent,Old,Internet,3.0,1.0,468.0,7595478.0
+Jos,9.91114,8.82198,Apartment,Sale,New,Security,5.0,4.0,95.0,221560923.0
+Kaduna,10.51628,7.48264,Bungalow,Rent,Fairly Used,Water,5.0,3.0,240.0,29327649.0
+Port harcourt,4.8117,7.06377,Apartment,Sale,Old,Internet,3.0,4.0,92.0,234005083.0
+Kano,12.00491,8.60244,Mini Flat,Sale,New,Internet,6.0,2.0,478.0,31908877.0
+Abuja,9.09812,7.43914,Duplex,Sale,Old,Water,2.0,1.0,505.0,45422094.0
+Lagos,6.55524,3.35617,Duplex,Sale,New,Water,4.0,3.0,440.0,233463868.0
+Benin city,6.29126,5.61649,Appartment,Rent,New,Parking,3.0,3.0,534.0,379901566.0
+Enugu,6.48263,7.51631,Studio,Rent,Fairly Used,Electricity,5.0,2.0,52.0,23249315.0
+Kano,11.98507,8.62769,Duplx,Rent,Old,Parking,6.0,2.0,303.0,429134679.0
+Kano,12.00221,8.56641,Studio,Sale,Fairly Used,Parking,1.0,1.0,153.0,415623848.0
+Maiduguri,11.80865,13.16631,Detached House,Rent,Old,Security,2.0,2.0,263.0,79321774.0
+Jos,9.92409,8.83319,Studio,Sale,New,Electricity,4.0,3.0,351.0,338030231.0
+Kaduna,10.48046,7.43924,Apartment,Rent,Fairly Used,Internet,1.0,4.0,490.0,42451933.0
+Kano,11.9821,8.62929,Mini Flat,Sale,Fairly Used,Water,2.0,3.0,109.0,435150752.0
+Benin city,6.3752,5.65123,Detached House,Sale,Fairly Used,Parking,6.0,2.0,338.0,277435581.0
+Abuja,9.0523,7.39761,Duplex,Sale,Fairly Used,Water,5.0,4.0,193.0,70587602.0
+Abuja,9.08388,7.38576,Detached House,Rent,Fairly Used,Electricity,4.0,2.0,44.0,68651002.0
+Kano,12.00854,8.61518,Appartment,Sale,Fairly Used,Parking,6.0,4.0,195.0,14820100.0
+Ibadan,7.41507,3.95121,Apartment,Rent,Fairly Used,Water,4.0,1.0,291.0,5192450.0
+Kano,12.03344,8.57589,Apartment,Sale,Fairly Used,Parking,5.0,1.0,142.0,426827186.0
+Kaduna,10.56588,7.48756,Mini Flat,Rent,Fairly Used,Water,3.0,3.0,91.0,71932644.0
+Maiduguri,11.81224,13.19658,Appartment,Sale,New,Security,4.0,3.0,450.0,203477572.0
+Abuja,9.0628,7.44844,Duplx,Sale,Old,Parking,1.0,4.0,177.0,40583800.0
+Jos,9.86546,8.8158,Duplx,Sale,Fairly Used,Security,3.0,4.0,130.0,334272424.0
+Enugu,6.56419,7.54202,Apartment,Rent,New,Parking,4.0,3.0,488.0,81312819.0
+Kaduna,10.55233,7.46547,Studio,Sale,New,Security,1.0,3.0,415.0,487812929.0
+Maiduguri,11.78545,13.13411,Mini Flat,Rent,Old,Water,2.0,3.0,389.0,63853342.0
+Jos,9.93147,8.82587,Duplex,Rent,New,Internet,4.0,2.0,434.0,419822520.0
+Ibadan,7.40595,3.9177,Mini Flat,Sale,New,Security,4.0,2.0,405.0,77061152.0
+Jos,9.93543,8.81487,Mini Flat,Rent,New,Parking,2.0,2.0,191.0,25606965.0
+Lagos,6.48166,3.4004,Apartment,Rent,New,Security,5.0,1.0,129.0,50333683.0
+Kaduna,10.4992,7.45409,Detached House,Rent,Old,Internet,4.0,2.0,122.0,22917116.0
+Lagos,6.52364,3.41021,Apartment,Rent,Old,Security,3.0,4.0,198.0,480970298.0
+Lagos,6.51464,3.35308,Duplx,Sale,Old,Security,3.0,3.0,389.0,50901219.0
+Abuja,9.04444,7.35215,Mini Flat,Sale,New,Electricity,3.0,4.0,256.0,212592865.0
+Maiduguri,11.86554,13.17818,Mini Flat,Sale,New,Electricity,1.0,1.0,458.0,53642152.0
+Lagos,6.54981,3.34915,Detached House,Rent,Old,Internet,1.0,2.0,453.0,311593926.0
+Maiduguri,11.82403,13.11144,Apartment,Rent,New,Water,2.0,3.0,486.0,132900415.0
+Abuja,9.04278,7.41292,Apartment,Sale,Fairly Used,Internet,6.0,3.0,271.0,67408439.0
+Ibadan,7.41402,3.97212,Mini Flat,Rent,New,Security,5.0,2.0,566.0,67291335.0
+Abuja,9.03225,7.38896,Studio,Sale,Fairly Used,Water,2.0,3.0,273.0,63630232.0
+Benin city,6.319,5.65161,Bungalow,Sale,Fairly Used,Electricity,5.0,3.0,441.0,95316744.0
+Kaduna,10.50733,7.45571,Studio,Sale,Fairly Used,Internet,5.0,4.0,377.0,225418842.0
+Ibadan,7.42192,3.98808,Mini Flat,Sale,New,Water,5.0,2.0,314.0,132758051.0
+Lagos,6.49463,3.35151,Bungalow,Rent,New,Security,1.0,3.0,170.0,238840806.0
+Port harcourt,4.78484,7.07594,Mini Flat,Rent,Old,Security,3.0,1.0,585.0,66822534.0
+Benin city,6.32707,5.58232,Duplex,Sale,New,Water,1.0,1.0,461.0,484313529.0
+Lagos,6.48269,3.42848,Mini Flat,Rent,New,Security,5.0,3.0,352.0,88476131.0
+Benin city,6.35356,5.61935,Apartment,Sale,Old,Electricity,6.0,2.0,245.0,89773940.0
+Lagos,6.52113,3.3319,Detached House,Rent,New,Internet,3.0,1.0,125.0,235767627.0
+Lagos,6.54553,3.36652,Apartment,Sale,Old,Parking,3.0,4.0,498.0,355054381.0
+Kaduna,10.51925,7.40374,Apartment,Rent,Old,Security,6.0,3.0,310.0,5108665.0
+Kaduna,10.49263,7.46055,Mini Flat,Sale,Old,Electricity,6.0,2.0,535.0,92326746.0
+Lagos,6.56704,3.331,Mini Flat,Rent,New,Security,1.0,3.0,575.0,376673730.0
+Kaduna,10.57234,7.451,Bungalow,Sale,New,Security,2.0,1.0,528.0,149447100.0
+Benin city,6.33887,5.56269,Duplex,Sale,New,Security,5.0,4.0,161.0,47075363.0
+Jos,9.91211,8.90188,Appartment,Sale,Old,Security,2.0,2.0,595.0,475316489.0
+Benin city,6.38232,5.55707,Studio,Sale,New,Water,3.0,2.0,585.0,12610304.0
+Lagos,6.5271,3.37535,Bungalow,Rent,Old,Parking,5.0,1.0,99.0,49298690.0
+Kaduna,10.51304,7.43744,Mini Flat,Rent,New,Water,2.0,1.0,200.0,380657496.0
+Benin city,6.28697,5.61361,Duplex,Rent,New,Water,2.0,4.0,459.0,10797125.0
+Jos,9.8484,8.82196,Bungalow,Rent,Fairly Used,Parking,4.0,2.0,294.0,5653907.0
+Maiduguri,11.84168,13.15644,Studio,Rent,Old,Internet,4.0,2.0,445.0,35265684.0
+Kano,11.95807,8.62656,Studio,Sale,Fairly Used,Internet,6.0,1.0,318.0,10294134.0
+Benin city,6.37109,5.56099,Apartment,Sale,Fairly Used,Electricity,3.0,3.0,515.0,15655369.0
+Benin city,6.32126,5.55932,Studio,Rent,Fairly Used,Electricity,4.0,2.0,276.0,370432177.0
+Jos,9.89457,8.90324,Studio,Rent,New,Security,5.0,4.0,426.0,91676256.0
+Benin city,6.30932,5.56924,Duplex,Sale,Old,Internet,2.0,4.0,58.0,11202943.0
+Kaduna,10.55384,7.39181,Duplex,Rent,New,Security,3.0,3.0,510.0,498872100.0
+Maiduguri,11.8719,13.12536,Detached House,Rent,Old,Parking,4.0,4.0,338.0,424444554.0
+Maiduguri,11.86046,13.16539,Apartment,Sale,Fairly Used,Water,1.0,4.0,135.0,475217356.0
+Lagos,6.48903,3.36962,Duplx,Sale,Fairly Used,Parking,5.0,4.0,303.0,350136951.0
+Kaduna,10.56089,7.43081,Duplex,Sale,Fairly Used,Security,2.0,2.0,395.0,496186884.0
+Ibadan,7.379,3.94117,Duplx,Rent,New,Water,2.0,1.0,81.0,436206886.0
+Port harcourt,4.83126,7.04428,Duplex,Sale,New,Electricity,3.0,4.0,179.0,228016592.0
+Abuja,9.06724,7.35731,Duplex,Sale,New,Internet,6.0,4.0,387.0,466076214.0
+Ibadan,7.34061,3.98509,Appartment,Rent,Old,Security,1.0,1.0,526.0,243590731.0
+Port harcourt,4.8482,7.08296,Duplex,Sale,Fairly Used,Security,3.0,1.0,369.0,76837560.0
+Benin city,6.28761,5.60917,Duplx,Rent,Old,Parking,3.0,2.0,117.0,110466357.0
+Maiduguri,11.80949,13.16879,Detached House,Sale,Fairly Used,Internet,5.0,3.0,391.0,363461451.0
+Maiduguri,11.84902,13.12235,Appartment,Rent,Old,Water,5.0,4.0,74.0,35041616.0
+Maiduguri,11.84315,13.17839,Mini Flat,Sale,Old,Parking,3.0,3.0,354.0,80105737.0
+Enugu,6.55454,7.54369,Duplex,Rent,New,Parking,4.0,4.0,68.0,497906439.0
+Kano,12.02341,8.55762,Mini Flat,Rent,New,Parking,5.0,1.0,452.0,13851804.0
+Abuja,9.0297,7.44141,Apartment,Rent,Old,Internet,6.0,2.0,481.0,317209098.0
+Port harcourt,4.76794,7.00652,Detached House,Rent,Fairly Used,Internet,4.0,3.0,66.0,331635420.0
+Lagos,6.52662,3.42065,Apartment,Sale,Old,Electricity,5.0,1.0,318.0,15228310.0
+Kaduna,10.52695,7.42194,Studio,Sale,Old,Water,4.0,3.0,562.0,146873161.0
+Enugu,6.51177,7.5065,Detached House,Rent,New,Security,1.0,1.0,137.0,163289217.0
+Lagos,6.56667,3.34012,Appartment,Sale,Fairly Used,Water,2.0,1.0,393.0,37442442.0
+Jos,9.85196,8.86568,Apartment,Rent,Old,Internet,6.0,3.0,308.0,56944554.0
+Abuja,9.11928,7.43632,Studio,Rent,Old,Security,6.0,4.0,450.0,132552697.0
+Kano,11.97546,8.6057,Mini Flat,Sale,New,Internet,6.0,2.0,53.0,91543252.0
+Abuja,9.06234,7.42025,Studio,Rent,New,Parking,3.0,3.0,218.0,62748025.0
+Abuja,9.05175,7.37106,Mini Flat,Sale,Fairly Used,Electricity,1.0,4.0,103.0,33862016.0
+Jos,9.93456,8.84958,Apartment,Sale,New,Electricity,6.0,2.0,421.0,80315201.0
+Kano,11.98352,8.59528,Duplx,Rent,Old,Security,4.0,1.0,293.0,412992465.0
+Kano,12.00358,8.54688,Studio,Sale,Old,Water,1.0,2.0,124.0,73576500.0
+Port harcourt,4.85537,7.02858,Studio,Rent,Old,Water,3.0,2.0,333.0,380691147.0
+Ibadan,7.40167,3.95962,Duplex,Rent,Fairly Used,Internet,2.0,1.0,104.0,422819436.0
+Port harcourt,4.82877,7.08224,Appartment,Sale,Old,Water,5.0,3.0,428.0,74206712.0
+Kaduna,10.4817,7.46669,Mini Flat,Rent,Old,Water,6.0,1.0,211.0,47496926.0
+Benin city,6.35094,5.61296,Bungalow,Sale,New,Internet,3.0,1.0,290.0,321761559.0
+Kano,11.99884,8.57521,Duplx,Sale,New,Electricity,3.0,2.0,517.0,82802111.0
+Maiduguri,11.82704,13.13876,Duplx,Rent,Old,Water,3.0,3.0,303.0,428103546.0
+Abuja,9.07001,7.35289,Appartment,Sale,New,Security,5.0,4.0,580.0,19805203.0
+Port harcourt,4.7942,7.0324,Bungalow,Sale,Old,Internet,6.0,3.0,472.0,357069401.0
+Kano,11.98519,8.55322,Detached House,Rent,Fairly Used,Electricity,6.0,1.0,475.0,67877467.0
+Jos,9.86127,8.90678,Detached House,Sale,New,Electricity,6.0,1.0,102.0,66545786.0
+Maiduguri,11.8068,13.16439,Bungalow,Rent,Old,Internet,6.0,1.0,392.0,28918328.0
+Kaduna,10.50024,7.44072,Detached House,Sale,Fairly Used,Water,3.0,4.0,316.0,153081140.0
+Kano,11.9956,8.62018,Mini Flat,Sale,New,Parking,4.0,2.0,220.0,58336082.0
+Abuja,9.06988,7.41678,Mini Flat,Rent,Old,Water,5.0,1.0,488.0,45716234.0
+Lagos,6.55756,3.34472,Detached House,Rent,Fairly Used,Parking,5.0,2.0,90.0,39292626.0
+Kano,11.9907,8.54633,Bungalow,Sale,New,Electricity,3.0,1.0,371.0,93178837.0
+Ibadan,7.40625,3.91475,Appartment,Rent,Fairly Used,Electricity,3.0,2.0,218.0,422224797.0
+Kano,12.01217,8.59937,Duplx,Sale,Old,Parking,3.0,1.0,481.0,435232425.0
+Maiduguri,11.83947,13.19814,Appartment,Rent,Old,Security,6.0,4.0,342.0,92606197.0
+Abuja,9.08529,7.35778,Apartment,Rent,Fairly Used,Security,3.0,1.0,529.0,117221875.0
+Lagos,6.56663,3.34243,Mini Flat,Sale,Old,Water,6.0,4.0,192.0,35951093.0
+Maiduguri,11.80608,13.18701,Detached House,Sale,Fairly Used,Parking,3.0,3.0,314.0,135387157.0
+Ibadan,7.35572,3.99508,Apartment,Sale,Fairly Used,Internet,5.0,1.0,89.0,40535769.0
+Kaduna,10.57118,7.42922,Duplx,Sale,Old,Parking,6.0,1.0,181.0,211045553.0
+Benin city,6.33934,5.62142,Mini Flat,Sale,Old,Water,5.0,2.0,444.0,316261409.0
+Ibadan,7.4016,3.90423,Duplex,Sale,New,Internet,2.0,1.0,215.0,12469007.0
+Kaduna,10.51065,7.46778,Appartment,Sale,Old,Security,4.0,1.0,92.0,336396127.0
+Enugu,6.53232,7.51842,Bungalow,Rent,Old,Internet,4.0,2.0,541.0,98244797.0
+Ibadan,7.40553,3.91731,Appartment,Sale,Fairly Used,Security,6.0,1.0,469.0,38877961.0
+Enugu,6.50215,7.49685,Apartment,Sale,Old,Parking,5.0,2.0,487.0,230769367.0
+Ibadan,7.37618,3.95957,Duplx,Rent,Fairly Used,Internet,4.0,3.0,101.0,92338775.0
+Abuja,9.11139,7.44797,Duplx,Rent,Old,Electricity,5.0,3.0,472.0,66155996.0
+Port harcourt,4.82025,7.00987,Bungalow,Sale,Old,Security,2.0,4.0,408.0,27345391.0
+Port harcourt,4.86319,7.00477,Detached House,Rent,Old,Security,4.0,2.0,186.0,93075374.0
+Lagos,6.53116,3.41953,Duplx,Rent,Fairly Used,Water,2.0,1.0,469.0,285659518.0
+Kano,12.02523,8.63027,Apartment,Rent,Old,Electricity,2.0,4.0,304.0,14002401.0
+Jos,9.90266,8.86098,Studio,Rent,Fairly Used,Internet,3.0,4.0,399.0,260493712.0
+Enugu,6.49801,7.47692,Bungalow,Sale,Fairly Used,Parking,2.0,2.0,322.0,386825291.0
+Jos,9.84675,8.84567,Bungalow,Sale,Fairly Used,Internet,6.0,2.0,557.0,363535700.0
+Ibadan,7.36368,3.90566,Appartment,Sale,Old,Parking,1.0,3.0,200.0,5216535.0
+Port harcourt,4.82281,7.08488,Detached House,Rent,Fairly Used,Parking,6.0,1.0,596.0,309205132.0
+Jos,9.94605,8.84933,Duplx,Rent,New,Security,1.0,4.0,289.0,29745923.0
+Kano,11.99671,8.61644,Appartment,Sale,New,Parking,1.0,3.0,48.0,425816830.0
+Ibadan,7.36288,3.99137,Bungalow,Sale,Fairly Used,Security,2.0,1.0,90.0,38776353.0
+Abuja,9.03627,7.37547,Bungalow,Rent,Old,Security,5.0,2.0,337.0,319117569.0
+Jos,9.90652,8.81162,Duplx,Rent,Old,Water,3.0,3.0,175.0,208336992.0
+Kaduna,10.51496,7.46173,Appartment,Rent,Fairly Used,Water,6.0,1.0,279.0,487075307.0
+Kano,12.02924,8.55297,Duplx,Rent,New,Internet,2.0,2.0,304.0,70339118.0
+Kaduna,10.48572,7.42353,Duplx,Rent,Old,Water,3.0,2.0,393.0,148647390.0
+Abuja,9.12307,7.38426,Appartment,Rent,Fairly Used,Internet,3.0,3.0,474.0,3809512.0
+Enugu,6.56554,7.49506,Duplx,Rent,Fairly Used,Internet,1.0,2.0,282.0,41304734.0
+Enugu,6.52458,7.5218,Mini Flat,Sale,Fairly Used,Internet,4.0,2.0,345.0,304742405.0
+Maiduguri,11.79345,13.12633,Studio,Rent,New,Electricity,3.0,4.0,400.0,493249218.0
+Benin city,6.38059,5.58375,Detached House,Sale,New,Parking,4.0,4.0,430.0,173794011.0
+Kano,12.03879,8.55818,Studio,Rent,Fairly Used,Electricity,2.0,2.0,530.0,73383247.0
+Abuja,9.03532,7.35157,Apartment,Rent,New,Parking,3.0,2.0,196.0,37790083.0
+Enugu,6.52978,7.46764,Bungalow,Sale,New,Internet,5.0,1.0,75.0,39507071.0
+Maiduguri,11.85438,13.1133,Apartment,Rent,Fairly Used,Security,2.0,3.0,308.0,189574584.0
+Kaduna,10.51438,7.41171,Appartment,Rent,New,Security,5.0,3.0,135.0,75692704.0
+Kano,12.02055,8.54609,Studio,Sale,Fairly Used,Security,6.0,2.0,353.0,2783206.0
+Ibadan,7.39962,3.93886,Duplx,Rent,New,Internet,4.0,3.0,488.0,201135040.0
+Kaduna,10.5644,7.42532,Mini Flat,Sale,Fairly Used,Internet,6.0,2.0,598.0,94156870.0
+Abuja,9.07732,7.42734,Appartment,Rent,Old,Electricity,2.0,1.0,87.0,408181908.0
+Enugu,6.53749,7.46248,Detached House,Rent,Old,Water,6.0,1.0,438.0,17326798.0
+Lagos,6.55214,3.37627,Duplex,Sale,Old,Internet,3.0,3.0,520.0,60308491.0
+Lagos,6.49273,3.40465,Duplex,Rent,New,Electricity,6.0,2.0,271.0,139005559.0
+Abuja,9.0664,7.4368,Bungalow,Rent,Old,Parking,6.0,2.0,168.0,81404163.0
+Port harcourt,4.84134,7.04315,Appartment,Sale,New,Water,6.0,2.0,337.0,98234277.0
+Ibadan,7.40855,3.92025,Detached House,Sale,New,Parking,1.0,2.0,122.0,62540028.0
+Ibadan,7.32919,3.94038,Detached House,Sale,New,Security,1.0,2.0,585.0,92795376.0
+Kaduna,10.50861,7.42275,Apartment,Rent,Fairly Used,Electricity,5.0,2.0,503.0,66038743.0
+Port harcourt,4.81912,7.04213,Duplx,Rent,Fairly Used,Water,3.0,1.0,594.0,11553396.0
+Kaduna,10.51856,7.41451,Detached House,Rent,New,Internet,3.0,3.0,285.0,279109215.0
+Jos,9.90094,8.87387,Bungalow,Rent,New,Security,2.0,4.0,188.0,6267629.0
+Benin city,6.32744,5.61682,Duplx,Rent,Old,Parking,4.0,1.0,461.0,18282878.0
+Enugu,6.47599,7.49263,Duplx,Rent,New,Parking,3.0,2.0,202.0,42118101.0
+Port harcourt,4.81346,7.02024,Detached House,Sale,New,Internet,1.0,4.0,47.0,175220287.0
+Kaduna,10.51779,7.40855,Mini Flat,Rent,New,Security,5.0,4.0,449.0,76115594.0
+Enugu,6.51201,7.48255,Studio,Sale,Old,Water,4.0,3.0,51.0,38573550.0
+Benin city,6.35711,5.57976,Appartment,Rent,Fairly Used,Parking,3.0,4.0,76.0,4257009.0
+Maiduguri,11.82086,13.1062,Duplx,Rent,Fairly Used,Electricity,2.0,1.0,445.0,423342750.0
+Ibadan,7.41804,3.9627,Detached House,Sale,Old,Parking,6.0,4.0,436.0,150482413.0
+Enugu,6.49446,7.52418,Mini Flat,Sale,Fairly Used,Parking,5.0,1.0,218.0,8315750.0
+Ibadan,7.37301,3.91201,Bungalow,Sale,Fairly Used,Electricity,6.0,4.0,483.0,51972871.0
+Jos,9.93476,8.83481,Mini Flat,Rent,Fairly Used,Internet,3.0,2.0,142.0,300012418.0
+Benin city,6.35608,5.63459,Apartment,Rent,New,Security,3.0,4.0,486.0,236121233.0
+Maiduguri,11.84217,13.11332,Detached House,Rent,Fairly Used,Security,1.0,3.0,562.0,12585055.0
+Enugu,6.56351,7.4831,Bungalow,Rent,Old,Parking,3.0,3.0,469.0,146399842.0
+Ibadan,7.37844,3.91214,Duplx,Rent,Fairly Used,Security,4.0,3.0,87.0,49402770.0
+Lagos,6.49238,3.38335,Bungalow,Rent,Old,Parking,6.0,4.0,504.0,78974725.0
+Maiduguri,11.8045,13.18298,Duplx,Rent,Old,Water,6.0,3.0,578.0,17843811.0
+Kano,11.97239,8.56376,Detached House,Sale,New,Security,1.0,1.0,382.0,345847230.0
+Port harcourt,4.81451,7.06159,Detached House,Sale,Old,Internet,5.0,3.0,582.0,498944688.0
+Port harcourt,4.85581,7.00583,Detached House,Rent,Old,Parking,5.0,1.0,382.0,258750221.0
+Jos,9.93875,8.86968,Studio,Sale,Fairly Used,Water,4.0,3.0,104.0,216088881.0
+Kaduna,10.47895,7.45771,Detached House,Rent,Fairly Used,Electricity,3.0,3.0,510.0,81872446.0
+Maiduguri,11.87305,13.11806,Studio,Rent,New,Electricity,5.0,2.0,103.0,228956681.0
+Port harcourt,4.79552,7.09544,Mini Flat,Rent,New,Parking,3.0,2.0,332.0,488623671.0
+Port harcourt,4.8552,7.02865,Duplex,Sale,Fairly Used,Electricity,5.0,1.0,96.0,466496235.0
+Abuja,9.05374,7.4303,Duplex,Sale,Old,Parking,1.0,4.0,183.0,94907006.0
+Lagos,6.5612,3.39677,Apartment,Sale,Old,Internet,3.0,1.0,385.0,196103098.0
+Kaduna,10.47526,7.41761,Bungalow,Rent,New,Water,5.0,2.0,377.0,400281929.0
+Lagos,6.53466,3.33941,Duplex,Rent,Old,Electricity,3.0,4.0,534.0,68147803.0
+Kano,11.98122,8.57016,Duplex,Sale,Old,Electricity,2.0,3.0,567.0,335341180.0
+Abuja,9.08388,7.38956,Mini Flat,Sale,New,Water,2.0,1.0,501.0,88166740.0
+Port harcourt,4.83071,7.02962,Mini Flat,Rent,New,Electricity,3.0,1.0,79.0,239096544.0
+Jos,9.85696,8.85066,Duplex,Sale,Fairly Used,Security,6.0,1.0,592.0,409913439.0
+Maiduguri,11.86127,13.11165,Detached House,Sale,Fairly Used,Electricity,4.0,4.0,377.0,400810536.0
+Lagos,6.52565,3.33993,Studio,Rent,New,Water,3.0,1.0,364.0,83054247.0
+Benin city,6.28634,5.57521,Duplx,Rent,Old,Water,6.0,4.0,551.0,243617719.0
+Kaduna,10.47615,7.46259,Appartment,Rent,Fairly Used,Security,2.0,2.0,501.0,60823961.0
+Maiduguri,11.85323,13.16979,Mini Flat,Rent,New,Security,6.0,4.0,477.0,351905144.0
+Jos,9.89543,8.83691,Apartment,Rent,Fairly Used,Internet,5.0,2.0,160.0,304695710.0
+Ibadan,7.33565,3.90279,Detached House,Rent,Fairly Used,Electricity,6.0,4.0,188.0,67708637.0
+Abuja,9.04693,7.35554,Studio,Rent,Fairly Used,Security,2.0,2.0,230.0,26450290.0
+Jos,9.87461,8.85581,Appartment,Sale,Old,Parking,4.0,1.0,229.0,351748384.0
+Enugu,6.54093,7.51716,Appartment,Sale,New,Security,4.0,2.0,351.0,331281990.0
