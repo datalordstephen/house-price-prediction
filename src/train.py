@@ -7,7 +7,9 @@ import json
 from pathlib import Path
 
 import joblib
+import numpy as np
 import pandas as pd
+from sklearn.compose import TransformedTargetRegressor
 from sklearn.model_selection import KFold, cross_val_score, train_test_split
 from sklearn.pipeline import Pipeline
 
@@ -17,6 +19,13 @@ from src.metrics import mae, r2, rmse
 from src.models import MODEL_REGISTRY, slugify
 
 ARTIFACTS_DIR = Path(__file__).resolve().parent.parent / "artifacts"
+
+
+def build_pipeline(build_model) -> Pipeline:
+    # Prices are heavily right-skewed, so every model is fitted on log(price);
+    # predict() applies exp() and returns naira.
+    model = TransformedTargetRegressor(regressor=build_model(), func=np.log, inverse_func=np.exp)
+    return Pipeline(steps=[("preprocess", build_preprocessor()), ("model", model)])
 
 
 def train_all(df: pd.DataFrame | None = None, artifacts_dir: Path = ARTIFACTS_DIR) -> pd.DataFrame:
@@ -33,14 +42,12 @@ def train_all(df: pd.DataFrame | None = None, artifacts_dir: Path = ARTIFACTS_DI
     results = []
 
     for name, build_model in MODEL_REGISTRY.items():
-        pipeline = Pipeline(
-            steps=[("preprocess", build_preprocessor()), ("model", build_model())]
-        )
+        pipeline = build_pipeline(build_model)
         pipeline.fit(X_train, y_train)
         y_pred = pipeline.predict(X_test)
 
         cv_scores = cross_val_score(
-            Pipeline(steps=[("preprocess", build_preprocessor()), ("model", build_model())]),
+            build_pipeline(build_model),
             X,
             y,
             cv=cv,
