@@ -1,6 +1,7 @@
 """Registry aggregating every algorithm module for src.train and app.py."""
 
 from src.models import (
+    baseline,
     decision_tree,
     gradient_boosting,
     linear_regression,
@@ -10,6 +11,7 @@ from src.models import (
 )
 
 _MODEL_MODULES = [
+    baseline,
     linear_regression,
     ridge_regression,
     decision_tree,
