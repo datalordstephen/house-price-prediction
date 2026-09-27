@@ -1,11 +1,55 @@
 # Nigerian House Price Prediction
 
-Predicts `Price_NGN` for Nigerian housing listings (`data/clean_nig_housing_dset.csv`,
-1,862 listings across 10 cities), comparing six regression algorithms — from plain
-linear regression to a neural network — and serving the comparison plus a live
-predictor through a Streamlit dashboard.
+Predicts the asking price of Nigerian houses from their listing details, comparing
+six regression algorithms (plus a mean-predicting baseline), from linear regression
+to a neural network. A Streamlit dashboard shows the comparison and runs a live
+predictor.
+
+## Dataset
+
+[Nigeria Houses and Prices Dataset](https://www.kaggle.com/datasets/abdullahiyunus/nigeria-houses-and-prices-dataset)
+on Kaggle (`data/nigeria_houses_data.csv`): 24,326 listings scraped from
+nigeriapropertycentre.com.
+
+| Column | Role |
+|---|---|
+| `title` (property type), `town`, `state` | categorical features |
+| `bedrooms`, `bathrooms`, `toilets`, `parking_space` | numeric features |
+| `price` (₦) | target |
+
+### Cleaning
+
+`src/data.py::clean_data()` runs on every load:
+
+| Step | Rows |
+|---|---:|
+| Raw CSV | 24,326 |
+| Drop exact duplicate rows (10,438 repeated listings) | 13,888 |
+| Keep ₦5M ≤ price ≤ ₦2B | 13,714 |
+
+Without the duplicate removal, the same listing would appear in both the train and
+test sets. The price bounds are fixed constants, roughly the 1st and 99.5th
+percentiles. They remove implausible values such as a ₦1.8 trillion typo.
+
+Towns with fewer than 10 listings (about half of the 184) share a single
+"infrequent" one-hot column.
+
+Price rises clearly with bedroom count and property type:
+
+![Median price by bedrooms](assets/price_by_bedrooms.png)
+![Median price by property type](assets/price_by_title.png)
+
+### Why a log target
+
+Prices are heavily right-skewed: the median is ₦75M but the top listings reach ₦2B.
+Every model is fitted on `log(price)` using `TransformedTargetRegressor`, and its
+predictions are converted back to naira. This keeps the handful of most expensive
+listings from dominating the fit and lets errors scale with price. For the same
+reason, the headline metric is **R² on log(price)**.
 
 ## Setup
+
+Requires Python 3.12+.
 
 ```bash
 python3 -m venv .venv
@@ -15,62 +59,73 @@ pip install -r requirements.txt
 
 ## Usage
 
-Train and compare all models (writes fitted pipelines + metrics to `artifacts/`):
+Train and compare all models. This writes the fitted pipelines and the metrics to
+`artifacts/`:
 
 ```bash
 python -m src.train
 ```
 
-Launch the dashboard (auto-trains on first run if `artifacts/` doesn't exist yet):
+Launch the dashboard. It trains the models on first run if `artifacts/` doesn't
+exist yet:
 
 ```bash
 streamlit run app.py
 ```
 
-## Results
-
-Each model was trained inside an identical `Pipeline` (one-hot encoding for
-categorical features, standard scaling for numeric features) on an 80/20 train/test
-split, and also scored with 5-fold cross-validation.
-
-![Model comparison chart](assets/model_comparison.png)
-
-| Model | RMSE (₦) | MAE (₦) | R² | CV R² (mean ± std) |
-|---|---:|---:|---:|---:|
-| **Ridge Regression** | **144,444,830** | **124,246,255** | **-0.051** | **-0.034 ± 0.012** |
-| Linear Regression | 144,641,758 | 124,470,395 | -0.053 | -0.035 ± 0.014 |
-| Random Forest | 147,157,800 | 126,251,418 | -0.090 | -0.068 ± 0.023 |
-| Gradient Boosting | 148,911,774 | 126,373,902 | -0.117 | -0.080 ± 0.027 |
-| Decision Tree | 163,608,754 | 133,294,401 | -0.348 | -0.273 ± 0.097 |
-| Neural Net (MLP) | 204,002,615 | 147,504,345 | -1.096 | -1.167 ± 0.087 |
-
-**Best performer: Ridge Regression**, with the lowest test RMSE (₦144.4M), lowest
-MAE (₦124.2M), and the highest R² (-0.051, essentially tied with plain Linear
-Regression). Every model's R² is negative, meaning none of them beat the trivial
-baseline of predicting the mean price.
-
-### Why every model underperforms
-
-None of the input features have a meaningful relationship with `Price_NGN` in this
-dataset — correlations with price are all within ±0.02, and city/property-type
-group averages differ by only a few percent:
-
-![Feature correlation with price](assets/feature_correlation.png)
-
-Regularized linear models (Ridge/Linear) win by default here: with no real
-signal to fit, the flexible models (Decision Tree, Random Forest, Gradient
-Boosting, MLP) latch onto noise in the training split and generalize worse, while
-the simplest models degrade most gracefully. This points to the dataset itself —
-prices don't appear to be derived from size, location, or property type — rather
-than a modeling bug. Charts are regenerated from `artifacts/metrics.csv` via:
+Regenerate the charts in this README after retraining:
 
 ```bash
 python -m scripts.generate_report_assets
 ```
 
+## Results
+
+Each model is trained inside the same `Pipeline`: one-hot encoding for the
+categorical features, standard scaling for the numeric ones, and a log-price target.
+The data is split 80/20 into train and test sets. Cross-validation (5-fold) runs on
+the training split only.
+
+![Model comparison chart](assets/model_comparison.png)
+
+| Model | R² (log) | R² (₦) | RMSE (₦M) | MAE (₦M) | MdAPE | CV R² (log), mean ± std |
+|---|---:|---:|---:|---:|---:|---:|
+| **Neural Net (MLP)** | 0.701 | 0.506 | 172.9 | 71.6 | 34.5% | 0.708 ± 0.011 |
+| Ridge Regression | 0.687 | 0.507 | 172.8 | 73.2 | 36.5% | 0.694 ± 0.011 |
+| Linear Regression | 0.687 | 0.508 | 172.6 | 73.3 | 36.6% | 0.693 ± 0.011 |
+| Gradient Boosting | 0.686 | 0.528 | 169.0 | 71.6 | 35.7% | 0.686 ± 0.010 |
+| Random Forest | 0.674 | 0.521 | 170.3 | 72.1 | 35.9% | 0.681 ± 0.009 |
+| Decision Tree | 0.598 | 0.483 | 177.0 | 75.4 | 38.7% | 0.609 ± 0.014 |
+| Baseline (Mean) | 0.000 | -0.101 | 258.2 | 119.0 | 63.7% | -0.001 ± 0.000 |
+
+MdAPE is the median absolute percentage error: half of the test-set predictions are
+within that percentage of the listed price. The baseline predicts the mean
+log-price, so its naira R² is slightly negative.
+
+**Best model: Neural Net (MLP).** It has R² = 0.701 on log price (0.708 in
+cross-validation) and a typical error of ±34.5%. The margin is small, though. Ridge,
+Linear Regression and Gradient Boosting are all within 0.02, and Gradient Boosting
+has the lowest RMSE and the highest naira-scale R². Every model cuts the baseline's
+typical error from 63.7% to 34–39%. Much of the remaining error likely comes from
+what the listings don't record: floor area, age, condition and exact location.
+
+## Why we changed datasets
+
+The project originally used `clean_nig_housing_dset.csv`, which turned out to look
+synthetic:
+
+- property type was independent of bedroom count;
+- rent and sale prices had identical distributions;
+- every model scored a negative R², doing worse than predicting the mean.
+
+The Kaggle dataset consists of real scraped listings, and its prices follow the
+features you'd expect.
+
 ## Project structure
 
-- `src/data.py` — feature/target schema and the shared preprocessing pipeline
-- `src/train.py` — trains, scores, and saves all six models
-- `app.py` — Streamlit dashboard (model comparison + interactive predictor)
-- `scripts/generate_report_assets.py` — regenerates the charts in this README
+- `src/data.py`: schema, cleaning, and the shared preprocessing pipeline
+- `src/models/`: one module per algorithm, plus the registry and chart colours
+- `src/train.py`: trains, scores, and saves every model
+- `src/metrics.py`: RMSE, MAE, R², MdAPE
+- `app.py`: Streamlit dashboard (model comparison + interactive predictor)
+- `scripts/generate_report_assets.py`: regenerates the charts in this README
