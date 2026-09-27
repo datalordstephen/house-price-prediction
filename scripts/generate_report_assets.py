@@ -9,19 +9,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 from src.data import NUMERIC_COLS, load_data
+from src.models import MODEL_COLORS
 from src.train import ARTIFACTS_DIR
 
 ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
-
-# Fixed color per model identity (not re-cycled by rank), consistent with app.py.
-MODEL_COLORS = {
-    "Linear Regression": "#4C78A8",
-    "Ridge Regression": "#F58518",
-    "Decision Tree": "#54A24B",
-    "Random Forest": "#E45756",
-    "Gradient Boosting": "#72B7B2",
-    "Neural Net (MLP)": "#B279A2",
-}
 
 
 def _style_axes(ax):
