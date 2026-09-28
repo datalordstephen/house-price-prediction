@@ -63,22 +63,22 @@ pipeline has four layers that must stay in sync:
   in the CSV, update this file first — `train.py`, `app.py` and the tests import their
   column lists from here.
 
-- **`src/models/`** — one module per algorithm (`baseline.py`, `linear_regression.py`,
+- **`src/models/`** — one module per algorithm (`linear_regression.py`,
   `ridge_regression.py`, `decision_tree.py`, `random_forest.py`,
   `gradient_boosting.py`, `neural_net.py`), each exposing just `NAME: str` and
   `build() -> estimator` (the bare estimator — no target transform, no preprocessing).
   Hyperparameters live in the individual module; `src/config.py` holds the one constant
   shared across them (`RANDOM_STATE`). `src/models/__init__.py` collects them into
-  `MODEL_REGISTRY` (an insertion-ordered `{name: build_fn}` dict, 7 models, with
-  `Baseline (Mean)` — a `DummyRegressor` — first), owns `slugify()` (the single
-  name→filename mapping for `.joblib` artifacts) and `MODEL_COLORS` (one fixed colour per
-  model, grey for the baseline, used by both `app.py` and the report script). To add a
+  `MODEL_REGISTRY` (an insertion-ordered `{name: build_fn}` dict, 6 models, with
+  Linear Regression — the baseline the others are compared against — first), owns
+  `slugify()` (the single name→filename mapping for `.joblib` artifacts) and
+  `MODEL_COLORS` (one fixed colour per model, used by both `app.py` and the report
+  script). To add a
   new algorithm: create a module with the same `NAME`/`build()` contract, add it to
   `_MODEL_MODULES`, and give it a `MODEL_COLORS` entry (a test checks every model has one).
 
-- **`src/metrics.py`** — plain `rmse`/`mae`/`r2`/`mdape` functions (MdAPE = median
-  absolute percentage error, returned as a fraction), kept dependency-free (numpy only)
-  so they're trivial to unit test in isolation from sklearn pipelines.
+- **`src/metrics.py`** — plain `rmse`/`mae`/`r2` functions, kept dependency-free
+  (numpy only) so they're trivial to unit test in isolation from sklearn pipelines.
 
 - **`src/train.py`** — the orchestrator. `build_pipeline(build_model)` is the one place
   that wraps a model: `Pipeline(preprocess, TransformedTargetRegressor(regressor=build_model(),
@@ -88,7 +88,7 @@ pipeline has four layers that must stay in sync:
   module, or the comparison stops being apples-to-apples. `train_all(df=None,
   artifacts_dir=ARTIFACTS_DIR)` does an 80/20 split, fits each pipeline on the train
   split and reports on the test split: `R2_log` (R² on log(price) — the headline
-  metric), `R2` (naira), `RMSE`, `MAE`, `MdAPE`, plus `CV_R2_log_mean`/`_std` from
+  metric), `RMSE` and `MAE` (both in naira), plus `CV_R2_log_mean`/`_std` from
   5-fold CV run on `X_train` only, scored with `make_scorer(r2_log)`. The table is
   sorted by `R2_log` and written to `artifacts/metrics.csv` / `.json`, alongside each
   fitted pipeline at `artifacts/<slug>.joblib`. The optional `df`/`artifacts_dir` args
@@ -99,8 +99,8 @@ pipeline has four layers that must stay in sync:
 - **`app.py`** — Streamlit UI with two tabs: a comparison view (R2_log and RMSE bar
   charts + full metrics table from `artifacts/metrics.csv`) and a predictor (state →
   towns filtered to that state → property type, plus integer inputs bounded by the
-  data's min/max; builds a one-row `DataFrame` and calls `pipeline.predict`, shown
-  with the model's test-set MdAPE as the typical error). Tree models also get an
+  data's min/max; builds a one-row `DataFrame` and calls `pipeline.predict`). Tree
+  models also get an
   overall feature-importance chart, read from
   `pipeline.named_steps["model"].regressor_` because the estimator sits inside the
   `TransformedTargetRegressor`. Use `width="stretch"`, not the deprecated
@@ -118,14 +118,14 @@ pipeline has four layers that must stay in sync:
 schema — enough that `min_frequency=10` doesn't fold every category into "infrequent")
 so the suite never trains on the full dataset or writes into the real `artifacts/`
 dir — `test_train.py` passes `tiny_df` + pytest's `tmp_path` into `train_all()` for
-that reason. `test_models.py` checks the registry shape/contract (7 models, baseline
-first, a colour per model) rather than any model's accuracy. `test_data.py` covers
+that reason. `test_models.py` checks the registry shape/contract (6 models, Linear
+Regression first, a colour per model) rather than any model's accuracy. `test_data.py` covers
 `clean_data()` (duplicates and both price bounds) and loads the real CSV once.
 
 ### Data notes
 
-- Current results (test set): MLP best at R2_log ≈ 0.70, with Ridge/Linear/Gradient
-  Boosting within ~0.02; MdAPE ≈ 35%; the baseline sits at R2_log ≈ 0. If a change moves
+- Current results (test set): MLP best at R2_log ≈ 0.70, with the Linear Regression
+  baseline, Ridge and Gradient Boosting within ~0.02; MAE ≈ ₦72M. If a change moves
   these a lot, suspect a pipeline bug (e.g. leakage or a dropped transform) before
   celebrating or tuning.
 - `title` values are the site's own categories (`Detached Duplex`, `Terraced Duplexes`,

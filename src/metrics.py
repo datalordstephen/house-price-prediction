@@ -18,9 +18,3 @@ def r2(y_true, y_pred) -> float:
     ss_tot = np.sum((y_true - np.mean(y_true)) ** 2)
     return float(1 - ss_res / ss_tot)
 
-
-def mdape(y_true, y_pred) -> float:
-    """Median absolute percentage error, as a fraction (0.34 means 34%)."""
-    y_true = np.asarray(y_true)
-    y_pred = np.asarray(y_pred)
-    return float(np.median(np.abs(y_true - y_pred) / np.abs(y_true)))

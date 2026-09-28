@@ -16,7 +16,7 @@ from sklearn.pipeline import Pipeline
 
 from src.config import RANDOM_STATE
 from src.data import build_preprocessor, get_features_and_target, load_data
-from src.metrics import mae, mdape, r2, rmse
+from src.metrics import mae, r2, rmse
 from src.models import MODEL_REGISTRY, slugify
 
 ARTIFACTS_DIR = Path(__file__).resolve().parent.parent / "artifacts"
@@ -66,10 +66,8 @@ def train_all(df: pd.DataFrame | None = None, artifacts_dir: Path = ARTIFACTS_DI
             {
                 "Model": name,
                 "R2_log": r2_log(y_test, y_pred),
-                "R2": r2(y_test, y_pred),
                 "RMSE": rmse(y_test, y_pred),
                 "MAE": mae(y_test, y_pred),
-                "MdAPE": mdape(y_test, y_pred),
                 "CV_R2_log_mean": float(cv_scores.mean()),
                 "CV_R2_log_std": float(cv_scores.std()),
             }
@@ -78,7 +76,7 @@ def train_all(df: pd.DataFrame | None = None, artifacts_dir: Path = ARTIFACTS_DI
         joblib.dump(pipeline, artifacts_dir / f"{slugify(name)}.joblib")
         print(
             f"Trained {name}: R2_log={results[-1]['R2_log']:.3f}  "
-            f"MAE={results[-1]['MAE']:,.0f}  MdAPE={results[-1]['MdAPE']:.1%}"
+            f"RMSE={results[-1]['RMSE']:,.0f}  MAE={results[-1]['MAE']:,.0f}"
         )
 
     metrics_df = pd.DataFrame(results).sort_values("R2_log", ascending=False).reset_index(drop=True)

@@ -1,9 +1,8 @@
 # Nigerian House Price Prediction
 
 Predicts the asking price of Nigerian houses from their listing details, comparing
-six regression algorithms (plus a mean-predicting baseline), from linear regression
-to a neural network. A Streamlit dashboard shows the comparison and runs a live
-predictor.
+six regression algorithms, from linear regression (the baseline) to a neural
+network. A Streamlit dashboard shows the comparison and runs a live predictor.
 
 ## Dataset
 
@@ -88,25 +87,22 @@ the training split only.
 
 ![Model comparison chart](assets/model_comparison.png)
 
-| Model | R² (log) | R² (₦) | RMSE (₦M) | MAE (₦M) | MdAPE | CV R² (log), mean ± std |
-|---|---:|---:|---:|---:|---:|---:|
-| **Neural Net (MLP)** | 0.701 | 0.506 | 172.9 | 71.6 | 34.5% | 0.708 ± 0.011 |
-| Ridge Regression | 0.687 | 0.507 | 172.8 | 73.2 | 36.5% | 0.694 ± 0.011 |
-| Linear Regression | 0.687 | 0.508 | 172.6 | 73.3 | 36.6% | 0.693 ± 0.011 |
-| Gradient Boosting | 0.686 | 0.528 | 169.0 | 71.6 | 35.7% | 0.686 ± 0.010 |
-| Random Forest | 0.674 | 0.521 | 170.3 | 72.1 | 35.9% | 0.681 ± 0.009 |
-| Decision Tree | 0.598 | 0.483 | 177.0 | 75.4 | 38.7% | 0.609 ± 0.014 |
-| Baseline (Mean) | 0.000 | -0.101 | 258.2 | 119.0 | 63.7% | -0.001 ± 0.000 |
+| Model | R² (log price) | RMSE (₦M) | MAE (₦M) | CV R² (log price), mean ± std |
+|---|---:|---:|---:|---:|
+| **Neural Net (MLP)** | 0.701 | 172.9 | 71.6 | 0.708 ± 0.011 |
+| Ridge Regression | 0.687 | 172.8 | 73.2 | 0.694 ± 0.011 |
+| Linear Regression *(baseline)* | 0.687 | 172.6 | 73.3 | 0.693 ± 0.011 |
+| Gradient Boosting | 0.686 | 169.0 | 71.6 | 0.686 ± 0.010 |
+| Random Forest | 0.674 | 170.3 | 72.1 | 0.681 ± 0.009 |
+| Decision Tree | 0.598 | 177.0 | 75.4 | 0.609 ± 0.014 |
 
-MdAPE is the median absolute percentage error: half of the test-set predictions are
-within that percentage of the listed price. The baseline predicts the mean
-log-price, so its naira R² is slightly negative.
+R² is measured on log price, the scale the models are trained on. RMSE and MAE are
+in naira, after converting predictions back from the log scale.
 
-**Best model: Neural Net (MLP).** It has R² = 0.701 on log price (0.708 in
-cross-validation) and a typical error of ±34.5%. The margin is small, though. Ridge,
-Linear Regression and Gradient Boosting are all within 0.02, and Gradient Boosting
-has the lowest RMSE and the highest naira-scale R². Every model cuts the baseline's
-typical error from 63.7% to 34–39%. Much of the remaining error likely comes from
+**Best model: Neural Net (MLP)**, with R² = 0.701 on log price (0.708 in
+cross-validation). It only narrowly beats the Linear Regression baseline (0.687), and
+Gradient Boosting has the lowest RMSE. The more flexible models therefore add little
+over a linear fit on these features. Much of the remaining error likely comes from
 what the listings don't record: floor area, age, condition and exact location.
 
 ## Why we changed datasets
@@ -126,6 +122,6 @@ features you'd expect.
 - `src/data.py`: schema, cleaning, and the shared preprocessing pipeline
 - `src/models/`: one module per algorithm, plus the registry and chart colours
 - `src/train.py`: trains, scores, and saves every model
-- `src/metrics.py`: RMSE, MAE, R², MdAPE
+- `src/metrics.py`: RMSE, MAE, R²
 - `app.py`: Streamlit dashboard (model comparison + interactive predictor)
 - `scripts/generate_report_assets.py`: regenerates the charts in this README

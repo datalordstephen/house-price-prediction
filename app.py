@@ -81,10 +81,8 @@ with tab_compare:
         ordered.set_index("Model").style.format(
             {
                 "R2_log": "{:.3f}",
-                "R2": "{:.3f}",
                 "RMSE": "₦{:,.0f}",
                 "MAE": "₦{:,.0f}",
-                "MdAPE": "{:.1%}",
                 "CV_R2_log_mean": "{:.3f}",
                 "CV_R2_log_std": "{:.3f}",
             }
@@ -95,7 +93,7 @@ with tab_compare:
     best = ordered.iloc[0]
     st.info(
         f"**Best performing model:** {best['Model']} "
-        f"(R² on log price = {best['R2_log']:.3f}, typical error ±{best['MdAPE']:.0%})"
+        f"(R² on log price = {best['R2_log']:.3f}, MAE = ₦{best['MAE'] / 1e6:,.1f}M)"
     )
 
 with tab_predict:
@@ -129,11 +127,7 @@ with tab_predict:
         input_df = pd.DataFrame([inputs])
         pipeline = models[model_choice]
         prediction = pipeline.predict(input_df)[0]
-        mdape = metrics_df.set_index("Model").loc[model_choice, "MdAPE"]
-        st.success(
-            f"Estimated price ({model_choice}): **₦{prediction:,.0f}** "
-            f"— typical error ±{mdape:.0%} (median, test set)"
-        )
+        st.success(f"Estimated price ({model_choice}): **₦{prediction:,.0f}**")
 
         # The fitted estimator sits inside the TransformedTargetRegressor wrapper.
         estimator = pipeline.named_steps["model"].regressor_

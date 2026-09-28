@@ -8,13 +8,11 @@ def test_train_all_produces_metrics_and_artifacts_for_every_model(tiny_df, tmp_p
     assert len(metrics_df) == len(MODEL_REGISTRY)
     assert set(metrics_df["Model"]) == set(MODEL_REGISTRY)
     assert list(metrics_df.columns) == [
-        "Model", "R2_log", "R2", "RMSE", "MAE", "MdAPE", "CV_R2_log_mean", "CV_R2_log_std",
+        "Model", "R2_log", "RMSE", "MAE", "CV_R2_log_mean", "CV_R2_log_std",
     ]
     assert metrics_df["R2_log"].is_monotonic_decreasing
     assert (metrics_df["RMSE"] >= 0).all()
     assert (metrics_df["MAE"] >= 0).all()
-    assert (metrics_df["MdAPE"] >= 0).all()
-    assert (metrics_df["R2"] <= 1).all()
     assert (metrics_df["R2_log"] <= 1).all()
 
     assert (tmp_path / "metrics.csv").exists()
