@@ -25,12 +25,13 @@ nigeriapropertycentre.com.
 | Raw CSV | 24,326 |
 | Drop exact duplicate rows (10,438 repeated listings) | 13,888 |
 | Keep ₦5M ≤ price ≤ ₦2B | 13,714 |
+| Drop state "Anambara" (mislabelled: its towns are in Lagos, Abuja, Rivers, ...) | 13,573 |
 
 Without the duplicate removal, the same listing would appear in both the train and
 test sets. The price bounds are fixed constants, roughly the 1st and 99.5th
 percentiles. They remove implausible values such as a ₦1.8 trillion typo.
 
-Towns with fewer than 10 listings (about half of the 184) share a single
+Towns with fewer than 10 listings (about half of the 183) share a single
 "infrequent" one-hot column.
 
 Price rises clearly with bedroom count and property type:

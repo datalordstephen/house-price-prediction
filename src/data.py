@@ -18,6 +18,10 @@ FEATURE_COLS = CATEGORICAL_COLS + NUMERIC_COLS
 PRICE_MIN = 5_000_000
 PRICE_MAX = 2_000_000_000
 
+# "Anambara" is not Anambra: its 141 listings are towns from Lagos, Abuja, Rivers and
+# other states (Lekki, Ajah, Ikoyi, Port Harcourt...), so the state label is wrong.
+MISLABELLED_STATE = "Anambara"
+
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     print(f"Raw rows: {len(df):,}")
@@ -29,6 +33,9 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
 
     df = df[df[TARGET].between(PRICE_MIN, PRICE_MAX)]
     print(f"After keeping {PRICE_MIN:,} <= {TARGET} <= {PRICE_MAX:,}: {len(df):,}")
+
+    df = df[df["state"] != MISLABELLED_STATE]
+    print(f"After dropping state == {MISLABELLED_STATE!r}: {len(df):,}")
 
     return df.reset_index(drop=True)
 

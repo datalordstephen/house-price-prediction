@@ -54,11 +54,13 @@ pipeline has four layers that must stay in sync:
   `parking_space`) and `TARGET` (`price`, in naira). `load_data()` always runs
   `clean_data()`, which (printing row counts at each step) drops exact duplicate rows
   (24,326 → 13,888; otherwise the same listing leaks into train and test) and keeps
-  `PRICE_MIN <= price <= PRICE_MAX` (₦5M–₦2B → 13,714 rows). The bounds are fixed
-  module constants, deliberately not quantiles computed at load time.
+  `PRICE_MIN <= price <= PRICE_MAX` (₦5M–₦2B → 13,714 rows), then drops
+  `state == MISLABELLED_STATE` ("Anambara", whose 141 listings are really Lagos/Abuja/
+  Rivers/... towns → 13,573 rows). The bounds are fixed module constants, deliberately
+  not quantiles computed at load time.
   `build_preprocessor()` returns the `ColumnTransformer` every model uses:
   `OneHotEncoder(handle_unknown="infrequent_if_exist", min_frequency=10)` for
-  categoricals (about half of the 184 towns have < 10 listings and share an
+  categoricals (about half of the 183 towns have < 10 listings and share an
   "infrequent" column) and `StandardScaler` for numerics. If a column is added/renamed
   in the CSV, update this file first — `train.py`, `app.py` and the tests import their
   column lists from here.

@@ -2,6 +2,7 @@ import pandas as pd
 
 from src.data import (
     CATEGORICAL_COLS,
+    MISLABELLED_STATE,
     NUMERIC_COLS,
     PRICE_MAX,
     PRICE_MIN,
@@ -23,6 +24,7 @@ def test_load_data_has_expected_columns():
     # load_data() returns cleaned data
     assert not df.duplicated().any()
     assert df[TARGET].between(PRICE_MIN, PRICE_MAX).all()
+    assert (df["state"] != MISLABELLED_STATE).all()
 
 
 def test_clean_data_drops_duplicates_and_out_of_range_prices(tiny_df):
@@ -37,6 +39,16 @@ def test_clean_data_drops_duplicates_and_out_of_range_prices(tiny_df):
     assert len(cleaned) == 3
     assert not cleaned.duplicated().any()
     assert sorted(cleaned[TARGET]) == [PRICE_MIN, 50_000_000, PRICE_MAX]
+
+
+def test_clean_data_drops_mislabelled_state(tiny_df):
+    raw = tiny_df.head(4).copy()
+    raw.loc[[0, 1], "state"] = MISLABELLED_STATE
+
+    cleaned = clean_data(raw)
+
+    assert len(cleaned) == 2
+    assert MISLABELLED_STATE not in set(cleaned["state"])
 
 
 def test_get_features_and_target(tiny_df):
