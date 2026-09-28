@@ -79,7 +79,8 @@ pipeline has four layers that must stay in sync:
   new algorithm: create a module with the same `NAME`/`build()` contract, add it to
   `_MODEL_MODULES`, and give it a `MODEL_COLORS` entry (a test checks every model has one).
 
-- **`src/metrics.py`** — plain `rmse`/`mae`/`r2` functions, kept dependency-free
+- **`src/metrics.py`** — plain `rmse`/`mae`/`r2`/`mdape` functions (MdAPE = median
+  absolute percentage error, returned as a fraction), kept dependency-free
   (numpy only) so they're trivial to unit test in isolation from sklearn pipelines.
 
 - **`src/train.py`** — the orchestrator. `build_pipeline(build_model)` is the one place
@@ -90,8 +91,9 @@ pipeline has four layers that must stay in sync:
   module, or the comparison stops being apples-to-apples. `train_all(df=None,
   artifacts_dir=ARTIFACTS_DIR)` does an 80/20 split, fits each pipeline on the train
   split and reports on the test split: `R2_log` (R² on log(price) — the headline
-  metric), `RMSE` and `MAE` (both in naira), plus `CV_R2_log_mean`/`_std` from
-  5-fold CV run on `X_train` only, scored with `make_scorer(r2_log)`. The table is
+  metric), `RMSE` and `MAE` (both in naira), `MdAPE` (the typical % error), plus
+  `CV_R2_log_mean`/`_std` from 5-fold CV run on `X_train` only, scored with
+  `make_scorer(r2_log)`. The table is
   sorted by `R2_log` and written to `artifacts/metrics.csv` / `.json`, alongside each
   fitted pipeline at `artifacts/<slug>.joblib`. The optional `df`/`artifacts_dir` args
   exist so tests can inject a tiny synthetic dataset and a `tmp_path` without touching

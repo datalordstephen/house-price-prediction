@@ -83,6 +83,7 @@ with tab_compare:
                 "R2_log": "{:.3f}",
                 "RMSE": "₦{:,.0f}",
                 "MAE": "₦{:,.0f}",
+                "MdAPE": "{:.1%}",
                 "CV_R2_log_mean": "{:.3f}",
                 "CV_R2_log_std": "{:.3f}",
             }
