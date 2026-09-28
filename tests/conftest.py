@@ -4,29 +4,23 @@ import pytest
 
 from src.data import CATEGORICAL_COLS, NUMERIC_COLS, TARGET
 
-_CATEGORICAL_CHOICES = {
-    "City": ["Lagos", "Abuja", "Kano"],
-    "Property_Type": ["Duplex", "Studio", "Bungalow"],
-    "Ownership": ["Sale", "Rent"],
-    "Condition": ["New", "Old", "Fairly Used"],
-    "Available_Utilities": ["Water", "Security", "Parking"],
-}
+# (town, state) pairs so every town belongs to exactly one state, as in the real data.
+_LOCATIONS = [("Lekki", "Lagos"), ("Ikeja", "Lagos"), ("Gwarinpa", "Abuja")]
+_TITLES = ["Detached Duplex", "Terraced Duplexes", "Block of Flats"]
 
 
 @pytest.fixture
 def tiny_df() -> pd.DataFrame:
+    # 60 rows keeps most categories above the encoder's min_frequency=10.
     rng = np.random.default_rng(0)
-    n = 40
-    data = {col: rng.choice(_CATEGORICAL_CHOICES[col], n) for col in CATEGORICAL_COLS}
-    data.update(
-        {
-            "Latitude": rng.uniform(4.0, 13.0, n),
-            "Longitude": rng.uniform(3.0, 13.0, n),
-            "Bedrooms": rng.integers(1, 6, n).astype(float),
-            "Bathrooms": rng.integers(1, 5, n).astype(float),
-            "Size_sqm": rng.uniform(30.0, 500.0, n),
-        }
-    )
-    assert set(NUMERIC_COLS) <= data.keys()
-    data[TARGET] = rng.uniform(1e6, 5e8, n)
+    n = 60
+    towns, states = zip(*(_LOCATIONS[i] for i in rng.integers(0, len(_LOCATIONS), n)))
+    data = {
+        "title": rng.choice(_TITLES, n),
+        "town": list(towns),
+        "state": list(states),
+    }
+    assert set(CATEGORICAL_COLS) == data.keys()
+    data.update({col: rng.integers(1, 10, n).astype(float) for col in NUMERIC_COLS})
+    data[TARGET] = rng.uniform(1e7, 1e9, n)
     return pd.DataFrame(data)

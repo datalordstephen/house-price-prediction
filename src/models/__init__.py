@@ -20,6 +20,17 @@ _MODEL_MODULES = [
 
 MODEL_REGISTRY = {module.NAME: module.build for module in _MODEL_MODULES}
 
+# Fixed colour per model identity (not re-cycled by rank), shared by app.py and
+# scripts/generate_report_assets.py so each model keeps one colour everywhere.
+MODEL_COLORS = {
+    "Linear Regression": "#4C78A8",
+    "Ridge Regression": "#F58518",
+    "Decision Tree": "#54A24B",
+    "Random Forest": "#E45756",
+    "Gradient Boosting": "#72B7B2",
+    "Neural Net (MLP)": "#B279A2",
+}
+
 
 def slugify(name: str) -> str:
     return name.lower().replace(" ", "_").replace("(", "").replace(")", "")

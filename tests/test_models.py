@@ -1,9 +1,15 @@
-from src.models import MODEL_REGISTRY, slugify
+from src.models import MODEL_COLORS, MODEL_REGISTRY, slugify
 
 
 def test_registry_has_six_uniquely_named_models():
     assert len(MODEL_REGISTRY) == 6
     assert len(set(MODEL_REGISTRY)) == 6
+    # Linear Regression is the baseline, so it is registered first
+    assert next(iter(MODEL_REGISTRY)) == "Linear Regression"
+
+
+def test_every_model_has_a_colour():
+    assert set(MODEL_COLORS) == set(MODEL_REGISTRY)
 
 
 def test_each_model_builds_a_fittable_estimator():
