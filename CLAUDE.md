@@ -128,10 +128,14 @@ Regression first, a colour per model) rather than any model's accuracy. `test_da
 
 ### Data notes
 
-- Current results (test set): MLP best at R2_log ≈ 0.70, with the Linear Regression
-  baseline, Ridge and Gradient Boosting within ~0.02; MAE ≈ ₦72M. If a change moves
-  these a lot, suspect a pipeline bug (e.g. leakage or a dropped transform) before
-  celebrating or tuning.
+- Current results (test set): MLP best at R2_log ≈ 0.72 (CV ≈ 0.70), with the Linear
+  Regression baseline, Ridge and Gradient Boosting around 0.69; MAE ≈ ₦68–71M,
+  MdAPE ≈ 33–35%. If a change moves these a lot, suspect a pipeline bug (e.g. leakage
+  or a dropped transform) before celebrating or tuning.
+- Because the target is log(price), back-transformed predictions are median-like:
+  mean prediction is ~20% below the mean actual price. This is expected, not a bug.
+  MdAPE is the metric to quote for typical error (MAE is inflated by the priciest
+  listings).
 - `title` values are the site's own categories (`Detached Duplex`, `Terraced Duplexes`,
   `Block of Flats`, ...); keep them as-is.
 - Some town names exist in more than one state, which is why the app filters towns by

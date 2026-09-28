@@ -88,23 +88,33 @@ the training split only.
 
 ![Model comparison chart](assets/model_comparison.png)
 
-| Model | R² (log price) | RMSE (₦M) | MAE (₦M) | CV R² (log price), mean ± std |
-|---|---:|---:|---:|---:|
-| **Neural Net (MLP)** | 0.701 | 172.9 | 71.6 | 0.708 ± 0.011 |
-| Ridge Regression | 0.687 | 172.8 | 73.2 | 0.694 ± 0.011 |
-| Linear Regression *(baseline)* | 0.687 | 172.6 | 73.3 | 0.693 ± 0.011 |
-| Gradient Boosting | 0.686 | 169.0 | 71.6 | 0.686 ± 0.010 |
-| Random Forest | 0.674 | 170.3 | 72.1 | 0.681 ± 0.009 |
-| Decision Tree | 0.598 | 177.0 | 75.4 | 0.609 ± 0.014 |
+| Model | R² (log price) | RMSE (₦M) | MAE (₦M) | MdAPE | CV R² (log price), mean ± std |
+|---|---:|---:|---:|---:|---:|
+| **Neural Net (MLP)** | 0.720 | 161.4 | 67.7 | 32.9% | 0.704 ± 0.019 |
+| Ridge Regression | 0.689 | 166.3 | 71.0 | 35.0% | 0.692 ± 0.015 |
+| Linear Regression *(baseline)* | 0.688 | 166.1 | 71.1 | 35.0% | 0.691 ± 0.015 |
+| Gradient Boosting | 0.685 | 166.7 | 70.1 | 35.3% | 0.684 ± 0.011 |
+| Random Forest | 0.683 | 164.3 | 70.7 | 35.2% | 0.676 ± 0.017 |
+| Decision Tree | 0.606 | 171.5 | 75.6 | 38.7% | 0.601 ± 0.019 |
 
 R² is measured on log price, the scale the models are trained on. RMSE and MAE are
-in naira, after converting predictions back from the log scale.
+in naira, after converting predictions back from the log scale. MdAPE is the median
+absolute percentage error: half of the test-set predictions are within that
+percentage of the listed price.
 
-**Best model: Neural Net (MLP)**, with R² = 0.701 on log price (0.708 in
-cross-validation). It only narrowly beats the Linear Regression baseline (0.687), and
-Gradient Boosting has the lowest RMSE. The more flexible models therefore add little
-over a linear fit on these features. Much of the remaining error likely comes from
-what the listings don't record: floor area, age, condition and exact location.
+MAE is dragged up by a small number of very expensive listings (the median test price
+is ₦75M, the mean ₦156M), so MdAPE (about ±33–35%) is the better measure of a
+model's typical error. Converting predictions back from log price gives roughly the
+*median* price for a given listing, not the mean, so the models under-predict the
+average price by about 20% (mean prediction ÷ mean actual price is 0.77–0.83 on the
+test set).
+
+**Best model: Neural Net (MLP)**, with R² = 0.720 on log price (0.704 in
+cross-validation) and the lowest RMSE, MAE and MdAPE. It beats the Linear Regression
+baseline (0.688) only modestly, and by just 0.013 in cross-validation. The more
+flexible models therefore add little over a linear fit on these features. Much of
+the remaining error likely comes from what the listings don't record: floor area,
+age, condition and exact location.
 
 ## Why we changed datasets
 
